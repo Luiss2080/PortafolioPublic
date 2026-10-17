@@ -9,7 +9,6 @@ import {
   CheckCircle2, 
   GraduationCap, 
   Lightbulb,
-  FileText,
   ChevronDown
 } from 'lucide-react';
 import { FaLinkedinIn, FaInstagram, FaTiktok, FaWhatsapp } from 'react-icons/fa';
@@ -118,20 +117,6 @@ const CommercialHero = () => {
               >
                 <span>Conoce mis soluciones</span>
                 <Briefcase size={16} className="text-emerald-light group-hover:scale-110 transition-transform" />
-              </a>
-
-              <a
-                href="#"
-                onClick={placeholder}
-                aria-disabled="true"
-                title="Disponible próximamente"
-                className="px-6 py-3 bg-white/[0.02] border border-dashed border-white/15 text-titanium font-semibold font-inter rounded-xl cursor-not-allowed transition-all flex items-center gap-2 text-xs sm:text-sm"
-              >
-                <FileText size={16} className="text-gold-champagne" />
-                <span>Descargar CV</span>
-                <span className="text-[9px] uppercase tracking-wider text-gold-light/90 bg-gold-champagne/10 border border-gold-champagne/25 rounded-full px-1.5 py-0.5">
-                  Pronto
-                </span>
               </a>
             </motion.div>
 

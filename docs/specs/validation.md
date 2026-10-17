@@ -54,7 +54,7 @@
 
 Tras la aprobación del gate 5.2, el titular solicitó ajustes que **no alteran el alcance funcional** de la Spec 002:
 
-- **Redes sociales y CV**: placeholders inertes con aviso "Próximamente" hasta contar con URLs/archivo reales (evita enlazar identidades no verificadas). Los canales operativos WhatsApp/correo permanecen funcionales (RF-1, RF-11).
+- **Redes sociales**: placeholders inertes con aviso "Próximamente" hasta contar con URLs reales (evita enlazar identidades no verificadas). El botón de CV fue **retirado a pedido del titular** (2026-10-17). Los canales operativos WhatsApp/correo permanecen funcionales (RF-1, RF-11).
 - **Casos**: grilla fija a 3 columnas desde 768px (RF-4, RF-5 sin cambios de comportamiento).
 - **Capa visual adicional**: números fantasma 01–06 tras los encabezados, separadores degradados esmeralda→dorado, indicador de scroll en el Hero, footer rediseñado (banda CTA + marca de agua) y favicon monograma "LA" (RNF-1).
 - **Evidencias**: `.playwright-mcp/f4c/` (casos-768, footer-1440, footer-320); build OK; consola limpia; 0 overflow en 320/768/1440; 6 números fantasma y 7 enlaces inertes verificados en DOM.

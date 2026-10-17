@@ -16,7 +16,7 @@
 | Instagram: enlace **deshabilitado intencionalmente** hasta recibir la URL real | CommercialHero, Footer | ⏳ (placeholder sin destino falso) |
 | TikTok: enlace **deshabilitado intencionalmente** hasta recibir la URL real | CommercialHero, Footer | ⏳ (placeholder sin destino falso) |
 | Ubicación: "Bolivia — Asesorías digitales y presenciales" | Footer | ⏳ |
-| CV/Currículum: sin archivo aún; botón "Descargar CV" inerte con distintivo "Pronto" | CommercialHero.jsx | ⏳ (pendiente el PDF real) |
+| CV/Currículum: botón **retirado a pedido del titular (2026-10-17)**; se reincorporará como descarga cuando exista el PDF real | — | ⏳ (sin CV publicado) |
 
 ## 2. Trayectoria
 

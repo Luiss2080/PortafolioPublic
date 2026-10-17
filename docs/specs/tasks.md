@@ -213,7 +213,7 @@ Tareas ordenadas por dependencia, acotadas (< 30 min cada una), vinculadas a sus
 
 ### [x] Tarea 6.4: Redes sociales y CV inertes
 - **RFs cubiertos**: RF-1, RF-11 · **Archivos**: `CommercialHero.jsx`, `Footer.jsx`
-- **Hecho cuando**: enlaces sin destinos falsos, con aviso "Próximamente". (7 enlaces con `aria-disabled` + `preventDefault` + tooltip; botón "Descargar CV" con distintivo "Pronto"; WhatsApp/correo permanecen funcionales; verificado en navegador)
+- **Hecho cuando**: enlaces sin destinos falsos, con aviso "Próximamente". (6 enlaces con `aria-disabled` + `preventDefault` + tooltip; botón "Descargar CV" retirado a pedido del titular 2026-10-17; WhatsApp/correo permanecen funcionales; verificado en navegador)
 
 ### [x] Tarea 6.5: Grilla de Casos a 3 columnas
 - **RFs cubiertos**: RF-4 · **Archivos**: `CommercialProjects.jsx`

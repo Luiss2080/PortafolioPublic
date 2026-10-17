@@ -38,7 +38,7 @@
 
 ---
 
-## Fase 1 — Design System v2 (Esmeralda & Oro)
+## Fase 1 — Design System v2 (Esmeralda & Oro) ✅
 
 **Objetivo**: sustituir la paleta zafiro/cobalto por la identidad esmeralda/dorada sobre obsidiana.
 
@@ -51,7 +51,7 @@
 
 ---
 
-## Fase 2 — Identidad y datos del perfil (contenido integral)
+## Fase 2 — Identidad y datos del perfil (contenido integral) ✅
 
 **Objetivo**: reemplazar el 100% de los datos del titular anterior por el perfil de Luis Enrique en los 10 componentes de contenido.
 
@@ -112,8 +112,8 @@
 | Fase | Requisitos spec 002 | Estado |
 | :--- | :--- | :--- |
 | F0 | Gobernanza (RNF-4) | ✅ Completada |
-| F1 | RNF-1, RNF-2, RNF-3 | pendiente |
-| F2 | RF-2 … RF-9, RNF-4 | pendiente |
+| F1 | RNF-1, RNF-2, RNF-3 | ✅ Completada |
+| F2 | RF-2 … RF-9, RNF-4 | ✅ Completada |
 | F3 | RF-1, RF-10, RF-11, RNF-5 | pendiente |
 | F4 | RNF-2, RNF-3 | pendiente |
 | F5 | Criterios de finalización | pendiente |

@@ -119,49 +119,49 @@ Tareas ordenadas por dependencia, acotadas (< 30 min cada una), vinculadas a sus
 
 ## Fase 2 — Identidad y datos del perfil
 
-### [ ] Tarea 2.1: Registro de datos sintetizados actualizado
+### [x] Tarea 2.1: Registro de datos sintetizados actualizado
 - **RFs cubiertos**: RNF-4 · **Archivos**: `docs/specs/datos-pendientes.md`
-- **Hecho cuando**: todo dato sintetizado de la fase queda registrado con ubicación y estado.
+- **Hecho cuando**: todo dato sintetizado de la fase queda registrado con ubicación y estado. (Registro reescrito con tablas de contacto, trayectoria, credenciales, métricas, editorial y assets)
 
-### [ ] Tarea 2.2: Navbar del perfil
+### [x] Tarea 2.2: Navbar del perfil
 - **RFs cubiertos**: RF-1 · **Archivos**: `src/components/Navbar.jsx`
-- **Hecho cuando**: secciones del perfil y CTA "Agenda una asesoría" funcionan (anclas verificadas).
+- **Hecho cuando**: secciones del perfil y CTA "Agenda una asesoría" funcionan (anclas verificadas). (9/9 enlaces navegan y aterrizan en top 0; sin overflow en 1280–1440)
 
-### [ ] Tarea 2.3: Hero con propuesta dual
+### [x] Tarea 2.3: Hero con propuesta dual
 - **RFs cubiertos**: RF-2 · **Archivos**: `src/components/CommercialHero.jsx`
-- **Hecho cuando**: nombre, rol, propuesta dual y lema visibles, sin jerga de software, responsive 320–1440.
+- **Hecho cuando**: nombre, rol, propuesta dual y lema visibles, sin jerga de software, responsive 320–1440. (Verificado visualmente en 320/1440; sin overflow)
 
-### [ ] Tarea 2.4: Carrusel de áreas de conocimiento
+### [x] Tarea 2.4: Carrusel de áreas de conocimiento
 - **RFs cubiertos**: RF-3 · **Archivos**: `src/components/TechCarousel.jsx`
-- **Hecho cuando**: las 6 áreas giran en bucle continuo sin cortes.
+- **Hecho cuando**: las 6 áreas giran en bucle continuo sin cortes. (Marquee 35s linear infinite con ítems duplicados para loop seamless)
 
-### [ ] Tarea 2.5: Servicios con aviso educativo
+### [x] Tarea 2.5: Servicios con aviso educativo
 - **RFs cubiertos**: RF-7, RNF-5 · **Archivos**: `src/components/BusinessSolutions.jsx`
-- **Hecho cuando**: 4 servicios con tilt operativo y aviso educativo en la tarjeta de mentoría.
+- **Hecho cuando**: 4 servicios con tilt operativo y aviso educativo en la tarjeta de mentoría. (Tilt verificado: rotateX/rotateY/scale cambian con mousemove; aviso presente en Servicio 04)
 
-### [ ] Tarea 2.6: Casos desafío→solución→resultado
+### [x] Tarea 2.6: Casos desafío→solución→resultado
 - **RFs cubiertos**: RF-4, RF-5 · **Archivos**: `src/components/CommercialProjects.jsx`
-- **Hecho cuando**: 4 casos categorizados y filtros animados sin romper el layout.
+- **Hecho cuando**: 4 casos categorizados y filtros animados sin romper el layout. (Filtro "Estrategia" → 1 tarjeta con bloque Resultado; grid intacto)
 
-### [ ] Tarea 2.7: Matriz de competencias
+### [x] Tarea 2.7: Matriz de competencias
 - **RFs cubiertos**: RF-6 · **Archivos**: `src/components/ProfessionalSkills.jsx`
-- **Hecho cuando**: 4 áreas en grid responsivo sin desbordar.
+- **Hecho cuando**: 4 áreas en grid responsivo sin desbordar. (375: 1 col; 768: 2 col; 1440: 2 col con chips a 2 columnas; 0 truncadas tras ajuste `xl:grid-cols-2`)
 
-### [ ] Tarea 2.8: Trayectoria académica y de mentoría
+### [x] Tarea 2.8: Trayectoria académica y de mentoría
 - **RFs cubiertos**: RF-8 · **Archivos**: `src/components/ProfessionalTrajectory.jsx`
-- **Hecho cuando**: hitos en orden cronológico y coherentes con el perfil.
+- **Hecho cuando**: hitos en orden cronológico y coherentes con el perfil. (2022-Presente → 2023-Presente → 2024-Presente)
 
-### [ ] Tarea 2.9: Credenciales
+### [x] Tarea 2.9: Credenciales
 - **RFs cubiertos**: H3 · **Archivos**: `src/components/Certificates.jsx`
-- **Hecho cuando**: credenciales plausibles visibles y registradas como pendientes.
+- **Hecho cuando**: credenciales plausibles visibles y registradas como pendientes. (Google Actívate 2024, Meta Blueprint 2024, Coursera·Yale 2025 — registradas)
 
-### [ ] Tarea 2.10: Perfil editorial
+### [x] Tarea 2.10: Perfil editorial
 - **RFs cubiertos**: RF-9 · **Archivos**: `src/components/ExecutiveProfile.jsx`
-- **Hecho cuando**: manifiesto, pilares y enfoque dual sin bloques de código.
+- **Hecho cuando**: manifiesto, pilares y enfoque dual sin bloques de código. (Verificado con screenshot)
 
-### [ ] Tarea 2.11: Footer y contacto
+### [x] Tarea 2.11: Footer y contacto
 - **RFs cubiertos**: RF-1 · **Archivos**: `src/components/Footer.jsx`
-- **Hecho cuando**: contacto y redes del perfil sin errores 404 en consola.
+- **Hecho cuando**: contacto y redes del perfil sin errores 404 en consola. (Consola limpia; contacto nuevo: email/WhatsApp/Bolivia)
 
 ## Fase 3 — Asistente, contacto y SEO
 

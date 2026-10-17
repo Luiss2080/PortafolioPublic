@@ -53,22 +53,23 @@ const Certificates = () => {
         {/* Cabecera */}
         <div className="flex flex-col items-center justify-center text-center mb-16 relative z-10">
           <motion.div 
-            initial={{ opacity: 0, y: 15 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: 15, filter: 'blur(8px)' }}
+            whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
             viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
             className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-white/10 bg-white/[0.03] backdrop-blur-md mb-4"
           >
             <Award size={14} className="text-emerald-light" />
             <span className="text-titanium text-xs md:text-sm font-semibold tracking-wider uppercase">
-              Credenciales
+              05 · Credenciales
             </span>
           </motion.div>
           
           <motion.h2 
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: 20, filter: 'blur(12px)' }}
+            whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
             viewport={{ once: true }}
-            transition={{ delay: 0.1 }}
+            transition={{ duration: 0.6, delay: 0.1 }}
             className="text-3xl sm:text-4xl lg:text-5xl font-black text-white font-inter mb-4 leading-tight tracking-tight"
           >
             Credenciales &{' '}
@@ -78,7 +79,7 @@ const Certificates = () => {
           </motion.h2>
 
           <p className="text-slate-300 text-sm md:text-base max-w-2xl text-center leading-relaxed">
-            Formación que respalda cada área: marketing digital, contenido para redes y fundamentos de mercados financieros, en constante actualización.
+            Formación que respalda cada área: marketing digital, contenido para redes y fundamentos de mercados financieros.
           </p>
         </div>
 

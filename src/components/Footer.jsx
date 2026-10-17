@@ -26,7 +26,7 @@ const Footer = () => {
               </h3>
             </div>
             <p className="text-slate-400 text-xs sm:text-sm leading-relaxed mb-6">
-              Estudiante de Marketing, Publicidad y Comercio y mentor en mercados financieros. Ayudo a emprendedores a hacer crecer su marca y a decidir con visión, con soluciones claras y paso a paso.
+              Ayudo a emprendedores a convertir sus ideas en acciones concretas: mensajes claros, contenido con intención y decisiones informadas.
             </p>
             <div className="flex flex-wrap gap-2.5">
               <a 

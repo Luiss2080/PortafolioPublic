@@ -5,9 +5,7 @@ import {
   Target, 
   TrendingUp, 
   Lightbulb, 
-  Users, 
-  CheckCircle2,
-  Award
+  Users
 } from 'lucide-react';
 import Tilt from 'react-parallax-tilt';
 
@@ -20,7 +18,7 @@ const businessPillars = [
   },
   {
     icon: <Lightbulb size={22} />,
-    title: 'Claridad y Paso a Paso',
+    title: 'Claridad ante Todo',
     desc: 'Explico cada concepto y cada decisión de forma simple, sin tecnicismos innecesarios.',
     accent: '#D4AF37'
   },
@@ -51,22 +49,23 @@ const ExecutiveProfile = () => {
         {/* Cabecera */}
         <div className="flex flex-col items-center justify-center text-center mb-14 relative z-10">
           <motion.div 
-            initial={{ opacity: 0, y: 15 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: 15, filter: 'blur(8px)' }}
+            whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
             viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
             className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-white/10 bg-white/[0.03] backdrop-blur-md mb-3"
           >
             <Sparkles size={14} className="text-emerald-light" />
             <span className="text-titanium text-xs sm:text-sm font-semibold tracking-wider uppercase">
-              Perfil & Filosofía
+              06 · Sobre mí
             </span>
           </motion.div>
           
           <motion.h2 
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: 20, filter: 'blur(12px)' }}
+            whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
             viewport={{ once: true }}
-            transition={{ delay: 0.1 }}
+            transition={{ duration: 0.6, delay: 0.1 }}
             className="text-2xl sm:text-4xl lg:text-5xl font-black text-white font-inter mb-3 leading-tight tracking-tight"
           >
             Dos mundos que trabajan juntos:{' '}
@@ -97,28 +96,16 @@ const ExecutiveProfile = () => {
                   Mi enfoque
                 </span>
                 <h3 className="text-xl sm:text-2xl font-bold text-white mb-4 leading-snug">
-                  Identifico el problema, diseño la solución y la entrego de forma clara.
+                  Escucho primero, propongo después: nada de recetas genéricas.
                 </h3>
                 
                 <div className="space-y-3 text-slate-300 text-xs sm:text-sm md:text-base leading-relaxed">
                   <p>
-                    Mi nombre es <strong className="text-white font-semibold">Luis Enrique Abri Fernández</strong>. Estudio Marketing, Publicidad y Comercio y soy mentor en mercados financieros. Conecto necesidades reales de emprendedores con soluciones prácticas, ya sean digitales o presenciales.
+                    Mi nombre es <strong className="text-white font-semibold">Luis Enrique Abri Fernández</strong>. Estudio Marketing, Publicidad y Comercio y soy mentor en mercados financieros. Conecto necesidades reales de emprendedores con soluciones prácticas y medibles.
                   </p>
                   <p>
-                    Me importa entender el problema exacto antes de proponer: cada solución parte de un diagnóstico, se explica paso a paso y se entrega con claridad. Combino el marketing que hace crecer tu marca con la visión financiera que te ayuda a decidir con inteligencia.
+                    Trabajo con diagnóstico antes que con opiniones: cada propuesta se apoya en el contexto del negocio y se cuenta en palabras simples. La marca y las decisiones financieras son dos caras del mismo proyecto.
                   </p>
-                </div>
-              </div>
-
-              {/* Insignias de Valores */}
-              <div className="grid grid-cols-2 gap-3 mt-6 pt-5 border-t border-white/[0.08]">
-                <div className="flex items-center gap-2.5 p-2 rounded-xl bg-white/[0.02]">
-                  <CheckCircle2 size={16} className="text-emerald-400 flex-shrink-0" />
-                  <span className="text-xs font-semibold text-slate-200">Proactivo & Orientado a Resultados</span>
-                </div>
-                <div className="flex items-center gap-2.5 p-2 rounded-xl bg-white/[0.02]">
-                  <Award size={16} className="text-gold-champagne flex-shrink-0" />
-                  <span className="text-xs font-semibold text-slate-200">Explicación Paso a Paso</span>
                 </div>
               </div>
 

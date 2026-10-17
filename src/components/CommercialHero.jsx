@@ -67,7 +67,7 @@ const CommercialHero = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-slate-300 text-sm sm:text-base md:text-lg leading-relaxed font-normal"
             >
-              Soy <strong className="text-white font-semibold">Luis Enrique Abri Fernández</strong>, estudiante de Marketing, Publicidad y Comercio y <strong className="text-white font-semibold">mentor en Mercados Financieros</strong>. Combino el marketing que hace crecer tu marca con la visión financiera para decidir con inteligencia. Mi forma de trabajar: Identifico el problema → Diseño la solución → La entrego de forma clara.
+              Soy <strong className="text-white font-semibold">Luis Enrique Abri Fernández</strong>, estudiante de Marketing, Publicidad y Comercio y <strong className="text-white font-semibold">mentor en Mercados Financieros</strong>. Combino estrategia de marca y visión financiera para que decidas con inteligencia. Mi forma de trabajar: Identifico el problema → Diseño la solución → La entrego de forma clara.
             </motion.p>
 
             {/* Micro-puntos de Valor */}

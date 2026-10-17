@@ -101,7 +101,7 @@ const CommercialHero = () => {
             >
               <a 
                 href="#projects" 
-                className="px-6 py-3 bg-emerald-deep text-white font-semibold font-inter rounded-xl hover:bg-emerald-bright hover:scale-[1.02] shadow-[0_4px_25px_rgba(5,150,105,0.4)] transition-all flex items-center gap-2 group text-xs sm:text-sm"
+                className="px-6 py-3 bg-emerald-deep text-white font-semibold font-inter rounded-xl hover:bg-emerald-hover hover:scale-[1.02] shadow-[0_4px_25px_rgba(5,150,105,0.4)] transition-all flex items-center gap-2 group text-xs sm:text-sm"
               >
                 <span>Ver Casos de Éxito</span>
                 <ArrowUpRight size={16} className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />

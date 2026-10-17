@@ -148,7 +148,7 @@ const Navbar = () => {
               rel="noreferrer"
               whileHover={{ scale: 1.04, y: -1 }}
               whileTap={{ scale: 0.95 }}
-              className="flex items-center gap-2 px-5 py-2 rounded-full bg-emerald-deep text-white text-xs sm:text-sm font-semibold font-inter hover:bg-emerald-bright shadow-[0_4px_20px_rgba(5,150,105,0.4)] transition-all duration-300 whitespace-nowrap"
+              className="flex items-center gap-2 px-5 py-2 rounded-full bg-emerald-deep text-white text-xs sm:text-sm font-semibold font-inter hover:bg-emerald-hover shadow-[0_4px_20px_rgba(5,150,105,0.4)] transition-all duration-300 whitespace-nowrap"
             >
               <span>Contactar</span>
               <ArrowRight size={14} />

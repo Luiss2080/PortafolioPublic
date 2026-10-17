@@ -180,7 +180,7 @@ const FloatingWidgets = () => {
                 <button
                   type="submit"
                   disabled={!input.trim()}
-                  className="p-2 rounded-xl bg-emerald-deep text-white disabled:opacity-40 disabled:cursor-not-allowed hover:bg-emerald-bright transition-all flex items-center justify-center shadow-sm"
+                  className="p-2 rounded-xl bg-emerald-deep text-white disabled:opacity-40 disabled:cursor-not-allowed hover:bg-emerald-hover transition-all flex items-center justify-center shadow-sm"
                   aria-label="Enviar mensaje"
                 >
                   <Send size={15} />
@@ -197,7 +197,7 @@ const FloatingWidgets = () => {
               exit={{ scale: 0.9, opacity: 0 }}
               whileHover={{ scale: 1.08 }}
               whileTap={{ scale: 0.95 }}
-              className="w-13 h-13 p-3.5 rounded-2xl bg-emerald-deep text-white flex items-center justify-center shadow-[0_4px_25px_rgba(5,150,105,0.45)] hover:bg-emerald-bright transition-all focus:outline-none group"
+              className="w-13 h-13 p-3.5 rounded-2xl bg-emerald-deep text-white flex items-center justify-center shadow-[0_4px_25px_rgba(5,150,105,0.45)] hover:bg-emerald-hover transition-all focus:outline-none group"
               aria-label="Abrir asistente virtual"
             >
               <MessageSquare size={24} className="group-hover:scale-110 transition-transform" />

@@ -9,17 +9,17 @@
 
 ## 2. Fase 2 — Identidad y datos del perfil
 
-- [ ] 2.1 Actualizar el registro `docs/specs/datos-pendientes.md` con cada dato sintetizado de esta fase (dato, ubicación, estado) y verificar que no queda ningún dato sintetizado fuera del registro
-- [ ] 2.2 Reescribir `Navbar.jsx` con las secciones del perfil y el CTA "Agenda una asesoría" y verificar que cada enlace ancla navega a su sección
-- [ ] 2.3 Reescribir `CommercialHero.jsx` con nombre, rol, propuesta dual, lema y CTAs y verificar visualmente en 320px y 1440px que no hay jerga de software
-- [ ] 2.4 Reescribir `TechCarousel.jsx` con las 6 áreas de conocimiento y verificar el bucle continuo sin cortes
-- [ ] 2.5 Reescribir `BusinessSolutions.jsx` con los 4 servicios (incluido el aviso educativo en mentoría) y verificar tilt y micro-animaciones de las tarjetas
-- [ ] 2.6 Reescribir `CommercialProjects.jsx` con 4 casos desafío→solución→resultado y verificar que los filtros por categoría animan sin romper el layout
-- [ ] 2.7 Reescribir `ProfessionalSkills.jsx` con la matriz de 4 áreas y verificar el grid en móvil, tablet y escritorio
-- [ ] 2.8 Reescribir `ProfessionalTrajectory.jsx` con la trayectoria académica y de mentoría y verificar el orden cronológico de los hitos
-- [ ] 2.9 Reescribir `Certificates.jsx` con credenciales plausibles y verificar que cada una queda registrada como pendiente en `datos-pendientes.md`
-- [ ] 2.10 Reescribir `ExecutiveProfile.jsx` (manifiesto, pilares, enfoque dual) y verificar que no existen bloques de código ni consolas
-- [ ] 2.11 Actualizar `Footer.jsx` con contacto y redes del perfil y verificar enlaces sin errores 404 en consola
+- [x] 2.1 Actualizar el registro `docs/specs/datos-pendientes.md` con cada dato sintetizado de esta fase (dato, ubicación, estado) y verificar que no queda ningún dato sintetizado fuera del registro
+- [x] 2.2 Reescribir `Navbar.jsx` con las secciones del perfil y el CTA "Agenda una asesoría" y verificar que cada enlace ancla navega a su sección
+- [x] 2.3 Reescribir `CommercialHero.jsx` con nombre, rol, propuesta dual, lema y CTAs y verificar visualmente en 320px y 1440px que no hay jerga de software
+- [x] 2.4 Reescribir `TechCarousel.jsx` con las 6 áreas de conocimiento y verificar el bucle continuo sin cortes
+- [x] 2.5 Reescribir `BusinessSolutions.jsx` con los 4 servicios (incluido el aviso educativo en mentoría) y verificar tilt y micro-animaciones de las tarjetas
+- [x] 2.6 Reescribir `CommercialProjects.jsx` con 4 casos desafío→solución→resultado y verificar que los filtros por categoría animan sin romper el layout
+- [x] 2.7 Reescribir `ProfessionalSkills.jsx` con la matriz de 4 áreas y verificar el grid en móvil, tablet y escritorio
+- [x] 2.8 Reescribir `ProfessionalTrajectory.jsx` con la trayectoria académica y de mentoría y verificar el orden cronológico de los hitos
+- [x] 2.9 Reescribir `Certificates.jsx` con credenciales plausibles y verificar que cada una queda registrada como pendiente en `datos-pendientes.md`
+- [x] 2.10 Reescribir `ExecutiveProfile.jsx` (manifiesto, pilares, enfoque dual) y verificar que no existen bloques de código ni consolas
+- [x] 2.11 Actualizar `Footer.jsx` con contacto y redes del perfil y verificar enlaces sin errores 404 en consola
 
 ## 3. Fase 3 — Asistente, contacto y SEO
 

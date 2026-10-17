@@ -93,6 +93,19 @@
 
 ---
 
+## Fase 4b — Polish visual y copy (solicitud del titular)
+
+**Objetivo**: diferenciar visualmente la experiencia respecto del portafolio anterior y eliminar copy redundante o repetitivo antes de la validación final.
+
+- **Archivos**: `src/index.css`, `Navbar.jsx`, encabezados de sección, `CommercialHero.jsx` + copy de componentes de contenido.
+- **Tareas OpenSpec**: 6.1 – 6.3.
+- **Gate**:
+  - Motivos de animación nuevos (barra de progreso, encabezados numerados, revelado con desenfoque, micro-interacciones) visibles y fluidos.
+  - Cero frases de valor duplicadas entre secciones; "paso a paso" reservado al contexto financiero.
+  - `npm run build` OK y consola limpia.
+
+---
+
 ## Fase 5 — Validación SDD y cierre
 
 **Objetivo**: demostrar que el código dice la verdad y archivar el change.
@@ -116,6 +129,7 @@
 | F2 | RF-2 … RF-9, RNF-4 | ✅ Completada |
 | F3 | RF-1, RF-10, RF-11, RNF-5 | ✅ Completada |
 | F4 | RNF-2, RNF-3 | ✅ Completada |
+| F4b | RNF-1, RNF-2, RF-2…RF-9 | en curso |
 | F5 | Criterios de finalización | pendiente |
 
 ## Riesgos principales

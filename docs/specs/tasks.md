@@ -195,6 +195,20 @@ Tareas ordenadas por dependencia, acotadas (< 30 min cada una), vinculadas a sus
 - **RFs cubiertos**: RNF-2 · **Herramienta**: `npm run preview` + DevTools
 - **Hecho cuando**: consola limpia y sin caídas de frame visibles. (Consola sin mensajes; LCP 2.0s, CLS 0.01; scroll continuo: 354 frames, 0 frames > 50 ms. Nota: Lighthouse señala ~5.1 MB de imágenes mejorables — ligado a la foto pendiente de reemplazo)
 
+## Fase 4b — Polish visual y copy (solicitud del titular)
+
+### [ ] Tarea 6.1: Diferenciación visual y de animación
+- **RFs cubiertos**: RNF-1, RNF-2 · **Archivos**: `src/index.css`, `Navbar.jsx`, secciones, `CommercialHero.jsx`
+- **Hecho cuando**: motivos de scroll nuevos (barra de progreso, encabezados numerados con revelado con desenfoque, entrada del Hero y micro-interacciones de CTAs) verificados en 320/1440 con build OK.
+
+### [ ] Tarea 6.2: Depuración de copy redundante
+- **RFs cubiertos**: RF-2 … RF-9 · **Archivos**: componentes de contenido
+- **Hecho cuando**: una idea única por bloque; sin frases de valor repetidas entre secciones; "paso a paso" solo en contexto financiero educativo.
+
+### [ ] Tarea 6.3: QA visual post-polish
+- **Herramienta**: Chrome DevTools MCP
+- **Hecho cuando**: screenshots de Hero/Servicios/Sobre mí coherentes, consola limpia y `npm run build` OK.
+
 ## Fase 5 — Validación SDD y cierre
 
 ### [ ] Tarea 5.1: Verificación EARS con evidencias

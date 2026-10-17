@@ -89,7 +89,7 @@ const Hero = () => {
               <span className="text-titanium text-xs font-semibold uppercase tracking-wider">Redes & Contacto:</span>
               <div className="flex flex-wrap items-center gap-2">
                 <a 
-                  href="https://www.linkedin.com/in/luismariorochavela" 
+                  href="https://www.linkedin.com/in/luis-enrique-abri-fernandez" 
                   target="_blank" 
                   rel="noreferrer" 
                   aria-label="LinkedIn"
@@ -99,37 +99,27 @@ const Hero = () => {
                   <FaLinkedinIn size={15} />
                 </a>
                 <a 
-                  href="https://facebook.com" 
-                  target="_blank" 
-                  rel="noreferrer" 
-                  aria-label="Facebook"
-                  title="Facebook"
-                  className="w-9 h-9 flex items-center justify-center rounded-lg bg-white/5 border border-white/10 text-titanium hover:text-emerald-light hover:border-emerald-light/50 hover:bg-white/10 transition-all"
-                >
-                  <FaFacebookF size={15} />
-                </a>
-                <a 
-                  href="https://instagram.com" 
+                  href="https://www.instagram.com/luisabri.marketing" 
                   target="_blank" 
                   rel="noreferrer" 
                   aria-label="Instagram"
                   title="Instagram"
-                  className="w-9 h-9 flex items-center justify-center rounded-lg bg-white/5 border border-white/10 text-titanium hover:text-pink-400 hover:border-pink-400/50 hover:bg-white/10 transition-all"
+                  className="w-9 h-9 flex items-center justify-center rounded-lg bg-white/5 border border-white/10 text-titanium hover:text-gold-light hover:border-gold-champagne/50 hover:bg-white/10 transition-all"
                 >
                   <FaInstagram size={15} />
                 </a>
                 <a 
-                  href="https://tiktok.com" 
+                  href="https://www.tiktok.com/@luisabri.marketing" 
                   target="_blank" 
                   rel="noreferrer" 
                   aria-label="TikTok"
                   title="TikTok"
-                  className="w-9 h-9 flex items-center justify-center rounded-lg bg-white/5 border border-white/10 text-titanium hover:text-teal-300 hover:border-teal-300/50 hover:bg-white/10 transition-all"
+                  className="w-9 h-9 flex items-center justify-center rounded-lg bg-white/5 border border-white/10 text-titanium hover:text-gold-light hover:border-gold-champagne/50 hover:bg-white/10 transition-all"
                 >
                   <FaTiktok size={14} />
                 </a>
                 <a 
-                  href="https://wa.me/59168832828?text=Hola%20Luis,%20estoy%20interesado%20en%20conversar%20sobre%20un%20proyecto." 
+                  href="https://wa.me/59170000000?text=Hola%20Luis%20Enrique,%20estoy%20interesado%20en%20conversar%20sobre%20un%20proyecto." 
                   target="_blank" 
                   rel="noreferrer" 
                   aria-label="WhatsApp"
@@ -139,7 +129,7 @@ const Hero = () => {
                   <FaWhatsapp size={16} />
                 </a>
                 <a 
-                  href="mailto:luisrochavela1@gmail.com" 
+                  href="mailto:luisabri.contacto@gmail.com" 
                   aria-label="Correo Electrónico"
                   title="Enviar Correo"
                   className="w-9 h-9 flex items-center justify-center rounded-lg bg-white/5 border border-white/10 text-titanium hover:text-white hover:border-emerald-light/50 hover:bg-white/10 transition-all"
@@ -167,7 +157,7 @@ const Hero = () => {
             >
               <img 
                 src={profileImg} 
-                alt="Luis Mario Rocha Vela"
+                alt="Luis Enrique Abri Fernández"
                 className="w-full object-contain filter drop-shadow-[0_20px_40px_rgba(0,0,0,0.8)]"
                 style={{ 
                   maskImage: 'linear-gradient(to bottom, black 80%, transparent 100%)',

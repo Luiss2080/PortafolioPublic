@@ -163,7 +163,7 @@ const Services = () => {
                     {/* Botón de acción */}
                     <div className="mt-auto w-full pt-2 border-t border-white/[0.06]">
                       <a 
-                        href="https://wa.me/59168832828?text=Hola%20Luis,%20quisiera%20consultar%20sobre%20tus%20servicios%20y%20soluciones."
+                        href="https://wa.me/59170000000?text=Hola%20Luis%20Enrique,%20quisiera%20consultar%20sobre%20tus%20servicios%20y%20soluciones."
                         target="_blank"
                         rel="noreferrer"
                         className="w-full py-2.5 rounded-xl border border-white/10 text-xs font-semibold font-inter transition-all flex items-center justify-center gap-2 group/btn hover:bg-white/5 text-slate-200 hover:text-white hover:border-emerald-light/50"

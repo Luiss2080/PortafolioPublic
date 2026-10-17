@@ -106,6 +106,19 @@
 
 ---
 
+## Fase 4c — Ajustes del titular post-archivo (enlaces, layout y capa visual) ✅
+
+**Objetivo**: atender los ajustes solicitados tras el cierre: redes/CV como placeholders inertes, grilla de Casos siempre a 3 columnas, más elementos visuales diferenciadores, footer rediseñado y favicon propio.
+
+- **Archivos**: `CommercialHero.jsx`, `Footer.jsx`, `Navbar.jsx`, secciones (números fantasma + separadores), `src/index.css`, `public/flavicon.svg`, `public/img/flavicon.svg`, `index.html`.
+- **Gate**:
+  - Redes sociales y CV inertes con aviso "Próximamente" (sin destinos falsos).
+  - Casos a 3 columnas desde 768px (verificado en 768 y 1440).
+  - Números fantasma 01–06, separadores esmeralda→dorado, indicador de scroll, footer rediseñado y favicon monograma LA en uso.
+  - `npm run build` OK, consola limpia y 0 overflow en 320/768/1440.
+
+---
+
 ## Fase 5 — Validación SDD y cierre ✅
 
 **Objetivo**: demostrar que el código dice la verdad y archivar el change.
@@ -130,6 +143,7 @@
 | F3 | RF-1, RF-10, RF-11, RNF-5 | ✅ Completada |
 | F4 | RNF-2, RNF-3 | ✅ Completada |
 | F4b | RNF-1, RNF-2, RF-2…RF-9 | ✅ Completada |
+| F4c | RF-1, RF-2, RF-4, RNF-1 | ✅ Completada |
 | F5 | Criterios de finalización | ✅ Completada |
 
 ## Riesgos principales

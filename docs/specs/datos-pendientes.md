@@ -12,10 +12,11 @@
 | :--- | :--- | :--- |
 | WhatsApp: `+591 70000000` (número sintetizado) | Navbar, CommercialHero, BusinessSolutions, CommercialProjects, FloatingWidgets, Footer | ⏳ |
 | Correo: `luisabri.contacto@gmail.com` (sintetizado) | Navbar, CommercialHero, FloatingWidgets, Footer | ⏳ |
-| LinkedIn: `linkedin.com/in/luis-enrique-abri-fernandez` | CommercialHero, Footer, Hero.jsx (legacy) | ⏳ |
-| Instagram: `@luisabri.marketing` | CommercialHero, Footer, Hero.jsx (legacy) | ⏳ |
-| TikTok: `@luisabri.marketing` | CommercialHero, Footer, Hero.jsx (legacy) | ⏳ |
+| LinkedIn: enlace **deshabilitado intencionalmente** (`href="#"`, inerte, aviso "Próximamente") hasta recibir la URL real | CommercialHero, Footer | ⏳ (placeholder sin destino falso) |
+| Instagram: enlace **deshabilitado intencionalmente** hasta recibir la URL real | CommercialHero, Footer | ⏳ (placeholder sin destino falso) |
+| TikTok: enlace **deshabilitado intencionalmente** hasta recibir la URL real | CommercialHero, Footer | ⏳ (placeholder sin destino falso) |
 | Ubicación: "Bolivia — Asesorías digitales y presenciales" | Footer | ⏳ |
+| CV/Currículum: sin archivo aún; botón "Descargar CV" inerte con distintivo "Pronto" | CommercialHero.jsx | ⏳ (pendiente el PDF real) |
 
 ## 2. Trayectoria
 

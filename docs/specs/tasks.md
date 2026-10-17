@@ -209,6 +209,24 @@ Tareas ordenadas por dependencia, acotadas (< 30 min cada una), vinculadas a sus
 - **Herramienta**: Chrome DevTools MCP
 - **Hecho cuando**: screenshots de Hero/Servicios/Sobre mí coherentes, consola limpia y `npm run build` OK. (Capturas en `.playwright-mcp/f4b/` (hero/servicios/sobremi/casos-1440, polish-320/1440); 0 overflow en 320 y 1440; consola sin mensajes; build OK)
 
+## Fase 4c — Ajustes del titular post-archivo
+
+### [x] Tarea 6.4: Redes sociales y CV inertes
+- **RFs cubiertos**: RF-1, RF-11 · **Archivos**: `CommercialHero.jsx`, `Footer.jsx`
+- **Hecho cuando**: enlaces sin destinos falsos, con aviso "Próximamente". (7 enlaces con `aria-disabled` + `preventDefault` + tooltip; botón "Descargar CV" con distintivo "Pronto"; WhatsApp/correo permanecen funcionales; verificado en navegador)
+
+### [x] Tarea 6.5: Grilla de Casos a 3 columnas
+- **RFs cubiertos**: RF-4 · **Archivos**: `CommercialProjects.jsx`
+- **Hecho cuando**: 3 tarjetas por fila siempre (desde tablet). (`md:grid-cols-3`: 3 columnas confirmadas a 768 y 1440; 0 overflow; captura `f4c/casos-768.png`)
+
+### [x] Tarea 6.6: Capa visual diferenciadora adicional
+- **RFs cubiertos**: RNF-1 · **Archivos**: secciones, `src/index.css`, `CommercialHero.jsx`
+- **Hecho cuando**: elementos nuevos visibles y fluidos. (Números fantasma 01–06 tras cada encabezado; separadores `.section-sep` esmeralda→dorado en 6 secciones; indicador de scroll "Desliza" en el Hero; build OK 42.98s)
+
+### [x] Tarea 6.7: Footer rediseñado y favicon nuevo
+- **RFs cubiertos**: RF-1, RNF-1 · **Archivos**: `Footer.jsx`, `public/flavicon.svg`, `public/img/flavicon.svg`, `index.html`, `Navbar.jsx`
+- **Hecho cuando**: footer con estructura nueva y favicon propio en uso. (Banda CTA "¿Trabajamos tus próximos resultados?" + 5/3/4 columnas + marca de agua "LUIS ENRIQUE ABRI"; monograma LA SVG servido 200 y visible en Navbar/Footer; capturas `f4c/footer-1440.png`, `footer-320.png`)
+
 ## Fase 5 — Validación SDD y cierre
 
 ### [x] Tarea 5.1: Verificación EARS con evidencias

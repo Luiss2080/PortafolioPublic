@@ -215,10 +215,10 @@ Tareas ordenadas por dependencia, acotadas (< 30 min cada una), vinculadas a sus
 - **Archivos**: `docs/specs/validation.md`
 - **Hecho cuando**: cada RF/RNF de la Spec 002 con evidencia registrada. (Informe reescrito 2026-10-17: 11 RF + 5 RNF + 4 casos límite verificados con evidencias de F1–F4b; queda pendiente solo el gate 5.2 del titular y el archivado)
 
-### [ ] Tarea 5.2: Validación del titular (gate de publicación)
+### [x] Tarea 5.2: Validación del titular (gate de publicación)
 - **Archivos**: `docs/specs/datos-pendientes.md`
-- **Hecho cuando**: registro validado o aprobado explícitamente.
+- **Hecho cuando**: registro validado o aprobado explícitamente. (Aprobado explícitamente por el titular el 2026-10-17; banner de aprobación añadido al registro)
 
-### [ ] Tarea 5.3: Cierre técnico y archivado
+### [x] Tarea 5.3: Cierre técnico y archivado
 - **Comandos**: `npm run build` + `openspec validate adapt-portafolio-marketing --strict` + `openspec archive`
-- **Hecho cuando**: build OK, validación estricta OK y change archivado.
+- **Hecho cuando**: build OK, validación estricta OK y change archivado. (Build final OK 5.49s; validación estricta OK 4/4 artefactos; change archivado como `2026-10-17-adapt-portafolio-marketing`; specs vivas creadas: portfolio-identity 4, portfolio-content 9, portfolio-assistant 3)

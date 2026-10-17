@@ -1,8 +1,10 @@
 # Registro de Datos Pendientes de Validación — Spec 002
 
+> **✅ Aprobación del titular (gate F5.2 — 2026-10-17)**: Luis Enrique Abri Fernández aprobó explícitamente este registro completo para publicación. Los ítems ⏳ quedan **aprobados como versión vigente** y se actualizarán cuando el titular entregue los valores reales (foto de perfil, número de WhatsApp, credenciales, dominio).
+
 > Todo dato **completado por el asistente** (no entregado por el titular en la base) se registra aquí con su ubicación exacta en el código.
-> **Estados**: ⏳ pendiente de validación · ✅ validado por el titular · ♻️ reemplazado por dato real.
-> **Gate de publicación (Fase 5)**: no se despliega a producción sin que este registro esté validado o aprobado explícitamente por Luis Enrique.
+> **Estados**: ⏳ pendiente de reemplazo por valor real (aprobado para esta versión) · ✅ validado por el titular · ♻️ reemplazado por dato real.
+> **Gate de publicación (Fase 5)**: ✅ cumplido — registro aprobado explícitamente el 2026-10-17.
 
 ## 1. Contacto y redes
 

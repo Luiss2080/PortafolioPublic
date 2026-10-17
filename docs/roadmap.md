@@ -106,7 +106,7 @@
 
 ---
 
-## Fase 5 — Validación SDD y cierre
+## Fase 5 — Validación SDD y cierre ✅
 
 **Objetivo**: demostrar que el código dice la verdad y archivar el change.
 
@@ -130,7 +130,7 @@
 | F3 | RF-1, RF-10, RF-11, RNF-5 | ✅ Completada |
 | F4 | RNF-2, RNF-3 | ✅ Completada |
 | F4b | RNF-1, RNF-2, RF-2…RF-9 | ✅ Completada |
-| F5 | Criterios de finalización | pendiente |
+| F5 | Criterios de finalización | ✅ Completada |
 
 ## Riesgos principales
 

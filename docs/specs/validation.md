@@ -1,31 +1,55 @@
-# Informe de Validación SDD — Portafolio Estándar
+# Informe de Validación SDD — Spec 002 (Portafolio Marketing & Mercados Financieros)
 
-- **Fecha de Auditoría**: 2026-10-12
-- **Veredicto General**: ✅ **ESPECIFICACIÓN CUMPLIDA AL 100% (APROBADO)**
+- **Fecha de auditoría**: 2026-10-17
+- **Titular**: Luis Enrique Abri Fernández — Estudiante de Marketing, Publicidad y Comercio | Mentor en Mercados Financieros
+- **Alcance**: RF-1 … RF-11 y RNF-1 … RNF-5 de [002-portafolio-marketing.md](002-portafolio-marketing.md), fases F1–F4b del [roadmap](../roadmap.md).
+- **Veredicto técnico**: ✅ **ESPECIFICACIÓN CUMPLIDA** (RF y RNF verificados con evidencia). Pendiente únicamente el gate humano de la Fase 5.2 (validación del titular sobre [datos-pendientes.md](datos-pendientes.md)).
 - **Principio**: *"Que el código diga la verdad y la especificación también"*.
 
 ---
 
-## 1. Verificación Requisito por Requisito (RF en notación EARS)
+## 1. Verificación funcional (RF en notación EARS)
 
-| Requisito Funcional | Criterio EARS de la Spec | Estado en Código | Evidencia de Cumplimiento |
+| RF | Criterio EARS (resumen) | Estado | Evidencia de cumplimiento |
 | :--- | :--- | :---: | :--- |
-| **RF-1** | CUANDO el usuario accede al portal, EL SISTEMA muestra un encabezado (*Navbar*) con navegación limpia hacia las secciones clave y acceso a contacto directo. | ✅ CUMPLIDO | [`Navbar.jsx`](file:///c:/laragon/www/PortafolioEstandar/src/components/Navbar.jsx): Barra superior fija con blur, enlaces de navegación ejecutivos y botón directo a contacto y CV. |
-| **RF-2** | EL SISTEMA presenta en la sección principal (*Hero*) una propuesta de valor ejecutiva centrada en liderazgo de proyectos, consultoría estratégica y soluciones de impacto, omitiendo títulos restrictivos o circuitos cyberpunk. | ✅ CUMPLIDO | [`Hero.jsx`](file:///c:/laragon/www/PortafolioEstandar/src/components/Hero.jsx): Titular de impacto, propuesta de valor empresarial, métricas de objetivos y tarjeta de estándar garantizado. |
-| **RF-3** | MIENTRAS el usuario recorre la página, EL SISTEMA despliega un carrusel dinámico continuo de capacidades estratégicas y enfoques de valor. | ✅ CUMPLIDO | [`TechCarousel.jsx`](file:///c:/laragon/www/PortafolioEstandar/src/components/TechCarousel.jsx): Animación marquee infinita con 9 áreas estratégicas (Dirección, Transformación Digital, etc.). |
-| **RF-4** | CUANDO el usuario navega a la sección de Proyectos/Casos de Éxito, EL SISTEMA expone fichas estructuradas que detallan desafío, solución e impacto obtenido en categorías estratégicas. | ✅ CUMPLIDO | [`Projects.jsx`](file:///c:/laragon/www/PortafolioEstandar/src/components/Projects.jsx): Fichas organizadas por Desafío/Solución con métricas de valor (+45% eficiencia, -60% tiempos). |
-| **RF-5** | SI el usuario interactúa con los filtros de proyectos, ENTONCES EL SISTEMA filtra suavemente las tarjetas correspondientes con transiciones fluidas de Framer Motion. | ✅ CUMPLIDO | [`Projects.jsx`](file:///c:/laragon/www/PortafolioEstandar/src/components/Projects.jsx): `AnimatePresence` y layout de Framer Motion filtrando entre las 4 categorías estratégicas. |
-| **RF-6** | EL SISTEMA exhibe en la sección de Competencias una matriz equilibrada dividida en 4 áreas fundamentales: Liderazgo, Pensamiento Analítico, Soluciones Digitales y Comunicación. | ✅ CUMPLIDO | [`Skills.jsx`](file:///c:/laragon/www/PortafolioEstandar/src/components/Skills.jsx): 4 tarjetas de Tilt con 6 competencias clave cada una y descripciones ejecutivas. |
-| **RF-7** | EL SISTEMA presenta un catálogo de Servicios / Soluciones Empresariales estructurado con tarjetas interactivas de efecto Tilt y micro-animaciones. | ✅ CUMPLIDO | [`Services.jsx`](file:///c:/laragon/www/PortafolioEstandar/src/components/Services.jsx): 4 soluciones de alto impacto con efecto Tilt, número serial, etiquetas y CTAs de consulta. |
-| **RF-8** | EL SISTEMA presenta la sección de Trayectoria (*Experience*) con una línea de tiempo ejecutiva que refleja hitos profesionales y académicos. | ✅ CUMPLIDO | [`Experience.jsx`](file:///c:/laragon/www/PortafolioEstandar/src/components/Experience.jsx): Línea de tiempo cronológica con hitos de liderazgo, consultoría y formación sistémica. |
-| **RF-9** | EL SISTEMA presenta la sección *Sobre Mí* mediante una estructura editorial ejecutiva, sustituyendo el bloque simulador de código por una síntesis de visión profesional, valores y pilares. | ✅ CUMPLIDO | [`About.jsx`](file:///c:/laragon/www/PortafolioEstandar/src/components/About.jsx): Manifiesto personal de 3 párrafos, cita editorial y 4 pilares de excelencia sin código falso. |
-| **RF-10** | CUANDO el usuario interactúa con el widget flotante de chat, EL SISTEMA responde preguntas generales, de servicios, experiencia, trayectoria y contacto con tono profesional y versátil. | ✅ CUMPLIDO | [`FloatingWidgets.jsx`](file:///c:/laragon/www/PortafolioEstandar/src/components/FloatingWidgets.jsx): Chatbot "Asistente Ejecutivo" con base de conocimiento corporativa amplia. |
-| **RF-11** | SI el usuario envía un mensaje o consulta en el chat flotante, ENTONCES EL SISTEMA procesa la consulta y ofrece sugerencias contextuales con opción de enlace a WhatsApp oficial y correo. | ✅ CUMPLIDO | [`FloatingWidgets.jsx`](file:///c:/laragon/www/PortafolioEstandar/src/components/FloatingWidgets.jsx): Procesamiento reactivo de preguntas con botón de WhatsApp directo. |
+| **RF-1** | Navbar con navegación a las 8 secciones y CTA "Agenda una asesoría" | ✅ | `src/components/Navbar.jsx` — 9/9 anclas verificadas en navegador con aterrizaje en top 0 (F2); CTA `Agenda una asesoría` → `wa.me/59170000000`; scroll-spy activo por sección |
+| **RF-2** | Hero con nombre, rol, propuesta dual y lema "Identifico el problema → Diseño la solución → La entrego de forma clara" + CTAs | ✅ | `src/components/CommercialHero.jsx` — badge de rol, titular de impacto, bio dual y lema presentes; verificado visualmente en 320/1440 (`.playwright-mcp/f4b/hero-1440.png`, `polish-320.png`); sin jerga de software (grep `console.log|<pre|<code|git` en `src/` → 0 resultados) |
+| **RF-3** | Carrusel continuo con las 6 áreas de conocimiento | ✅ | `src/components/TechCarousel.jsx` — marquee 35s `linear infinite` con ítems duplicados para bucle sin cortes (verificado en vivo durante F2) |
+| **RF-4** | Fichas de casos con desafío, solución y resultado en 4 categorías | ✅ | `src/components/CommercialProjects.jsx` — 4 casos (Comunicación, Redes y Contenido, Estrategia, Mercados Financieros) con bloques Desafío/Solución/Resultado y nota de compliance financiero |
+| **RF-5** | Filtros de casos con transición suave (Framer Motion) | ✅ | `CommercialProjects.jsx` — `AnimatePresence` + `layout`; filtro "Estrategia" → 1 tarjeta con animación y grid intacto (F2) |
+| **RF-6** | Matriz de competencias en 4 áreas con 6 competencias cada una | ✅ | `src/components/ProfessionalSkills.jsx` — 4 áreas × 6 chips; grid verificado 375 (1 col) / 768 y 1440 (2 col); 0 chips truncadas tras fix `xl:grid-cols-2` (F2) |
+| **RF-7** | 4 servicios con efecto Tilt; tarjeta de mentoría con aviso educativo | ✅ | `src/components/BusinessSolutions.jsx` — Tilt verificado (rotateX/rotateY/scale cambian con mousemove, F2); servicio 04 (dorado) con aviso "Contenido educativo; no constituye recomendación de inversión" |
+| **RF-8** | Trayectoria con formación académica, experiencia con emprendedores y mentoría | ✅ | `src/components/ProfessionalTrajectory.jsx` — hitos 01 (2022-Presente), 02 (2023-Presente), 03 (2024-Presente) en orden cronológico |
+| **RF-9** | "Sobre mí" editorial con manifiesto, pilares y enfoque dual; sin consolas ni código | ✅ | `src/components/ExecutiveProfile.jsx` — manifiesto, cita editorial y 4 pilares; grep de jerga de software en `src/` → 0 resultados; captura `.playwright-mcp/f4b/sobremi-1440.png` |
+| **RF-10** | Asistente flotante responde servicios, conocimiento, mentoría, trayectoria y contacto; framing educativo en finanzas | ✅ | `src/components/FloatingWidgets.jsx` — 6/6 conversaciones de prueba correctas (servicios, precios, mentoría, finanzas, contacto, fuera de alcance) con lenguaje educativo y sin promesas (F3) |
+| **RF-11** | Consulta no contemplada → respuesta cordial con enlaces a WhatsApp/correo | ✅ | `FloatingWidgets.jsx` — respuesta de fallback con enlaces directos `wa.me/59170000000` y `mailto:luisabri.contacto@gmail.com`; keywords `contacta`/`escribir` enrutadas correctamente (F3) |
+
+## 2. Requisitos no funcionales
+
+| RNF | Criterio | Estado | Evidencia de cumplimiento |
+| :--- | :--- | :---: | :--- |
+| **RNF-1** | Identidad v2: obsidiana + esmeralda + dorado champán | ✅ | `tailwind.config.js` y `src/index.css` con tokens v2 (`emerald-deep #047857`, `emerald-light #34D399`, `gold-champagne #D4AF37`…); auditoría de paleta: 0 ocurrencias de `sapphire-blue`/`cyan-glow` en `src/` (F1); F4b añadió motivos nuevos (barra de progreso, `.btn-shine`, blur-reveal) |
+| **RNF-2** | 60 FPS en animaciones y partículas; sin caídas de frame | ✅ | Trace de scroll continuo: 354 frames, 0 frames > 50 ms (F4); LCP 2.0s, CLS 0.01; partículas v4 integradas en el Hero |
+| **RNF-3** | 100% adaptable 320px → 4K con contraste WCAG AA | ✅ | 6/6 viewports (320/375/768/1024/1440/3840) sin overflow horizontal (F4 + re-verificación F4b en 320/1440); Lighthouse desktop y móvil: Accesibilidad 100, Best Practices 100, SEO 100, 0 fallos |
+| **RNF-4** | Veracidad SDD: código ↔ spec; datos sintetizados registrados | ✅ | Este informe cubre RF-1…RNF-5; [datos-pendientes.md](datos-pendientes.md) registra todo dato sintetizado con ubicación y estado; `openspec validate adapt-portafolio-marketing --strict` → válido; tasks sincronizados en `openspec/` y `docs/specs/tasks.md` |
+| **RNF-5** | Compliance financiero: educativo, sin recomendaciones ni promesas | ✅ | Avisos visibles en BusinessSolutions (servicio 04), ProfessionalSkills (área 4), CommercialProjects (nota al pie) y respuestas del asistente; revisión de contenido sin promesas de rendimiento (F3) |
+
+## 3. Casos límite de la spec
+
+| Caso límite | Estado | Evidencia |
+| :--- | :---: | :--- |
+| Pantallas < 360px sin desbordamiento horizontal | ✅ | 320px verificado en F4 y F4b (`overflow = 0`) |
+| Mensajes del asistente no contemplados → respuesta cordial | ✅ | Fallback con enlaces de contacto (F3) |
+| Enlaces sin destino confirmado sin errores 404 | ✅ | Consola limpia (F3/F4/F4b); favicon corregido a ruta relativa; destinos ⏳ registrados en datos-pendientes |
+| Consultas financieras específicas derivadas a contenido educativo | ✅ | Respuestas con framing educativo; sin señales ni recomendaciones (F3) |
+
+## 4. Criterios de finalización
+
+- [x] RF-1 a RF-11 implementados y verificados contra sus escenarios (secciones 1–2 de este informe).
+- [x] Build de producción sin errores (`npm run build` — último build de F4b OK) y auditoría QA de Fase 4 aprobada.
+- [ ] Registro de datos pendientes validado por el titular (gate 5.2).
+- [ ] Change `adapt-portafolio-marketing` archivado con specs vivas actualizadas (tras el gate 5.2).
 
 ---
 
-## 2. Requisitos No Funcionales y Compilación
-- **RNF-1 (Estética y Estilo)**: Paleta sobria implementada en `tailwind.config.js` e `index.css` (Obsidiana `#07090E`, Zafiro `#2563EB`, Platino, rejilla corporativa y cristales mate).
-- **RNF-2 (Rendimiento)**: Compilación de producción con Vite limpia en 4.00s sin advertencias.
-- **RNF-3 (Compatibilidad y Responsive)**: Menú desplegable móvil, tarjetas responsivas en rejilla 1, 2 y 4 columnas.
-- **RNF-4 (Veracidad del Contrato SDD)**: El código fuente en `src/components/` refleja con fidelidad la especificación [001-portafolio-estandar.md](file:///c:/laragon/www/PortafolioEstandar/docs/specs/001-portafolio-estandar.md).
+**Nota de gobernanza**: este informe sustituye la validación previa de la Spec 001 (titular anterior). Cualquier cambio posterior de alcance exige actualizar Spec 002 y este informe en el mismo commit.

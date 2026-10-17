@@ -30,9 +30,9 @@
 
 ## 4. Fase 4 — QA visual, accesibilidad y performance
 
-- [ ] 4.1 Capturar con Playwright los viewports 320/375/768/1024/1440 y 4K de las secciones principales y verificar cero overflow horizontal
-- [ ] 4.2 Auditar accesibilidad (semántica, foco, aria, contraste) con Chrome DevTools y verificar ausencia de incidencias críticas
-- [ ] 4.3 Verificar consola limpia y performance del build de producción (`npm run preview`) y confirmar ausencia de errores y de caídas de frame visibles
+- [x] 4.1 Capturar con Playwright los viewports 320/375/768/1024/1440 y 4K de las secciones principales y verificar cero overflow horizontal
+- [x] 4.2 Auditar accesibilidad (semántica, foco, aria, contraste) con Chrome DevTools y verificar ausencia de incidencias críticas
+- [x] 4.3 Verificar consola limpia y performance del build de producción (`npm run preview`) y confirmar ausencia de errores y de caídas de frame visibles
 
 ## 5. Fase 5 — Validación SDD y cierre
 

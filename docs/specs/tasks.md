@@ -183,17 +183,17 @@ Tareas ordenadas por dependencia, acotadas (< 30 min cada una), vinculadas a sus
 
 ## Fase 4 — QA visual, accesibilidad y performance
 
-### [ ] Tarea 4.1: QA responsive multi-viewport
+### [x] Tarea 4.1: QA responsive multi-viewport
 - **RFs cubiertos**: RNF-3 · **Herramienta**: Playwright
-- **Hecho cuando**: 320/375/768/1024/1440/4K sin overflow horizontal.
+- **Hecho cuando**: 320/375/768/1024/1440/4K sin overflow horizontal. (6/6 viewports verificados sobre `npm run preview`; capturas full-page en `.playwright-mcp/f4/`)
 
-### [ ] Tarea 4.2: Auditoría de accesibilidad
+### [x] Tarea 4.2: Auditoría de accesibilidad
 - **RFs cubiertos**: RNF-3 · **Herramienta**: Chrome DevTools MCP
-- **Hecho cuando**: sin incidencias críticas de semántica, foco, aria y contraste.
+- **Hecho cuando**: sin incidencias críticas de semántica, foco, aria y contraste. (Lighthouse desktop y móvil: Accesibilidad 100, Best Practices 100, SEO 100, 0 fallos)
 
-### [ ] Tarea 4.3: Consola y performance
+### [x] Tarea 4.3: Consola y performance
 - **RFs cubiertos**: RNF-2 · **Herramienta**: `npm run preview` + DevTools
-- **Hecho cuando**: consola limpia y sin caídas de frame visibles.
+- **Hecho cuando**: consola limpia y sin caídas de frame visibles. (Consola sin mensajes; LCP 2.0s, CLS 0.01; scroll continuo: 354 frames, 0 frames > 50 ms. Nota: Lighthouse señala ~5.1 MB de imágenes mejorables — ligado a la foto pendiente de reemplazo)
 
 ## Fase 5 — Validación SDD y cierre
 

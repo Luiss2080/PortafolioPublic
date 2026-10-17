@@ -80,7 +80,7 @@
 
 ---
 
-## Fase 4 — QA visual, accesibilidad y performance
+## Fase 4 — QA visual, accesibilidad y performance ✅
 
 **Objetivo**: certificar la calidad técnica y visual del resultado completo.
 
@@ -115,7 +115,7 @@
 | F1 | RNF-1, RNF-2, RNF-3 | ✅ Completada |
 | F2 | RF-2 … RF-9, RNF-4 | ✅ Completada |
 | F3 | RF-1, RF-10, RF-11, RNF-5 | ✅ Completada |
-| F4 | RNF-2, RNF-3 | pendiente |
+| F4 | RNF-2, RNF-3 | ✅ Completada |
 | F5 | Criterios de finalización | pendiente |
 
 ## Riesgos principales

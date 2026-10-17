@@ -57,7 +57,7 @@
 
 | Dato | Ubicación | Estado |
 | :--- | :--- | :--- |
-| Fotografía de perfil (aún corresponde al titular anterior) | `public/img/perfil.png` → CommercialHero | ⏳ |
+| Fotografía de perfil (aún corresponde al titular anterior; al reemplazarla, optimizar el peso — Lighthouse señala ~5.1 MB de imágenes mejorables) | `public/img/perfil.png` → CommercialHero | ⏳ |
 | Logo/favicon (pendiente de alinear con la identidad del titular) | `public/img/flavicon.png`, `public/flavicon.png` → Navbar, Footer | ⏳ |
 
 ## 7. SEO y metadatos

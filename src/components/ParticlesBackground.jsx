@@ -1,16 +1,12 @@
-import { useEffect, useMemo, useState } from "react";
-import Particles, { initParticlesEngine } from "@tsparticles/react";
+import { useMemo } from "react";
+import Particles, { ParticlesProvider } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
 
+const initEngine = async (engine) => {
+  await loadSlim(engine);
+};
+
 const ParticlesBackground = () => {
-  const [init, setInit] = useState(false);
-
-  useEffect(() => {
-    initParticlesEngine(async (engine) => {
-      await loadSlim(engine);
-    }).then(() => setInit(true));
-  }, []);
-
   const options = useMemo(
     () => ({
       background: {
@@ -64,13 +60,13 @@ const ParticlesBackground = () => {
 
   return (
     <div className="absolute inset-0 z-0 pointer-events-none opacity-100">
-      {init && (
+      <ParticlesProvider init={initEngine}>
         <Particles
           id="tsparticles"
           options={options}
           className="w-full h-full"
         />
-      )}
+      </ParticlesProvider>
     </div>
   );
 };

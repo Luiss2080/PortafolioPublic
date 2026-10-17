@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence, useScroll, useSpring } from 'framer-motion';
 import { Menu, X, Mail, ArrowRight } from 'lucide-react';
 
-const faviconImg = '/PortafolioEstandar/img/flavicon.svg';
+const faviconImg = `${import.meta.env.BASE_URL}img/flavicon.svg`;
 const whatsappUrl = 'https://wa.me/59170000000?text=Hola%20Luis%20Enrique,%20quiero%20agendar%20una%20asesor%C3%ADa.';
 const emailUrl = 'mailto:luisabri.contacto@gmail.com?subject=Quiero%20agendar%20una%20asesor%C3%ADa';
 

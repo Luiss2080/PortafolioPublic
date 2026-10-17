@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { Mail, MapPin, Phone, ArrowUpRight } from 'lucide-react';
 import { FaLinkedinIn, FaInstagram, FaTiktok, FaWhatsapp } from 'react-icons/fa';
 
-const faviconImg = '/PortafolioEstandar/img/flavicon.svg';
+const faviconImg = `${import.meta.env.BASE_URL}img/flavicon.svg`;
 const whatsappUrl = 'https://wa.me/59170000000?text=Hola%20Luis%20Enrique,%20quiero%20conversar%20sobre%20una%20asesor%C3%ADa.';
 const emailUrl = 'mailto:luisabri.contacto@gmail.com?subject=Quiero%20agendar%20una%20asesor%C3%ADa';
 

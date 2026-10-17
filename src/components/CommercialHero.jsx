@@ -15,7 +15,7 @@ import {
 import { FaLinkedinIn, FaInstagram, FaTiktok, FaWhatsapp } from 'react-icons/fa';
 import ParticlesBackground from './ParticlesBackground';
 
-const profileImg = '/PortafolioEstandar/img/perfil.png';
+const profileImg = `${import.meta.env.BASE_URL}img/perfil.png`;
 const whatsappUrl = 'https://wa.me/59170000000?text=Hola%20Luis%20Enrique,%20quiero%20agendar%20una%20asesor%C3%ADa.';
 
 const placeholder = (e) => e.preventDefault();

@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowUpRight, ArrowRight, ShieldCheck, Award, Briefcase, Users, TrendingUp, CheckCircle, Mail, MessageSquare } from 'lucide-react';
 import { FaLinkedinIn, FaFacebookF, FaInstagram, FaTiktok, FaWhatsapp } from 'react-icons/fa';
-const profileImg = '/PortafolioEstandar/img/perfil.png';
+const profileImg = `${import.meta.env.BASE_URL}img/perfil.png`;
 
 const Hero = () => {
   return (

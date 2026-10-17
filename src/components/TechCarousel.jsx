@@ -1,82 +1,55 @@
 import React from 'react';
 import { 
-  Compass, 
-  Target, 
-  TrendingUp, 
-  Layers, 
-  ShieldCheck, 
-  Lightbulb, 
-  Users, 
-  Award, 
-  BarChart3, 
-  Workflow, 
-  Sparkles,
-  Zap
+  Megaphone,
+  Clapperboard,
+  ScanSearch,
+  Users,
+  Lightbulb,
+  TrendingUp
 } from 'lucide-react';
 
 const strategicAreas = [
   { 
-    name: 'Dirección Estratégica', 
-    desc: 'Planificación & Visión Integral', 
-    Icon: Compass,
-    color: '#34D399', // Esmeralda y dorado
+    name: 'Comunicación y Difusión', 
+    desc: 'Mensajes que conectan', 
+    Icon: Megaphone,
+    color: '#34D399',
     glow: 'rgba(52, 211, 153, 0.45)'
   },
   { 
-    name: 'Consultoría Multidisciplinar', 
-    desc: 'Diagnóstico & Crecimiento', 
-    Icon: Target,
-    color: '#818CF8', // Indigo
-    glow: 'rgba(129, 140, 248, 0.45)'
+    name: 'Contenido para Redes', 
+    desc: 'Imagen y video con intención', 
+    Icon: Clapperboard,
+    color: '#D4AF37',
+    glow: 'rgba(212, 175, 55, 0.45)'
   },
   { 
-    name: 'Transformación Digital', 
-    desc: 'Modernización de Procesos', 
-    Icon: TrendingUp,
-    color: '#34D399', // Emerald
-    glow: 'rgba(52, 211, 153, 0.45)'
+    name: 'Análisis FODA & PESTEL', 
+    desc: 'Diagnóstico con visión', 
+    Icon: ScanSearch,
+    color: '#10B981',
+    glow: 'rgba(16, 185, 129, 0.45)'
   },
   { 
-    name: 'Gestión Integral de Proyectos', 
-    desc: 'Metodologías & Entrega a Tiempo', 
-    Icon: Layers,
-    color: '#60A5FA', // Sky Blue
-    glow: 'rgba(96, 165, 250, 0.45)'
-  },
-  { 
-    name: 'Optimización Operativa', 
-    desc: 'Eficiencia & Escalabilidad', 
-    Icon: Workflow,
-    color: '#F472B6', // Rose
-    glow: 'rgba(244, 114, 182, 0.45)'
-  },
-  { 
-    name: 'Innovación & Adaptabilidad', 
-    desc: 'Soluciones Rápidas a Medida', 
-    Icon: Lightbulb,
-    color: '#FBBF24', // Amber Gold
-    glow: 'rgba(251, 191, 36, 0.45)'
-  },
-  { 
-    name: 'Liderazgo & Coordinación', 
-    desc: 'Articulación de Equipos y Metas', 
+    name: 'Segmentación de Público', 
+    desc: 'Audiencia precisa', 
     Icon: Users,
-    color: '#A78BFA', // Violet
-    glow: 'rgba(167, 139, 250, 0.45)'
+    color: '#E7C873',
+    glow: 'rgba(231, 200, 115, 0.45)'
   },
   { 
-    name: 'Calidad & Rigor Profesional', 
-    desc: 'Excelencia y Altos Estándares', 
-    Icon: ShieldCheck,
-    color: '#2DD4BF', // Teal
-    glow: 'rgba(45, 212, 191, 0.45)'
+    name: 'Soluciones para Emprendedores', 
+    desc: 'Respuestas a medida', 
+    Icon: Lightbulb,
+    color: '#34D399',
+    glow: 'rgba(52, 211, 153, 0.45)'
   },
   { 
-    name: 'Análisis de Rendimiento', 
-    desc: 'Métricas Reales de Impacto', 
-    Icon: BarChart3,
-    color: '#FB923C', // Orange
-    glow: 'rgba(251, 146, 60, 0.45)'
+    name: 'Mercados Financieros', 
+    desc: 'Mentoría paso a paso', 
+    Icon: TrendingUp,
+    color: '#D4AF37',
+    glow: 'rgba(212, 175, 55, 0.45)'
   },
 ];
 

@@ -1,14 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, Sun, Moon, FileText, Sparkles, ArrowRight } from 'lucide-react';
+import { Menu, X, Mail, ArrowRight } from 'lucide-react';
+
 const faviconImg = '/PortafolioEstandar/img/flavicon.png';
+const whatsappUrl = 'https://wa.me/59170000000?text=Hola%20Luis%20Enrique,%20quiero%20agendar%20una%20asesor%C3%ADa.';
+const emailUrl = 'mailto:luisabri.contacto@gmail.com?subject=Quiero%20agendar%20una%20asesor%C3%ADa';
 
 const navItems = [
   { name: 'Inicio', href: '#home', id: 'home' },
-  { name: 'Enfoques', href: '#enfoques', id: 'enfoques' },
-  { name: 'Proyectos', href: '#projects', id: 'projects' },
+  { name: 'Conocimientos', href: '#enfoques', id: 'enfoques' },
+  { name: 'Servicios', href: '#services', id: 'services' },
+  { name: 'Casos', href: '#projects', id: 'projects' },
   { name: 'Competencias', href: '#skills', id: 'skills' },
-  { name: 'Soluciones', href: '#services', id: 'services' },
   { name: 'Trayectoria', href: '#experience', id: 'experience' },
   { name: 'Credenciales', href: '#certificates', id: 'certificates' },
   { name: 'Sobre mí', href: '#about', id: 'about' }
@@ -16,7 +19,6 @@ const navItems = [
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [isDark, setIsDark] = useState(true);
   const [activeSection, setActiveSection] = useState('home');
   const [hoveredNav, setHoveredNav] = useState(null);
   const [scrolled, setScrolled] = useState(false);
@@ -55,7 +57,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between gap-4">
           
-          {/* Logo Corporativo */}
+          {/* Logo Personal */}
           <a 
             href="#home" 
             className="flex items-center gap-3 group flex-shrink-0 cursor-pointer"
@@ -69,17 +71,17 @@ const Navbar = () => {
             </div>
             <div className="flex flex-col">
               <span className="text-lg font-bold whitespace-nowrap font-inter tracking-tight text-white group-hover:text-white transition-colors">
-                Luis <span className="text-emerald-light">Rocha</span>
+                Luis Enrique <span className="text-emerald-light">Abri</span>
               </span>
               <span className="text-[10px] text-titanium uppercase tracking-wider hidden sm:block -mt-1 font-medium">
-                Estrategia & Soluciones
+                Marketing & Mercados Financieros
               </span>
             </div>
           </a>
 
           {/* Navegación Central */}
           <nav 
-            className="hidden lg:flex items-center flex-shrink-0"
+            className="hidden xl:flex items-center flex-shrink-0"
             onMouseLeave={() => setHoveredNav(null)}
           >
             <div className="flex items-center gap-1 p-1.5 rounded-full bg-white/[0.03] border border-white/[0.08] backdrop-blur-md">
@@ -95,7 +97,7 @@ const Navbar = () => {
                     onMouseEnter={() => setHoveredNav(item.id)}
                     whileHover={{ scale: 1.04 }}
                     whileTap={{ scale: 0.96 }}
-                    className={`relative px-3.5 py-1.5 text-xs font-semibold font-inter tracking-wide transition-all duration-200 rounded-full flex items-center justify-center ${
+                    className={`relative px-3 py-1.5 text-xs font-semibold font-inter tracking-wide transition-all duration-200 rounded-full flex items-center justify-center ${
                       isActive 
                         ? 'text-white' 
                         : isHovered 
@@ -126,37 +128,34 @@ const Navbar = () => {
             </div>
           </nav>
 
-          {/* Acciones Corporativas */}
-          <div className="hidden lg:flex items-center gap-3.5">
+          {/* Acciones Principales */}
+          <div className="hidden xl:flex items-center gap-3">
             <motion.a
-              href={`${import.meta.env.BASE_URL}pdf/CurriculumLuis.pdf`}
-              download="CurriculumLuis.pdf"
-              target="_blank"
-              rel="noreferrer"
+              href={emailUrl}
               whileHover={{ scale: 1.04, y: -1 }}
               whileTap={{ scale: 0.95 }}
-              className="relative overflow-hidden flex items-center gap-2 px-5 py-2 rounded-full border border-white/10 bg-white/5 text-platinum text-xs sm:text-sm font-semibold font-inter hover:bg-white/10 hover:border-emerald-light/50 hover:shadow-emerald transition-all duration-300 group whitespace-nowrap"
+              className="relative overflow-hidden flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 bg-white/5 text-platinum text-xs sm:text-sm font-semibold font-inter hover:bg-white/10 hover:border-emerald-light/50 hover:shadow-emerald transition-all duration-300 group whitespace-nowrap"
             >
               <span className="absolute inset-0 -translate-x-full group-hover:translate-x-full bg-gradient-to-r from-transparent via-white/15 to-transparent transition-transform duration-700 pointer-events-none" />
-              <FileText size={15} className="text-emerald-light group-hover:scale-110 transition-transform duration-300" />
-              <span>Curriculum</span>
+              <Mail size={15} className="text-emerald-light group-hover:scale-110 transition-transform duration-300" />
+              <span>Escríbeme</span>
             </motion.a>
 
             <motion.a
-              href="https://wa.me/59168832828?text=Hola%20Luis,%20estoy%20interesado%20en%20conversar%20sobre%20un%20proyecto%20o%20consultor%C3%ADa."
+              href={whatsappUrl}
               target="_blank"
               rel="noreferrer"
               whileHover={{ scale: 1.04, y: -1 }}
               whileTap={{ scale: 0.95 }}
-              className="flex items-center gap-2 px-5 py-2 rounded-full bg-emerald-deep text-white text-xs sm:text-sm font-semibold font-inter hover:bg-emerald-hover shadow-[0_4px_20px_rgba(5,150,105,0.4)] transition-all duration-300 whitespace-nowrap"
+              className="flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-deep text-white text-xs sm:text-sm font-semibold font-inter hover:bg-emerald-hover shadow-[0_4px_20px_rgba(5,150,105,0.4)] transition-all duration-300 whitespace-nowrap"
             >
-              <span>Contactar</span>
+              <span>Agenda una asesoría</span>
               <ArrowRight size={14} />
             </motion.a>
           </div>
 
           {/* Menú Móvil Botón */}
-          <div className="flex items-center gap-3 lg:hidden">
+          <div className="flex items-center gap-3 xl:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
               aria-label="Abrir menú"
@@ -175,7 +174,7 @@ const Navbar = () => {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
-            className="lg:hidden bg-obsidian-card/95 border-b border-white/10 backdrop-blur-2xl px-6 py-6 mt-3 space-y-4"
+            className="xl:hidden bg-obsidian-card/95 border-b border-white/10 backdrop-blur-2xl px-6 py-6 mt-3 space-y-4"
           >
             <div className="flex flex-col space-y-3">
               {navItems.map((item) => (
@@ -196,23 +195,20 @@ const Navbar = () => {
 
             <div className="pt-4 border-t border-white/10 flex flex-col gap-3">
               <a
-                href={`${import.meta.env.BASE_URL}pdf/CurriculumLuis.pdf`}
-                download="CurriculumLuis.pdf"
-                target="_blank"
-                rel="noreferrer"
+                href={emailUrl}
                 className="flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg border border-white/10 bg-white/5 text-platinum text-sm font-semibold"
               >
-                <FileText size={16} />
-                <span>Curriculum</span>
+                <Mail size={16} />
+                <span>Escríbeme</span>
               </a>
               <a
-                href="https://wa.me/59168832828?text=Hola%20Luis,%20estoy%20interesado%20en%20conversar%20sobre%20un%20proyecto%20o%20consultor%C3%ADa."
+                href={whatsappUrl}
                 target="_blank"
                 rel="noreferrer"
                 onClick={() => setIsOpen(false)}
                 className="flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg bg-emerald-deep text-white text-sm font-semibold shadow-emerald"
               >
-                <span>Contactar por WhatsApp</span>
+                <span>Agenda una asesoría</span>
                 <ArrowRight size={16} />
               </a>
             </div>

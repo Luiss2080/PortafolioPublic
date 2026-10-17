@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence, useScroll, useSpring } from 'framer-motion';
 import { Menu, X, Mail, ArrowRight } from 'lucide-react';
 
 const faviconImg = '/PortafolioEstandar/img/flavicon.png';
@@ -22,6 +22,8 @@ const Navbar = () => {
   const [activeSection, setActiveSection] = useState('home');
   const [hoveredNav, setHoveredNav] = useState(null);
   const [scrolled, setScrolled] = useState(false);
+  const { scrollYProgress } = useScroll();
+  const progress = useSpring(scrollYProgress, { stiffness: 140, damping: 30, mass: 0.4 });
 
   useEffect(() => {
     const handleScroll = () => {
@@ -54,6 +56,12 @@ const Navbar = () => {
           : 'bg-transparent py-5'
       }`}
     >
+      {/* Barra de progreso de lectura */}
+      <motion.div
+        style={{ scaleX: progress }}
+        className="fixed top-0 left-0 right-0 h-[2px] origin-left bg-gradient-to-r from-emerald-deep via-emerald-light to-gold-champagne z-[60]"
+      />
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between gap-3">
           
@@ -147,7 +155,7 @@ const Navbar = () => {
               rel="noreferrer"
               whileHover={{ scale: 1.04, y: -1 }}
               whileTap={{ scale: 0.95 }}
-              className="flex items-center gap-2 px-3.5 py-2 rounded-full bg-emerald-deep text-white text-xs sm:text-sm font-semibold font-inter hover:bg-emerald-hover shadow-[0_4px_20px_rgba(5,150,105,0.4)] transition-all duration-300 whitespace-nowrap"
+              className="btn-shine flex items-center gap-2 px-3.5 py-2 rounded-full bg-emerald-deep text-white text-xs sm:text-sm font-semibold font-inter hover:bg-emerald-hover shadow-[0_4px_20px_rgba(5,150,105,0.4)] transition-all duration-300 whitespace-nowrap"
             >
               <span>Agenda una asesoría</span>
               <ArrowRight size={14} />
@@ -206,7 +214,7 @@ const Navbar = () => {
                 target="_blank"
                 rel="noreferrer"
                 onClick={() => setIsOpen(false)}
-                className="flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg bg-emerald-deep text-white text-sm font-semibold shadow-emerald"
+                className="btn-shine flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg bg-emerald-deep text-white text-sm font-semibold shadow-emerald"
               >
                 <span>Agenda una asesoría</span>
                 <ArrowRight size={16} />

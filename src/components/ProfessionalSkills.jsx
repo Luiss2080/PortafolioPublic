@@ -178,7 +178,7 @@ const ProfessionalSkills = () => {
                   </div>
 
                   {/* Lista de Competencias */}
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-auto pt-3 border-t border-white/[0.06]">
+                  <div className="grid grid-cols-1 xl:grid-cols-2 gap-2 mt-auto pt-3 border-t border-white/[0.06]">
                     {category.competences.map((comp, i) => (
                       <div 
                         key={i} 

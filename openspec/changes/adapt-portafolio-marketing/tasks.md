@@ -23,10 +23,10 @@
 
 ## 3. Fase 3 — Asistente, contacto y SEO
 
-- [ ] 3.1 Reprogramar respuestas de `FloatingWidgets.jsx` (servicios, precios, mentoría, finanzas, contacto) y verificar 5 conversaciones de prueba con framing educativo en finanzas
-- [ ] 3.2 Actualizar `TypewriterText.jsx` con frases del perfil y verificar la rotación fluida
-- [ ] 3.3 Actualizar los enlaces de WhatsApp/correo en Navbar, Hero, Footer y widget y verificar apertura correcta y registro de destinos pendientes
-- [ ] 3.4 Actualizar `index.html` (title, description, Open Graph) y verificar los metadatos en el `dist/index.html` generado por el build
+- [x] 3.1 Reprogramar respuestas de `FloatingWidgets.jsx` (servicios, precios, mentoría, finanzas, contacto) y verificar 5 conversaciones de prueba con framing educativo en finanzas
+- [x] 3.2 Actualizar `TypewriterText.jsx` con frases del perfil y verificar la rotación fluida
+- [x] 3.3 Actualizar los enlaces de WhatsApp/correo en Navbar, Hero, Footer y widget y verificar apertura correcta y registro de destinos pendientes
+- [x] 3.4 Actualizar `index.html` (title, description, Open Graph) y verificar los metadatos en el `dist/index.html` generado por el build
 
 ## 4. Fase 4 — QA visual, accesibilidad y performance
 

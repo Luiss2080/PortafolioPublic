@@ -66,7 +66,7 @@
 
 ---
 
-## Fase 3 — Asistente, contacto y SEO
+## Fase 3 — Asistente, contacto y SEO ✅
 
 **Objetivo**: reprogramar el asistente conversacional, los CTAs y los metadatos para el nuevo perfil.
 
@@ -114,7 +114,7 @@
 | F0 | Gobernanza (RNF-4) | ✅ Completada |
 | F1 | RNF-1, RNF-2, RNF-3 | ✅ Completada |
 | F2 | RF-2 … RF-9, RNF-4 | ✅ Completada |
-| F3 | RF-1, RF-10, RF-11, RNF-5 | pendiente |
+| F3 | RF-1, RF-10, RF-11, RNF-5 | ✅ Completada |
 | F4 | RNF-2, RNF-3 | pendiente |
 | F5 | Criterios de finalización | pendiente |
 

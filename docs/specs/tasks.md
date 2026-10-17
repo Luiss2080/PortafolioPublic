@@ -165,21 +165,21 @@ Tareas ordenadas por dependencia, acotadas (< 30 min cada una), vinculadas a sus
 
 ## Fase 3 — Asistente, contacto y SEO
 
-### [ ] Tarea 3.1: Asistente conversacional del perfil
+### [x] Tarea 3.1: Asistente conversacional del perfil
 - **RFs cubiertos**: RF-10, RF-11, RNF-5 · **Archivos**: `src/components/FloatingWidgets.jsx`
-- **Hecho cuando**: 5 conversaciones de prueba correctas, con framing educativo en finanzas.
+- **Hecho cuando**: 5 conversaciones de prueba correctas, con framing educativo en finanzas. (6 conversaciones verificadas en navegador: servicios, precios, mentoría, finanzas, contacto y fuera de alcance; sin promesas ni recomendaciones)
 
-### [ ] Tarea 3.2: Frases del Typewriter
+### [x] Tarea 3.2: Frases del Typewriter
 - **Archivos**: `src/components/TypewriterText.jsx`
-- **Hecho cuando**: rotación fluida de frases del perfil.
+- **Hecho cuando**: rotación fluida de frases del perfil. (Componente implementado con 4 frases del perfil; rotación verificada en vivo montándolo temporalmente — no está montado en el layout actual)
 
-### [ ] Tarea 3.3: Enlaces de contacto
+### [x] Tarea 3.3: Enlaces de contacto
 - **RFs cubiertos**: RF-11 · **Archivos**: Navbar, Hero, Footer, FloatingWidgets
-- **Hecho cuando**: WhatsApp/correo abren correctamente; destinos pendientes registrados.
+- **Hecho cuando**: WhatsApp/correo abren correctamente; destinos pendientes registrados. (Todos los `wa.me` apuntan a `59170000000` y los `mailto:` a `luisabri.contacto@gmail.com`; destinos ⏳ registrados en datos-pendientes)
 
-### [ ] Tarea 3.4: SEO y metadatos
+### [x] Tarea 3.4: SEO y metadatos
 - **Archivos**: `index.html`
-- **Hecho cuando**: title, description y Open Graph verificados en `dist/index.html`.
+- **Hecho cuando**: title, description y Open Graph verificados en `dist/index.html`. (Title/description/OG/twitter presentes en el build; favicon corregido a ruta relativa — devolvía 404 con la ruta raíz anterior)
 
 ## Fase 4 — QA visual, accesibilidad y performance
 

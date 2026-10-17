@@ -45,7 +45,7 @@ const FloatingWidgets = () => {
     if (text.includes('finanza') || text.includes('mercado') || text.includes('inversion') || text.includes('inversión') || text.includes('invertir') || text.includes('activos') || text.includes('bolsa') || text.includes('trading')) {
       return "Sobre mercados financieros, Luis Enrique enseña paso a paso y con enfoque educativo: entender el mercado, analizar activos, practicar con riesgo controlado y tomar decisiones informadas. No hay promesas de rendimiento ni recomendaciones personalizadas: es formación para que decidas con criterio.";
     }
-    if (text.includes('contacto') || text.includes('correo') || text.includes('telefono') || text.includes('celular') || text.includes('hablar')) {
+    if (text.includes('contacto') || text.includes('contacta') || text.includes('escribir') || text.includes('correo') || text.includes('telefono') || text.includes('celular') || text.includes('hablar')) {
       return "Comunícate directamente con Luis Enrique por WhatsApp al +591 70000000 (botón en la esquina inferior izquierda) o por correo a luisabri.contacto@gmail.com.";
     }
     if (text.includes('gracias') || text.includes('excelente') || text.includes('perfecto')) {

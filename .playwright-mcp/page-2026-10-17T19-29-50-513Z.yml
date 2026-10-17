@@ -1,0 +1,496 @@
+- generic [ref=f1e3]:
+  - banner [ref=f1e4]:
+    - generic [ref=f1e6]:
+      - link "Logo Luis Enrique Abri Marketing & Finanzas" [ref=f1e7] [cursor=pointer]:
+        - /url: "#home"
+        - img "Logo" [ref=f1e9]
+        - generic [ref=f1e10]:
+          - generic [ref=f1e11]: Luis Enrique Abri
+          - generic [ref=f1e12]: Marketing & Finanzas
+      - navigation [ref=f1e13]:
+        - generic [ref=f1e14]:
+          - link "Inicio" [ref=f1e15] [cursor=pointer]:
+            - /url: "#home"
+          - link "Conocimientos" [ref=f1e18] [cursor=pointer]:
+            - /url: "#enfoques"
+          - link "Servicios" [ref=f1e20] [cursor=pointer]:
+            - /url: "#services"
+          - link "Casos" [ref=f1e22] [cursor=pointer]:
+            - /url: "#projects"
+          - link "Competencias" [ref=f1e24] [cursor=pointer]:
+            - /url: "#skills"
+          - link "Trayectoria" [ref=f1e26] [cursor=pointer]:
+            - /url: "#experience"
+          - link "Credenciales" [ref=f1e28] [cursor=pointer]:
+            - /url: "#certificates"
+          - link "Sobre mí" [ref=f1e30] [cursor=pointer]:
+            - /url: "#about"
+      - generic [ref=f1e32]:
+        - link "Escríbeme" [ref=f1e33] [cursor=pointer]:
+          - /url: mailto:luisabri.contacto@gmail.com?subject=Quiero%20agendar%20una%20asesor%C3%ADa
+        - link "Agenda una asesoría" [ref=f1e38] [cursor=pointer]:
+          - /url: https://wa.me/59170000000?text=Hola%20Luis%20Enrique,%20quiero%20agendar%20una%20asesor%C3%ADa.
+  - link "Contactar por WhatsApp" [ref=f1e43] [cursor=pointer]:
+    - /url: https://wa.me/59170000000?text=Hola%20Luis%20Enrique,%20vi%20tu%20portafolio%20y%20me%20gustar%C3%ADa%20conversar.
+  - button "Abrir asistente virtual" [ref=f1e47] [cursor=pointer]
+  - main [ref=f1e50]:
+    - generic [ref=f1e51]:
+      - generic [ref=f1e53]:
+        - generic [ref=f1e54]:
+          - generic [ref=f1e55]: Estudiante de Marketing, Publicidad y Comercio
+          - heading "Hago crecer tu marca con estrategia, contenido y visión financiera." [level=1] [ref=f1e61]
+          - paragraph [ref=f1e62]:
+            - text: Soy
+            - strong [ref=f1e63]: Luis Enrique Abri Fernández
+            - text: ", estudiante de Marketing, Publicidad y Comercio y"
+            - strong [ref=f1e64]: mentor en Mercados Financieros
+            - text: ". Combino estrategia de marca y visión financiera para que decidas con inteligencia. Mi forma de trabajar: Identifico el problema → Diseño la solución → La entrego de forma clara."
+          - generic [ref=f1e65]:
+            - generic [ref=f1e66]: Soluciones a medida
+            - generic [ref=f1e72]: Diagnóstico primero
+            - generic [ref=f1e76]: Digital & Presencial
+          - generic [ref=f1e81]:
+            - link "Agenda una asesoría" [ref=f1e82] [cursor=pointer]:
+              - /url: https://wa.me/59170000000?text=Hola%20Luis%20Enrique,%20quiero%20agendar%20una%20asesor%C3%ADa.
+            - link "Conoce mis soluciones" [ref=f1e87] [cursor=pointer]:
+              - /url: "#services"
+          - generic [ref=f1e92]:
+            - generic [ref=f1e93]: "Contacto & Redes:"
+            - generic [ref=f1e94]:
+              - link "LinkedIn (próximamente)" [disabled] [ref=f1e95]:
+                - /url: "#"
+              - link "Instagram (próximamente)" [disabled] [ref=f1e98]:
+                - /url: "#"
+              - link "TikTok (próximamente)" [disabled] [ref=f1e101]:
+                - /url: "#"
+              - link "WhatsApp" [ref=f1e104] [cursor=pointer]:
+                - /url: https://wa.me/59170000000?text=Hola%20Luis%20Enrique,%20quiero%20agendar%20una%20asesor%C3%ADa.
+              - link "Correo" [ref=f1e107] [cursor=pointer]:
+                - /url: mailto:luisabri.contacto@gmail.com
+        - generic [ref=f1e111]:
+          - generic:
+            - img "Luis Enrique Abri Fernández"
+          - generic [ref=f1e118]:
+            - generic [ref=f1e119]: Enfoque
+            - generic [ref=f1e120]: Problema → Solución
+          - generic [ref=f1e126]:
+            - generic [ref=f1e127]: Marketing + Finanzas
+            - generic [ref=f1e128]: Visión dual
+      - generic: Desliza
+    - generic [ref=f1e130]:
+      - generic [ref=f1e137]:
+        - generic [ref=f1e138]: Comunicación y Difusión
+        - generic [ref=f1e139]: Mensajes que conectan
+      - generic [ref=f1e149]:
+        - generic [ref=f1e150]: Contenido para Redes
+        - generic [ref=f1e151]: Imagen y video con intención
+      - generic [ref=f1e163]:
+        - generic [ref=f1e164]: Análisis FODA & PESTEL
+        - generic [ref=f1e165]: Diagnóstico con visión
+      - generic [ref=f1e175]:
+        - generic [ref=f1e176]: Segmentación de Público
+        - generic [ref=f1e177]: Audiencia precisa
+      - generic [ref=f1e184]:
+        - generic [ref=f1e185]: Soluciones para Emprendedores
+        - generic [ref=f1e186]: Respuestas a medida
+      - generic [ref=f1e194]:
+        - generic [ref=f1e195]: Mercados Financieros
+        - generic [ref=f1e196]: Mentoría paso a paso
+      - generic [ref=f1e204]:
+        - generic [ref=f1e205]: Comunicación y Difusión
+        - generic [ref=f1e206]: Mensajes que conectan
+      - generic [ref=f1e216]:
+        - generic [ref=f1e217]: Contenido para Redes
+        - generic [ref=f1e218]: Imagen y video con intención
+      - generic [ref=f1e230]:
+        - generic [ref=f1e231]: Análisis FODA & PESTEL
+        - generic [ref=f1e232]: Diagnóstico con visión
+      - generic [ref=f1e242]:
+        - generic [ref=f1e243]: Segmentación de Público
+        - generic [ref=f1e244]: Audiencia precisa
+      - generic [ref=f1e251]:
+        - generic [ref=f1e252]: Soluciones para Emprendedores
+        - generic [ref=f1e253]: Respuestas a medida
+      - generic [ref=f1e261]:
+        - generic [ref=f1e262]: Mercados Financieros
+        - generic [ref=f1e263]: Mentoría paso a paso
+    - generic [ref=f1e266]:
+      - generic [ref=f1e267]:
+        - generic [aria-hidden]: "01"
+        - generic [ref=f1e268]: 01 · Casos
+        - 'heading "Casos que muestran el proceso: desafío, solución y resultado" [level=2] [ref=f1e273]'
+        - paragraph [ref=f1e274]: "Así se trabajó: contexto real, decisiones tomadas y el cambio medido."
+      - generic [ref=f1e275]:
+        - button "Todos" [ref=f1e276] [cursor=pointer]
+        - button "Comunicación" [ref=f1e283] [cursor=pointer]
+        - button "Redes y Contenido" [ref=f1e289] [cursor=pointer]
+        - button "Estrategia" [ref=f1e297] [cursor=pointer]
+        - button "Mercados Financieros" [ref=f1e304] [cursor=pointer]
+      - generic [ref=f1e310]:
+        - generic [ref=f1e313]:
+          - generic [ref=f1e314]:
+            - generic [ref=f1e315]: Tienda de moda local
+            - generic [ref=f1e316]: +60% Interacción
+          - generic [ref=f1e320]:
+            - heading "Identidad Visual para Redes" [level=3] [ref=f1e327]
+            - generic [ref=f1e328]:
+              - generic [ref=f1e329]:
+                - strong [ref=f1e330]: "Desafío:"
+                - text: Redes sin línea visual ni constancia de publicación.
+              - generic [ref=f1e331]:
+                - strong [ref=f1e332]: "Solución:"
+                - text: Identidad visual, calendario de contenido y edición de imagen y video.
+              - generic [ref=f1e333]:
+                - strong [ref=f1e334]: "Resultado:"
+                - text: "Comunidad activa y constante: +60% de interacción y +1.200 seguidores en 90 días."
+            - generic [ref=f1e335]:
+              - generic [ref=f1e336]: Contenido visual
+              - generic [ref=f1e337]: Edición de video
+              - generic [ref=f1e338]: Calendario
+            - link "Consultar iniciativa" [ref=f1e340] [cursor=pointer]:
+              - /url: https://wa.me/59170000000?text=Hola%20Luis%20Enrique,%20me%20interesa%20un%20caso%20como%20los%20que%20vi%20en%20tu%20portafolio.
+        - generic [ref=f1e347]:
+          - generic [ref=f1e348]:
+            - generic [ref=f1e349]: Servicio de delivery
+            - generic [ref=f1e350]: Plan de 90 días
+          - generic [ref=f1e354]:
+            - heading "Diagnóstico Estratégico FODA/PESTEL" [level=3] [ref=f1e360]
+            - generic [ref=f1e361]:
+              - generic [ref=f1e362]:
+                - strong [ref=f1e363]: "Desafío:"
+                - text: "Decisiones sin datos: público y ventaja competitiva poco claros."
+              - generic [ref=f1e364]:
+                - strong [ref=f1e365]: "Solución:"
+                - text: Análisis FODA y PESTEL, segmentación de público y propuesta de valor.
+              - generic [ref=f1e366]:
+                - strong [ref=f1e367]: "Resultado:"
+                - text: Dos segmentos prioritarios definidos y un plan de acción claro para 90 días.
+            - generic [ref=f1e368]:
+              - generic [ref=f1e369]: FODA/PESTEL
+              - generic [ref=f1e370]: Segmentación
+              - generic [ref=f1e371]: Propuesta de valor
+            - link "Consultar iniciativa" [ref=f1e373] [cursor=pointer]:
+              - /url: https://wa.me/59170000000?text=Hola%20Luis%20Enrique,%20me%20interesa%20un%20caso%20como%20los%20que%20vi%20en%20tu%20portafolio.
+        - generic [ref=f1e380]:
+          - generic [ref=f1e381]:
+            - generic [ref=f1e382]: Grupo de principiantes
+            - generic [ref=f1e383]: +30 Participantes
+          - generic [ref=f1e387]:
+            - heading "Comunidad de Aprendizaje Financiero" [level=3] [ref=f1e392]
+            - generic [ref=f1e393]:
+              - generic [ref=f1e394]:
+                - strong [ref=f1e395]: "Desafío:"
+                - text: Personas curiosas del mercado sin base para entender la operativa.
+              - generic [ref=f1e396]:
+                - strong [ref=f1e397]: "Solución:"
+                - text: Sesiones guiadas paso a paso, análisis de activos y práctica acompañada.
+              - generic [ref=f1e398]:
+                - strong [ref=f1e399]: "Resultado:"
+                - text: Principiantes que ganan base y confianza, sesión a sesión. Contenido educativo.
+            - generic [ref=f1e400]:
+              - generic [ref=f1e401]: Educación financiera
+              - generic [ref=f1e402]: Análisis de activos
+              - generic [ref=f1e403]: Comunidad
+            - link "Consultar iniciativa" [ref=f1e405] [cursor=pointer]:
+              - /url: https://wa.me/59170000000?text=Hola%20Luis%20Enrique,%20me%20interesa%20un%20caso%20como%20los%20que%20vi%20en%20tu%20portafolio.
+      - paragraph [ref=f1e410]: Los contenidos de mercados financieros son educativos y no constituyen recomendación de inversión.
+    - generic [ref=f1e412]:
+      - generic [ref=f1e413]:
+        - generic [aria-hidden]: "02"
+        - generic [ref=f1e414]: 02 · Competencias
+        - heading "Un perfil que une marketing y visión financiera" [level=2] [ref=f1e418]
+        - paragraph [ref=f1e419]: "Estrategia, contenido, soluciones para emprendedores y educación financiera: cuatro áreas que se refuerzan entre sí."
+      - generic [ref=f1e420]:
+        - generic [ref=f1e423]:
+          - generic [ref=f1e431]:
+            - heading "Estrategia de Marketing y Análisis" [level=3] [ref=f1e432]
+            - paragraph [ref=f1e433]: "Entiendo el negocio y el mercado para decidir con base: análisis, segmentación y planes claros."
+          - generic [ref=f1e434]:
+            - generic [ref=f1e435]: FODA & PESTEL
+            - generic [ref=f1e445]: Investigación de mercado
+            - generic [ref=f1e451]: Segmentación de público
+            - generic [ref=f1e459]: Propuesta de valor
+            - generic [ref=f1e466]: Objetivos & KPIs
+            - generic [ref=f1e472]: Toma de decisiones
+        - generic [ref=f1e480]:
+          - generic [ref=f1e489]:
+            - heading "Contenido y Redes Sociales" [level=3] [ref=f1e490]
+            - paragraph [ref=f1e491]: "Creo contenido que conecta: imagen, video y copy con una línea visual coherente."
+          - generic [ref=f1e492]:
+            - generic [ref=f1e493]: Edición de imagen
+            - generic [ref=f1e500]: Edición de video
+            - generic [ref=f1e506]: Calendario de contenido
+            - generic [ref=f1e511]: Identidad visual
+            - generic [ref=f1e520]: Copy para redes
+            - generic [ref=f1e525]: Métricas de redes
+        - generic [ref=f1e532]:
+          - generic [ref=f1e538]:
+            - heading "Soluciones para Emprendedores" [level=3] [ref=f1e539]
+            - paragraph [ref=f1e540]: Traduzco las necesidades del negocio en soluciones concretas y priorizadas.
+          - generic [ref=f1e541]:
+            - generic [ref=f1e542]: Diagnóstico del negocio
+            - generic [ref=f1e548]: Soluciones a medida
+            - generic [ref=f1e553]: Priorización de acciones
+            - generic [ref=f1e559]: Digital y presencial
+            - generic [ref=f1e565]: Acompañamiento cercano
+            - generic [ref=f1e573]: Planes de crecimiento
+        - generic [ref=f1e581]:
+          - generic [ref=f1e588]:
+            - heading "Mercados Financieros y Mentoría" [level=3] [ref=f1e589]
+            - paragraph [ref=f1e590]: Explico el mercado paso a paso y acompaño el aprendizaje con comunidad y práctica guiada.
+          - generic [ref=f1e591]:
+            - generic [ref=f1e592]: Análisis del mercado
+            - generic [ref=f1e598]: Comportamiento de activos
+            - generic [ref=f1e603]: Compra y venta paso a paso
+            - generic [ref=f1e610]: Gestión de riesgo
+            - generic [ref=f1e616]: Explicación didáctica
+            - generic [ref=f1e622]: Comunidad de aprendizaje
+          - paragraph [ref=f1e630]: Contenido educativo; no constituye recomendación de inversión.
+    - generic [ref=f1e632]:
+      - generic [ref=f1e633]:
+        - generic [aria-hidden]: "03"
+        - generic [ref=f1e634]: 03 · Servicios
+        - heading "Cuatro servicios con entregables concretos" [level=2] [ref=f1e638]
+        - paragraph [ref=f1e639]: "Comunicación, contenido, estrategia y educación financiera: elige el punto de partida y lo convierto en un plan de trabajo."
+      - generic [ref=f1e640]:
+        - generic [ref=f1e645]:
+          - generic [ref=f1e646]: Servicio 01
+          - heading "Estrategia de Comunicación" [level=3] [ref=f1e652]
+          - paragraph [ref=f1e653]: "Defino qué decir, a quién y por dónde: mensajes clave y un plan de difusión para que tu marca conecte con las personas correctas."
+          - generic [ref=f1e654]:
+            - generic [ref=f1e655]: Mensajes clave
+            - generic [ref=f1e659]: Plan de difusión
+            - generic [ref=f1e663]: Marca
+          - link "Consultar solución" [ref=f1e668] [cursor=pointer]:
+            - /url: https://wa.me/59170000000?text=Hola%20Luis%20Enrique,%20quiero%20consultar%20sobre%20tus%20servicios.
+        - generic [ref=f1e676]:
+          - generic [ref=f1e677]: Servicio 02
+          - heading "Gestión de Redes y Contenido" [level=3] [ref=f1e685]
+          - paragraph [ref=f1e686]: Planifico y creo contenido para tus redes —imagen, video y copy— con una línea visual coherente, constancia y foco en conectar.
+          - generic [ref=f1e687]:
+            - generic [ref=f1e688]: Contenido
+            - generic [ref=f1e692]: Edición
+            - generic [ref=f1e696]: Redes sociales
+          - link "Consultar solución" [ref=f1e701] [cursor=pointer]:
+            - /url: https://wa.me/59170000000?text=Hola%20Luis%20Enrique,%20quiero%20consultar%20sobre%20tus%20servicios.
+        - generic [ref=f1e709]:
+          - generic [ref=f1e710]: Servicio 03
+          - heading "Asesoría Estratégica para Emprendedores" [level=3] [ref=f1e717]
+          - paragraph [ref=f1e718]: Analizo tu negocio con FODA y PESTEL, segmento tu público y diseño soluciones a medida para que decidas con claridad.
+          - generic [ref=f1e719]:
+            - generic [ref=f1e720]: FODA/PESTEL
+            - generic [ref=f1e724]: Segmentación
+            - generic [ref=f1e728]: Plan de acción
+          - link "Consultar solución" [ref=f1e733] [cursor=pointer]:
+            - /url: https://wa.me/59170000000?text=Hola%20Luis%20Enrique,%20quiero%20consultar%20sobre%20tus%20servicios.
+        - generic [ref=f1e741]:
+          - generic [ref=f1e742]: Servicio 04
+          - heading "Mentoría en Mercados Financieros" [level=3] [ref=f1e748]
+          - paragraph [ref=f1e749]: "Aprende a entender el mercado y su operativa paso a paso: análisis de activos, gestión de riesgo y una comunidad para practicar."
+          - generic [ref=f1e750]:
+            - generic [ref=f1e751]: Análisis de mercado
+            - generic [ref=f1e755]: Operativa guiada
+            - generic [ref=f1e759]: Comunidad
+          - paragraph [ref=f1e763]: Contenido educativo; no constituye recomendación de inversión.
+          - link "Consultar solución" [ref=f1e765] [cursor=pointer]:
+            - /url: https://wa.me/59170000000?text=Hola%20Luis%20Enrique,%20quiero%20consultar%20sobre%20tus%20servicios.
+    - generic [ref=f1e770]:
+      - generic [ref=f1e771]:
+        - generic [aria-hidden]: "04"
+        - generic [ref=f1e772]: 04 · Trayectoria
+        - heading "Aprender, aplicar y compartir lo aprendido" [level=2] [ref=f1e777]
+        - paragraph [ref=f1e778]: "Del aula al trabajo real, y de ahí a la mentoría: tres etapas de un mismo camino."
+      - generic [ref=f1e779]:
+        - generic [ref=f1e782]:
+          - generic [ref=f1e789]:
+            - generic [ref=f1e790]: 2022 - Presente
+            - generic [ref=f1e793]: En curso
+          - generic [ref=f1e794]:
+            - generic [ref=f1e795]: Hito 01
+            - heading "Formación en Marketing, Publicidad y Comercio" [level=3] [ref=f1e796]
+            - paragraph [ref=f1e797]: Formación Universitaria
+            - paragraph [ref=f1e802]: "Base académica en marketing, publicidad y comercio: estrategias de comunicación, análisis de mercado, comportamiento del consumidor y comercialización."
+          - generic [ref=f1e803]:
+            - generic [ref=f1e804]: Marketing
+            - generic [ref=f1e808]: Publicidad
+            - generic [ref=f1e812]: Comercio
+        - generic [ref=f1e818]:
+          - generic [ref=f1e824]:
+            - generic [ref=f1e825]: 2023 - Presente
+            - generic [ref=f1e828]: Actualidad
+          - generic [ref=f1e829]:
+            - generic [ref=f1e830]: Hito 02
+            - heading "Experiencia Práctica con Emprendedores" [level=3] [ref=f1e831]
+            - paragraph [ref=f1e832]: Proyectos de marketing y comunicación
+            - paragraph [ref=f1e837]: "Trabajo directo con emprendedores: diagnóstico de problemas, estrategias de comunicación, contenido para redes y soluciones que se adaptan al día a día del negocio."
+          - generic [ref=f1e838]:
+            - generic [ref=f1e839]: Marketing digital
+            - generic [ref=f1e843]: Contenido
+            - generic [ref=f1e847]: Soluciones a medida
+        - generic [ref=f1e853]:
+          - generic [ref=f1e860]:
+            - generic [ref=f1e861]: 2024 - Presente
+            - generic [ref=f1e864]: Actualidad
+          - generic [ref=f1e865]:
+            - generic [ref=f1e866]: Hito 03
+            - heading "Mentor en Mercados Financieros" [level=3] [ref=f1e867]
+            - paragraph [ref=f1e868]: Comunidad de aprendizaje
+            - paragraph [ref=f1e873]: "Acompaño el aprendizaje del mercado y su operativa paso a paso: análisis de activos, práctica guiada y gestión de riesgo, en una comunidad que crece junta."
+          - generic [ref=f1e874]:
+            - generic [ref=f1e875]: Mentoría
+            - generic [ref=f1e879]: Análisis de mercados
+            - generic [ref=f1e883]: Comunidad
+    - generic [ref=f1e888]:
+      - generic [ref=f1e889]:
+        - generic [aria-hidden]: "05"
+        - generic [ref=f1e890]: 05 · Credenciales
+        - heading "Credenciales & aprendizaje continuo" [level=2] [ref=f1e895]
+        - paragraph [ref=f1e896]: "Formación que respalda cada área: marketing digital, contenido para redes y fundamentos de mercados financieros."
+      - generic [ref=f1e897]:
+        - generic [ref=f1e900]:
+          - generic [ref=f1e901]:
+            - generic [ref=f1e907]:
+              - generic [ref=f1e908]: Google Actívate
+              - generic [ref=f1e909]: Certificación
+            - generic [ref=f1e914]: "2024"
+          - heading "Fundamentos de Marketing Digital" [level=3] [ref=f1e915]
+          - generic [ref=f1e916]:
+            - generic [ref=f1e917]: Marketing digital
+            - generic [ref=f1e918]: Estrategia
+            - generic [ref=f1e919]: Medición
+          - link "Consultar credencial" [ref=f1e921] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=f1e929]:
+          - generic [ref=f1e930]:
+            - generic [ref=f1e936]:
+              - generic [ref=f1e937]: Meta Blueprint
+              - generic [ref=f1e938]: Certificación
+            - generic [ref=f1e943]: "2024"
+          - heading "Gestión de Contenido y Redes Sociales" [level=3] [ref=f1e944]
+          - generic [ref=f1e945]:
+            - generic [ref=f1e946]: Redes sociales
+            - generic [ref=f1e947]: Contenido
+            - generic [ref=f1e948]: Comunidad
+          - link "Consultar credencial" [ref=f1e950] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=f1e958]:
+          - generic [ref=f1e959]:
+            - generic [ref=f1e965]:
+              - generic [ref=f1e966]: Coursera · Yale University
+              - generic [ref=f1e967]: Certificación
+            - generic [ref=f1e972]: "2025"
+          - heading "Introducción a los Mercados Financieros" [level=3] [ref=f1e973]
+          - generic [ref=f1e974]:
+            - generic [ref=f1e975]: Mercados
+            - generic [ref=f1e976]: Activos
+            - generic [ref=f1e977]: Educación financiera
+          - link "Consultar credencial" [ref=f1e979] [cursor=pointer]:
+            - /url: "#"
+    - generic [ref=f1e986]:
+      - generic [ref=f1e987]:
+        - generic [aria-hidden]: "06"
+        - generic [ref=f1e988]: 06 · Sobre mí
+        - 'heading "Dos mundos que trabajan juntos: marketing y finanzas" [level=2] [ref=f1e992]'
+        - paragraph [ref=f1e993]: Quién soy, cómo trabajo y por qué combino la creatividad del marketing con la disciplina de los mercados.
+      - generic [ref=f1e994]:
+        - generic [ref=f1e996]:
+          - generic [ref=f1e997]:
+            - generic [ref=f1e998]: Mi enfoque
+            - 'heading "Escucho primero, propongo después: nada de recetas genéricas." [level=3] [ref=f1e999]'
+            - generic [ref=f1e1000]:
+              - paragraph [ref=f1e1001]:
+                - text: Mi nombre es
+                - strong [ref=f1e1002]: Luis Enrique Abri Fernández
+                - text: . Estudio Marketing, Publicidad y Comercio y soy mentor en mercados financieros. Conecto necesidades reales de emprendedores con soluciones prácticas y medibles.
+              - paragraph [ref=f1e1003]: "Trabajo con diagnóstico antes que con opiniones: cada propuesta se apoya en el contexto del negocio y se cuenta en palabras simples. La marca y las decisiones financieras son dos caras del mismo proyecto."
+          - paragraph [ref=f1e1006]: "\"Entender el problema exacto y entregar una solución clara: esa es la base de un trabajo bien hecho.\""
+        - generic [ref=f1e1007]:
+          - generic [ref=f1e1014]:
+            - heading "Orientación a Resultados" [level=4] [ref=f1e1015]
+            - paragraph [ref=f1e1016]: Compromiso con problemas reales del negocio y soluciones que producen resultados visibles.
+          - generic [ref=f1e1021]:
+            - heading "Claridad ante Todo" [level=4] [ref=f1e1022]
+            - paragraph [ref=f1e1023]: Explico cada concepto y cada decisión de forma simple, sin tecnicismos innecesarios.
+          - generic [ref=f1e1031]:
+            - heading "Cercanía y Trato Directo" [level=4] [ref=f1e1032]
+            - paragraph [ref=f1e1033]: "Comunicación fluida y humana: entiendo tu contexto antes de proponer."
+          - generic [ref=f1e1039]:
+            - heading "Aprendizaje Continuo" [level=4] [ref=f1e1040]
+            - paragraph [ref=f1e1041]: Formación constante en marketing, contenido y mercados financieros para darte lo mejor.
+  - contentinfo [ref=f1e1042]:
+    - generic [ref=f1e1043]:
+      - text: ¿Hablamos?
+      - heading "¿Trabajamos tus próximos resultados?" [level=3] [ref=f1e1044]
+      - paragraph [ref=f1e1045]: Cuéntame tu idea o tu reto. Te respondo con una propuesta clara, sin vueltas.
+      - generic [ref=f1e1046]:
+        - link "Agenda una asesoría" [ref=f1e1047] [cursor=pointer]:
+          - /url: https://wa.me/59170000000?text=Hola%20Luis%20Enrique,%20quiero%20conversar%20sobre%20una%20asesor%C3%ADa.
+        - link "Escríbeme" [ref=f1e1052] [cursor=pointer]:
+          - /url: mailto:luisabri.contacto@gmail.com?subject=Quiero%20agendar%20una%20asesor%C3%ADa
+    - generic [ref=f1e1058]:
+      - generic [ref=f1e1059]:
+        - generic [ref=f1e1060]:
+          - img "Logo Luis Abri" [ref=f1e1062]
+          - generic [ref=f1e1063]:
+            - heading "Luis Enrique Abri" [level=3] [ref=f1e1064]
+            - generic [ref=f1e1065]: Marketing & Mercados Financieros
+        - paragraph [ref=f1e1066]: "Ayudo a emprendedores a convertir sus ideas en acciones concretas: mensajes claros, contenido con intención y decisiones informadas."
+        - generic [ref=f1e1067]:
+          - link "LinkedIn (próximamente)" [disabled] [ref=f1e1068]:
+            - /url: "#"
+          - link "Instagram (próximamente)" [disabled] [ref=f1e1071]:
+            - /url: "#"
+          - link "TikTok (próximamente)" [disabled] [ref=f1e1074]:
+            - /url: "#"
+          - link "WhatsApp" [ref=f1e1077] [cursor=pointer]:
+            - /url: https://wa.me/59170000000?text=Hola%20Luis%20Enrique,%20quiero%20conversar%20sobre%20una%20asesor%C3%ADa.
+          - link "Correo" [ref=f1e1080] [cursor=pointer]:
+            - /url: mailto:luisabri.contacto@gmail.com
+      - generic [ref=f1e1084]:
+        - heading "Navegación" [level=4] [ref=f1e1085]
+        - list [ref=f1e1087]:
+          - listitem [ref=f1e1088]:
+            - link "Inicio" [ref=f1e1089] [cursor=pointer]:
+              - /url: "#home"
+          - listitem [ref=f1e1093]:
+            - link "Conocimientos" [ref=f1e1094] [cursor=pointer]:
+              - /url: "#enfoques"
+          - listitem [ref=f1e1098]:
+            - link "Casos" [ref=f1e1099] [cursor=pointer]:
+              - /url: "#projects"
+          - listitem [ref=f1e1103]:
+            - link "Competencias" [ref=f1e1104] [cursor=pointer]:
+              - /url: "#skills"
+          - listitem [ref=f1e1108]:
+            - link "Servicios" [ref=f1e1109] [cursor=pointer]:
+              - /url: "#services"
+          - listitem [ref=f1e1113]:
+            - link "Trayectoria" [ref=f1e1114] [cursor=pointer]:
+              - /url: "#experience"
+          - listitem [ref=f1e1118]:
+            - link "Credenciales" [ref=f1e1119] [cursor=pointer]:
+              - /url: "#certificates"
+          - listitem [ref=f1e1123]:
+            - link "Sobre mí" [ref=f1e1124] [cursor=pointer]:
+              - /url: "#about"
+      - generic [ref=f1e1128]:
+        - heading "Contacto" [level=4] [ref=f1e1129]
+        - generic [ref=f1e1131]:
+          - link "Correo luisabri.contacto@gmail.com" [ref=f1e1132] [cursor=pointer]:
+            - /url: mailto:luisabri.contacto@gmail.com?subject=Quiero%20agendar%20una%20asesor%C3%ADa
+            - generic [ref=f1e1137]:
+              - generic [ref=f1e1138]: Correo
+              - generic [ref=f1e1139]: luisabri.contacto@gmail.com
+          - link "WhatsApp +591 70000000" [ref=f1e1140] [cursor=pointer]:
+            - /url: https://wa.me/59170000000?text=Hola%20Luis%20Enrique,%20quiero%20conversar%20sobre%20una%20asesor%C3%ADa.
+            - generic [ref=f1e1144]:
+              - generic [ref=f1e1145]: WhatsApp
+              - generic [ref=f1e1146]: +591 70000000
+          - generic [ref=f1e1152]:
+            - generic [ref=f1e1153]: Base
+            - generic [ref=f1e1154]: Bolivia — Asesorías digitales y presenciales
+    - generic [aria-hidden]:
+      - paragraph: LUIS ENRIQUE ABRI
+    - generic [ref=f1e1156]:
+      - paragraph [ref=f1e1157]: © 2026 Luis Enrique Abri Fernández · Marketing & Mercados Financieros
+      - paragraph [ref=f1e1158]: Disponible para asesorías y mentorías

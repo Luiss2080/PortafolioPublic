@@ -55,12 +55,12 @@ const Navbar = () => {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        <div className="flex items-center justify-between gap-4">
+        <div className="flex items-center justify-between gap-3">
           
           {/* Logo Personal */}
           <a 
             href="#home" 
-            className="flex items-center gap-3 group flex-shrink-0 cursor-pointer"
+            className="flex items-center gap-2.5 group flex-shrink-0 cursor-pointer"
           >
             <div className="relative w-10 h-10 rounded-xl overflow-hidden border border-white/10 group-hover:border-emerald-light/80 group-hover:shadow-[0_0_20px_rgba(5,150,105,0.4)] transition-all duration-300 flex-shrink-0 bg-white/5">
               <img 
@@ -74,7 +74,7 @@ const Navbar = () => {
                 Luis Enrique <span className="text-emerald-light">Abri</span>
               </span>
               <span className="text-[10px] text-titanium uppercase tracking-wider hidden sm:block -mt-1 font-medium">
-                Marketing & Mercados Financieros
+                Marketing & Finanzas
               </span>
             </div>
           </a>
@@ -84,7 +84,7 @@ const Navbar = () => {
             className="hidden xl:flex items-center flex-shrink-0"
             onMouseLeave={() => setHoveredNav(null)}
           >
-            <div className="flex items-center gap-1 p-1.5 rounded-full bg-white/[0.03] border border-white/[0.08] backdrop-blur-md">
+            <div className="flex items-center gap-0.5 p-1.5 rounded-full bg-white/[0.03] border border-white/[0.08] backdrop-blur-md">
               {navItems.map((item) => {
                 const isActive = activeSection === item.id;
                 const isHovered = hoveredNav === item.id;
@@ -97,7 +97,7 @@ const Navbar = () => {
                     onMouseEnter={() => setHoveredNav(item.id)}
                     whileHover={{ scale: 1.04 }}
                     whileTap={{ scale: 0.96 }}
-                    className={`relative px-3 py-1.5 text-xs font-semibold font-inter tracking-wide transition-all duration-200 rounded-full flex items-center justify-center ${
+                    className={`relative px-2.5 py-1.5 text-xs font-semibold font-inter tracking-wide transition-all duration-200 rounded-full flex items-center justify-center ${
                       isActive 
                         ? 'text-white' 
                         : isHovered 
@@ -129,12 +129,12 @@ const Navbar = () => {
           </nav>
 
           {/* Acciones Principales */}
-          <div className="hidden xl:flex items-center gap-3">
+          <div className="hidden xl:flex items-center gap-2.5 flex-shrink-0">
             <motion.a
               href={emailUrl}
               whileHover={{ scale: 1.04, y: -1 }}
               whileTap={{ scale: 0.95 }}
-              className="relative overflow-hidden flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 bg-white/5 text-platinum text-xs sm:text-sm font-semibold font-inter hover:bg-white/10 hover:border-emerald-light/50 hover:shadow-emerald transition-all duration-300 group whitespace-nowrap"
+              className="relative overflow-hidden flex items-center gap-2 px-3.5 py-2 rounded-full border border-white/10 bg-white/5 text-platinum text-xs sm:text-sm font-semibold font-inter hover:bg-white/10 hover:border-emerald-light/50 hover:shadow-emerald transition-all duration-300 group whitespace-nowrap"
             >
               <span className="absolute inset-0 -translate-x-full group-hover:translate-x-full bg-gradient-to-r from-transparent via-white/15 to-transparent transition-transform duration-700 pointer-events-none" />
               <Mail size={15} className="text-emerald-light group-hover:scale-110 transition-transform duration-300" />
@@ -147,7 +147,7 @@ const Navbar = () => {
               rel="noreferrer"
               whileHover={{ scale: 1.04, y: -1 }}
               whileTap={{ scale: 0.95 }}
-              className="flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-deep text-white text-xs sm:text-sm font-semibold font-inter hover:bg-emerald-hover shadow-[0_4px_20px_rgba(5,150,105,0.4)] transition-all duration-300 whitespace-nowrap"
+              className="flex items-center gap-2 px-3.5 py-2 rounded-full bg-emerald-deep text-white text-xs sm:text-sm font-semibold font-inter hover:bg-emerald-hover shadow-[0_4px_20px_rgba(5,150,105,0.4)] transition-all duration-300 whitespace-nowrap"
             >
               <span>Agenda una asesoría</span>
               <ArrowRight size={14} />

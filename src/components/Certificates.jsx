@@ -42,7 +42,7 @@ const containerVariants = {
 
 const Certificates = () => {
   return (
-    <section id="certificates" className="py-28 bg-obsidian-black relative overflow-hidden border-t border-white/[0.08] min-h-[750px] flex items-center corporate-grid">
+    <section id="certificates" className="py-28 bg-obsidian-black relative overflow-hidden section-sep min-h-[750px] flex items-center corporate-grid">
       
       {/* Luz Ambiental Suave */}
       <div className="absolute top-1/2 left-0 w-[500px] h-[500px] bg-emerald-deep/[0.05] rounded-full blur-[140px] -translate-y-1/2 pointer-events-none z-0"></div>
@@ -52,6 +52,7 @@ const Certificates = () => {
         
         {/* Cabecera */}
         <div className="flex flex-col items-center justify-center text-center mb-16 relative z-10">
+          <span aria-hidden="true" className="pointer-events-none select-none absolute -top-6 left-1/2 -translate-x-1/2 -z-10 text-[110px] sm:text-[170px] font-black font-inter leading-none text-white/[0.03]">05</span>
           <motion.div 
             initial={{ opacity: 0, y: 15, filter: 'blur(8px)' }}
             whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }}

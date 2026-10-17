@@ -86,6 +86,21 @@
   .btn-shine:hover::after {
     transform: translateX(130%) skewX(-18deg);
   }
+  /* Separador de sección con acento esmeralda→dorado */
+  .section-sep {
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    position: relative;
+  }
+  .section-sep::before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: 8%;
+    right: 8%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(52, 211, 153, 0.35), rgba(212, 175, 55, 0.35), transparent);
+    pointer-events: none;
+  }
 }
 
 body {

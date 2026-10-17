@@ -8,13 +8,17 @@ import {
   TrendingUp, 
   CheckCircle2, 
   GraduationCap, 
-  Lightbulb 
+  Lightbulb,
+  FileText,
+  ChevronDown
 } from 'lucide-react';
 import { FaLinkedinIn, FaInstagram, FaTiktok, FaWhatsapp } from 'react-icons/fa';
 import ParticlesBackground from './ParticlesBackground';
 
 const profileImg = '/PortafolioEstandar/img/perfil.png';
 const whatsappUrl = 'https://wa.me/59170000000?text=Hola%20Luis%20Enrique,%20quiero%20agendar%20una%20asesor%C3%ADa.';
+
+const placeholder = (e) => e.preventDefault();
 
 const CommercialHero = () => {
   return (
@@ -115,6 +119,20 @@ const CommercialHero = () => {
                 <span>Conoce mis soluciones</span>
                 <Briefcase size={16} className="text-emerald-light group-hover:scale-110 transition-transform" />
               </a>
+
+              <a
+                href="#"
+                onClick={placeholder}
+                aria-disabled="true"
+                title="Disponible próximamente"
+                className="px-6 py-3 bg-white/[0.02] border border-dashed border-white/15 text-titanium font-semibold font-inter rounded-xl cursor-not-allowed transition-all flex items-center gap-2 text-xs sm:text-sm"
+              >
+                <FileText size={16} className="text-gold-champagne" />
+                <span>Descargar CV</span>
+                <span className="text-[9px] uppercase tracking-wider text-gold-light/90 bg-gold-champagne/10 border border-gold-champagne/25 rounded-full px-1.5 py-0.5">
+                  Pronto
+                </span>
+              </a>
             </motion.div>
 
             {/* Canales y Redes Sociales */}
@@ -127,32 +145,32 @@ const CommercialHero = () => {
               <span className="text-titanium text-[11px] font-semibold uppercase tracking-wider">Contacto & Redes:</span>
               <div className="flex flex-wrap items-center gap-2">
                 <a 
-                  href="https://www.linkedin.com/in/luis-enrique-abri-fernandez" 
-                  target="_blank" 
-                  rel="noreferrer" 
-                  aria-label="LinkedIn"
-                  title="LinkedIn"
-                  className="w-8 h-8 flex items-center justify-center rounded-lg bg-white/5 border border-white/10 text-titanium hover:text-white hover:border-emerald-light/50 hover:bg-white/10 transition-all"
+                  href="#"
+                  onClick={placeholder}
+                  aria-disabled="true"
+                  aria-label="LinkedIn (próximamente)"
+                  title="Próximamente"
+                  className="w-8 h-8 flex items-center justify-center rounded-lg bg-white/[0.03] border border-white/[0.06] text-titanium/50 cursor-not-allowed transition-all"
                 >
                   <FaLinkedinIn size={14} />
                 </a>
                 <a 
-                  href="https://www.instagram.com/luisabri.marketing" 
-                  target="_blank" 
-                  rel="noreferrer" 
-                  aria-label="Instagram"
-                  title="Instagram"
-                  className="w-8 h-8 flex items-center justify-center rounded-lg bg-white/5 border border-white/10 text-titanium hover:text-gold-light hover:border-gold-champagne/50 hover:bg-white/10 transition-all"
+                  href="#"
+                  onClick={placeholder}
+                  aria-disabled="true"
+                  aria-label="Instagram (próximamente)"
+                  title="Próximamente"
+                  className="w-8 h-8 flex items-center justify-center rounded-lg bg-white/[0.03] border border-white/[0.06] text-titanium/50 cursor-not-allowed transition-all"
                 >
                   <FaInstagram size={14} />
                 </a>
                 <a 
-                  href="https://www.tiktok.com/@luisabri.marketing" 
-                  target="_blank" 
-                  rel="noreferrer" 
-                  aria-label="TikTok"
-                  title="TikTok"
-                  className="w-8 h-8 flex items-center justify-center rounded-lg bg-white/5 border border-white/10 text-titanium hover:text-gold-light hover:border-gold-champagne/50 hover:bg-white/10 transition-all"
+                  href="#"
+                  onClick={placeholder}
+                  aria-disabled="true"
+                  aria-label="TikTok (próximamente)"
+                  title="Próximamente"
+                  className="w-8 h-8 flex items-center justify-center rounded-lg bg-white/[0.03] border border-white/[0.06] text-titanium/50 cursor-not-allowed transition-all"
                 >
                   <FaTiktok size={13} />
                 </a>
@@ -252,6 +270,22 @@ const CommercialHero = () => {
 
         </div>
       </div>
+
+      {/* Indicador de scroll */}
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 1.3, duration: 0.6 }}
+        className="absolute bottom-5 left-1/2 -translate-x-1/2 hidden md:flex flex-col items-center gap-1 text-titanium/70 pointer-events-none"
+      >
+        <span className="text-[9px] uppercase tracking-[0.35em]">Desliza</span>
+        <motion.div
+          animate={{ y: [0, 5, 0] }}
+          transition={{ repeat: Infinity, duration: 1.6, ease: 'easeInOut' }}
+        >
+          <ChevronDown size={16} className="text-emerald-light" />
+        </motion.div>
+      </motion.div>
     </section>
   );
 };

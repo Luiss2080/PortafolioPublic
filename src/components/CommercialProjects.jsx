@@ -83,7 +83,7 @@ const CommercialProjects = () => {
     : businessCases.filter(p => p.category === activeFilter);
 
   return (
-    <section id="projects" className="py-24 bg-obsidian-black relative overflow-hidden border-t border-white/[0.08] corporate-grid">
+    <section id="projects" className="py-24 bg-obsidian-black relative overflow-hidden section-sep corporate-grid">
       
       {/* Luz Ambiental Suave */}
       <div className="absolute top-1/2 left-0 w-[500px] h-[500px] bg-emerald-deep/[0.05] rounded-full blur-[140px] -translate-y-1/2 pointer-events-none z-0"></div>
@@ -93,6 +93,7 @@ const CommercialProjects = () => {
         
         {/* Encabezado */}
         <div className="flex flex-col items-center justify-center text-center mb-12 relative z-10">
+          <span aria-hidden="true" className="pointer-events-none select-none absolute -top-6 left-1/2 -translate-x-1/2 -z-10 text-[110px] sm:text-[170px] font-black font-inter leading-none text-white/[0.03]">01</span>
           <motion.div 
             initial={{ opacity: 0, y: 15, filter: 'blur(8px)' }}
             whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
@@ -143,7 +144,7 @@ const CommercialProjects = () => {
         </div>
 
         {/* Rejilla de Casos */}
-        <motion.div layout className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 relative z-20">
+        <motion.div layout className="grid grid-cols-1 md:grid-cols-3 gap-6 relative z-20">
           <AnimatePresence mode='popLayout'>
             {filteredProjects.map((project) => (
               <motion.div 

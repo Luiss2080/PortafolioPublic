@@ -225,7 +225,7 @@ Tareas ordenadas por dependencia, acotadas (< 30 min cada una), vinculadas a sus
 
 ### [x] Tarea 6.7: Footer rediseñado y favicon nuevo
 - **RFs cubiertos**: RF-1, RNF-1 · **Archivos**: `Footer.jsx`, `public/flavicon.svg`, `public/img/flavicon.svg`, `index.html`, `Navbar.jsx`
-- **Hecho cuando**: footer con estructura nueva y favicon propio en uso. (Banda CTA "¿Trabajamos tus próximos resultados?" + 5/3/4 columnas + marca de agua "LUIS ENRIQUE ABRI"; monograma LA SVG servido 200 y visible en Navbar/Footer; capturas `f4c/footer-1440.png`, `footer-320.png`)
+- **Hecho cuando**: footer con estructura nueva y favicon propio en uso. (Banda CTA "¿Trabajamos tus próximos resultados?" + 5/3/4 columnas + marca de agua "LUIS ENRIQUE ALBIS"; monograma LA SVG servido 200 y visible en Navbar/Footer; capturas `f4c/footer-1440.png`, `footer-320.png`)
 
 ## Fase 4d — Ajustes del titular (CV fuera y Casos fijos de 3)
 

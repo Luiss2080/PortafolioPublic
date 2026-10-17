@@ -27,20 +27,23 @@ const FloatingWidgets = () => {
     if (text.includes('hola') || text.includes('saludos') || text.includes('buenos dias') || text.includes('buenas tardes')) {
       return "¡Un cordial saludo! Luis Enrique combina marketing, contenido y educación financiera paso a paso. ¿Te gustaría conocer sus servicios, sus casos o coordinar una conversación directa?";
     }
-    if (text.includes('servicio') || text.includes('solucion') || text.includes('ofrece') || text.includes('que hace') || text.includes('que sabe')) {
-      return "Luis tiene una capacidad de acción transversal ('hace de todo con rigor profesional'):\n\n1. Consultoría & Estrategia Integral: Diagnóstico y plan de crecimiento para cualquier industria.\n2. Dirección & Gestión de Proyectos: Cumplimiento estricto en tiempo, costos y calidad.\n3. Soluciones Integradas & Modernas: Canales interactivos, plataformas eficientes y automatización.\n4. Optimización de Procesos: Reducción de costos y sistematización operativa.";
+    if (text.includes('servicio') || text.includes('solucion') || text.includes('ofrece') || text.includes('que hace') || text.includes('qué hace') || text.includes('que sabe')) {
+      return "Luis Enrique trabaja en cuatro frentes:\n\n1. Estrategia de Comunicación: mensajes clave y plan de difusión para conectar con las personas correctas.\n2. Gestión de Redes y Contenido: imagen, video y copy con una línea visual coherente.\n3. Asesoría Estratégica para Emprendedores: diagnóstico FODA/PESTEL, segmentación y plan de acción.\n4. Mentoría en Mercados Financieros: educación paso a paso, con práctica guiada y gestión de riesgo.";
     }
-    if (text.includes('perfil') || text.includes('adaptable') || text.includes('versatil') || text.includes('habilidades')) {
-      return "El principal diferencial de Luis es su mentalidad adaptable y su visión holística. Se desenvuelve con fluidez tanto en la toma de decisiones gerenciales como en el diseño de flujos operativos y el manejo de herramientas modernas de vanguardia.";
+    if (text.includes('perfil') || text.includes('adaptable') || text.includes('versatil') || text.includes('habilidades') || text.includes('quien es') || text.includes('quién es')) {
+      return "Luis Enrique Abri Fernández estudia Marketing, Publicidad y Comercio y es mentor en mercados financieros. Combina la creatividad del marketing con la disciplina de los mercados: identifica el problema, diseña la solución y la entrega de forma clara, digital o presencial.";
     }
-    if (text.includes('proyecto') || text.includes('caso') || text.includes('trabajo') || text.includes('exito')) {
-      return "Ha liderado y materializado iniciativas de impacto como:\n• Transformación Operativa B2B (+45% de eficiencia)\n• Ecosistemas de Gestión CRM (-60% tiempo de respuesta)\n• Plataformas Transaccionales Integradas (99.9% disponibilidad)\n\nPuedes revisar todas las fichas en la sección 'Casos de Éxito'.";
+    if (text.includes('proyecto') || text.includes('caso') || text.includes('trabajo') || text.includes('exito') || text.includes('éxito')) {
+      return "Algunos resultados de su trabajo con emprendedores:\n• Lanzamiento gastronómico: +180% de alcance\n• Tienda de moda local: +60% de interacción y +1.200 seguidores en 90 días\n• Delivery: plan de acción de 90 días con 2 segmentos prioritarios\n• Comunidad de aprendizaje financiero: +30 participantes\n\nPuedes ver el detalle en la sección 'Casos'.";
     }
-    if (text.includes('curriculum') || text.includes('cv') || text.includes('resumen') || text.includes('pdf')) {
-      return "Puedes solicitar su perfil profesional actualizado directamente por WhatsApp o por correo electrónico; con gusto te orientan.";
-    }
-    if (text.includes('precio') || text.includes('tarifa') || text.includes('cotizacion') || text.includes('costo') || text.includes('asesoria') || text.includes('consulta')) {
+    if (text.includes('precio') || text.includes('tarifa') || text.includes('cotizacion') || text.includes('cotización') || text.includes('costo') || text.includes('asesoria') || text.includes('asesoría') || text.includes('consulta')) {
       return "Cada propuesta se formula a medida según el tamaño del desafío y tus metas. Puedes contactar a Luis Enrique por WhatsApp (+591 70000000) para conversar sin compromiso.";
+    }
+    if (text.includes('mentoria') || text.includes('mentoría') || text.includes('mentor') || text.includes('aprender') || text.includes('comunidad')) {
+      return "La mentoría en mercados financieros acompaña el aprendizaje con comunidad y práctica guiada: análisis del mercado, comportamiento de activos, gestión de riesgo y explicación didáctica. Es contenido educativo; no constituye recomendación de inversión.";
+    }
+    if (text.includes('finanza') || text.includes('mercado') || text.includes('inversion') || text.includes('inversión') || text.includes('invertir') || text.includes('activos') || text.includes('bolsa') || text.includes('trading')) {
+      return "Sobre mercados financieros, Luis Enrique enseña paso a paso y con enfoque educativo: entender el mercado, analizar activos, practicar con riesgo controlado y tomar decisiones informadas. No hay promesas de rendimiento ni recomendaciones personalizadas: es formación para que decidas con criterio.";
     }
     if (text.includes('contacto') || text.includes('correo') || text.includes('telefono') || text.includes('celular') || text.includes('hablar')) {
       return "Comunícate directamente con Luis Enrique por WhatsApp al +591 70000000 (botón en la esquina inferior izquierda) o por correo a luisabri.contacto@gmail.com.";

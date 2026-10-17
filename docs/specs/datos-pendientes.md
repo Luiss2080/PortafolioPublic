@@ -50,7 +50,8 @@
 | Cota de valor (cita del bloque "Sobre mí") | ExecutiveProfile.jsx | ⏳ |
 | Lema y propuesta dual | CommercialHero.jsx, ExecutiveProfile.jsx | ✅ (derivados de la bio entregada; sin datos nuevos) |
 | Enlaces de casos | CommercialProjects.jsx | N/A — los CTAs dirigen a WhatsApp; no hay enlaces externos |
-| Frases del Typewriter (rotación del Hero) | TypewriterText.jsx | ⏳ (se completa en F3) |
+| Frases del Typewriter (4 frases derivadas de la bio) | TypewriterText.jsx | ⏳ (componente actualizado en F3; no montado en el layout actual) |
+| Respuestas del asistente conversacional (derivadas de servicios, casos y avisos de compliance) | FloatingWidgets.jsx | ✅ (derivadas del registro; sin datos nuevos) |
 
 ## 6. Assets gráficos
 
@@ -58,6 +59,14 @@
 | :--- | :--- | :--- |
 | Fotografía de perfil (aún corresponde al titular anterior) | `public/img/perfil.png` → CommercialHero | ⏳ |
 | Logo/favicon (pendiente de alinear con la identidad del titular) | `public/img/flavicon.png`, `public/flavicon.png` → Navbar, Footer | ⏳ |
+
+## 7. SEO y metadatos
+
+| Dato | Ubicación | Estado |
+| :--- | :--- | :--- |
+| Título y meta description (derivados de la bio entregada) | index.html | ✅ (derivados; sin datos nuevos) |
+| og:url / URL canónica absoluta | index.html | ⏳ (pendiente el dominio de publicación) |
+| og:image y twitter:image (rutas relativas a `img/perfil.png`) | index.html | ⏳ (absolutizar cuando exista dominio; la foto del titular está pendiente) |
 
 ---
 

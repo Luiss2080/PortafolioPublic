@@ -36,7 +36,7 @@
 
 ## 5. Fase 5 — Validación SDD y cierre
 
-- [ ] 5.1 Verificar cada RF/RNF de `docs/specs/002-portafolio-marketing.md` contra su escenario y registrar evidencia en `docs/specs/validation.md`
+- [x] 5.1 Verificar cada RF/RNF de `docs/specs/002-portafolio-marketing.md` contra su escenario y registrar evidencia en `docs/specs/validation.md`
 - [ ] 5.2 Presentar `docs/specs/datos-pendientes.md` al titular y verificar su validación o aprobación explícita (gate de publicación)
 - [ ] 5.3 Ejecutar `npm run build` final y `openspec validate adapt-portafolio-marketing --strict` y verificar ambos sin errores
 

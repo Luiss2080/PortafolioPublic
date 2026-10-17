@@ -211,9 +211,9 @@ Tareas ordenadas por dependencia, acotadas (< 30 min cada una), vinculadas a sus
 
 ## Fase 5 — Validación SDD y cierre
 
-### [ ] Tarea 5.1: Verificación EARS con evidencias
+### [x] Tarea 5.1: Verificación EARS con evidencias
 - **Archivos**: `docs/specs/validation.md`
-- **Hecho cuando**: cada RF/RNF de la Spec 002 con evidencia registrada.
+- **Hecho cuando**: cada RF/RNF de la Spec 002 con evidencia registrada. (Informe reescrito 2026-10-17: 11 RF + 5 RNF + 4 casos límite verificados con evidencias de F1–F4b; queda pendiente solo el gate 5.2 del titular y el archivado)
 
 ### [ ] Tarea 5.2: Validación del titular (gate de publicación)
 - **Archivos**: `docs/specs/datos-pendientes.md`

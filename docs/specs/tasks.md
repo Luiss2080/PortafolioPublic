@@ -91,3 +91,120 @@ Tareas ordenadas por dependencia, acotadas (< 30 min cada una), vinculadas a sus
   - `src/App.jsx`: Integración ordenada de los nuevos módulos.
 - **Descripción**: Reducción sustancial del volumen de texto para evitar fatiga de lectura, adición de iconos en cada tarjeta y métrica, y diseño adaptable para cualquier dispositivo (320px hasta 4K).
 - **Hecho cuando**: El bundle compila limpiamente (`npm run build` en 4.41s) y la experiencia es directa, ágil y visualmente atractiva en móviles y pantallas de escritorio. (Completado y verificado)
+
+---
+
+# Sprint 002 — Adaptación Marketing: Luis Enrique Abri Fernández
+
+> **Fuente canónica**: `openspec/changes/adapt-portafolio-marketing/tasks.md` · **Spec**: [002-portafolio-marketing.md](002-portafolio-marketing.md) · **Roadmap**: [../roadmap.md](../roadmap.md)
+> Se marcan al cerrar cada fase (gate: `npm run build` OK + escenario verificado). Los datos sintetizados se registran en [datos-pendientes.md](datos-pendientes.md).
+
+## Fase 1 — Design System v2 (Esmeralda & Oro)
+
+### [ ] Tarea 1.1: Tokens v2 — paleta esmeralda/dorada
+- **RFs cubiertos**: RNF-1 · **Archivos**: `tailwind.config.js`, `src/index.css`
+- **Hecho cuando**: la nueva paleta compila sin errores ni clases huérfanas.
+
+### [ ] Tarea 1.2: Reemplazo de clases en componentes
+- **RFs cubiertos**: RNF-1 · **Archivos**: `src/components/*`
+- **Hecho cuando**: cero ocurrencias de `sapphire-blue`/`cyan-glow` en `src/`.
+
+### [ ] Tarea 1.3: Fondo de partículas v2
+- **Archivos**: `src/components/ParticlesBackground.jsx` · **RFs**: RNF-2
+- **Hecho cuando**: partículas esmeralda/doradas con legibilidad y fluidez verificadas en dev.
+
+### [ ] Tarea 1.4: Auditoría de contraste WCAG AA
+- **RFs cubiertos**: RNF-3 · **Herramienta**: Chrome DevTools MCP
+- **Hecho cuando**: Hero, Servicios, Casos y Footer sin incidencias de contraste.
+
+## Fase 2 — Identidad y datos del perfil
+
+### [ ] Tarea 2.1: Registro de datos sintetizados actualizado
+- **RFs cubiertos**: RNF-4 · **Archivos**: `docs/specs/datos-pendientes.md`
+- **Hecho cuando**: todo dato sintetizado de la fase queda registrado con ubicación y estado.
+
+### [ ] Tarea 2.2: Navbar del perfil
+- **RFs cubiertos**: RF-1 · **Archivos**: `src/components/Navbar.jsx`
+- **Hecho cuando**: secciones del perfil y CTA "Agenda una asesoría" funcionan (anclas verificadas).
+
+### [ ] Tarea 2.3: Hero con propuesta dual
+- **RFs cubiertos**: RF-2 · **Archivos**: `src/components/CommercialHero.jsx`
+- **Hecho cuando**: nombre, rol, propuesta dual y lema visibles, sin jerga de software, responsive 320–1440.
+
+### [ ] Tarea 2.4: Carrusel de áreas de conocimiento
+- **RFs cubiertos**: RF-3 · **Archivos**: `src/components/TechCarousel.jsx`
+- **Hecho cuando**: las 6 áreas giran en bucle continuo sin cortes.
+
+### [ ] Tarea 2.5: Servicios con aviso educativo
+- **RFs cubiertos**: RF-7, RNF-5 · **Archivos**: `src/components/BusinessSolutions.jsx`
+- **Hecho cuando**: 4 servicios con tilt operativo y aviso educativo en la tarjeta de mentoría.
+
+### [ ] Tarea 2.6: Casos desafío→solución→resultado
+- **RFs cubiertos**: RF-4, RF-5 · **Archivos**: `src/components/CommercialProjects.jsx`
+- **Hecho cuando**: 4 casos categorizados y filtros animados sin romper el layout.
+
+### [ ] Tarea 2.7: Matriz de competencias
+- **RFs cubiertos**: RF-6 · **Archivos**: `src/components/ProfessionalSkills.jsx`
+- **Hecho cuando**: 4 áreas en grid responsivo sin desbordar.
+
+### [ ] Tarea 2.8: Trayectoria académica y de mentoría
+- **RFs cubiertos**: RF-8 · **Archivos**: `src/components/ProfessionalTrajectory.jsx`
+- **Hecho cuando**: hitos en orden cronológico y coherentes con el perfil.
+
+### [ ] Tarea 2.9: Credenciales
+- **RFs cubiertos**: H3 · **Archivos**: `src/components/Certificates.jsx`
+- **Hecho cuando**: credenciales plausibles visibles y registradas como pendientes.
+
+### [ ] Tarea 2.10: Perfil editorial
+- **RFs cubiertos**: RF-9 · **Archivos**: `src/components/ExecutiveProfile.jsx`
+- **Hecho cuando**: manifiesto, pilares y enfoque dual sin bloques de código.
+
+### [ ] Tarea 2.11: Footer y contacto
+- **RFs cubiertos**: RF-1 · **Archivos**: `src/components/Footer.jsx`
+- **Hecho cuando**: contacto y redes del perfil sin errores 404 en consola.
+
+## Fase 3 — Asistente, contacto y SEO
+
+### [ ] Tarea 3.1: Asistente conversacional del perfil
+- **RFs cubiertos**: RF-10, RF-11, RNF-5 · **Archivos**: `src/components/FloatingWidgets.jsx`
+- **Hecho cuando**: 5 conversaciones de prueba correctas, con framing educativo en finanzas.
+
+### [ ] Tarea 3.2: Frases del Typewriter
+- **Archivos**: `src/components/TypewriterText.jsx`
+- **Hecho cuando**: rotación fluida de frases del perfil.
+
+### [ ] Tarea 3.3: Enlaces de contacto
+- **RFs cubiertos**: RF-11 · **Archivos**: Navbar, Hero, Footer, FloatingWidgets
+- **Hecho cuando**: WhatsApp/correo abren correctamente; destinos pendientes registrados.
+
+### [ ] Tarea 3.4: SEO y metadatos
+- **Archivos**: `index.html`
+- **Hecho cuando**: title, description y Open Graph verificados en `dist/index.html`.
+
+## Fase 4 — QA visual, accesibilidad y performance
+
+### [ ] Tarea 4.1: QA responsive multi-viewport
+- **RFs cubiertos**: RNF-3 · **Herramienta**: Playwright
+- **Hecho cuando**: 320/375/768/1024/1440/4K sin overflow horizontal.
+
+### [ ] Tarea 4.2: Auditoría de accesibilidad
+- **RFs cubiertos**: RNF-3 · **Herramienta**: Chrome DevTools MCP
+- **Hecho cuando**: sin incidencias críticas de semántica, foco, aria y contraste.
+
+### [ ] Tarea 4.3: Consola y performance
+- **RFs cubiertos**: RNF-2 · **Herramienta**: `npm run preview` + DevTools
+- **Hecho cuando**: consola limpia y sin caídas de frame visibles.
+
+## Fase 5 — Validación SDD y cierre
+
+### [ ] Tarea 5.1: Verificación EARS con evidencias
+- **Archivos**: `docs/specs/validation.md`
+- **Hecho cuando**: cada RF/RNF de la Spec 002 con evidencia registrada.
+
+### [ ] Tarea 5.2: Validación del titular (gate de publicación)
+- **Archivos**: `docs/specs/datos-pendientes.md`
+- **Hecho cuando**: registro validado o aprobado explícitamente.
+
+### [ ] Tarea 5.3: Cierre técnico y archivado
+- **Comandos**: `npm run build` + `openspec validate adapt-portafolio-marketing --strict` + `openspec archive`
+- **Hecho cuando**: build OK, validación estricta OK y change archivado.

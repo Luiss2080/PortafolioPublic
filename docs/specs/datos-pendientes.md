@@ -52,6 +52,7 @@
 | Enlaces de casos | CommercialProjects.jsx | N/A — los CTAs dirigen a WhatsApp; no hay enlaces externos |
 | Frases del Typewriter (4 frases derivadas de la bio) | TypewriterText.jsx | ⏳ (componente actualizado en F3; no montado en el layout actual) |
 | Respuestas del asistente conversacional (derivadas de servicios, casos y avisos de compliance) | FloatingWidgets.jsx | ✅ (derivadas del registro; sin datos nuevos) |
+| Copy del polish F4b: bio del Hero, chip "Diagnóstico primero", subtítulos e hitos reescritos, H3 de "Sobre mí" y bio del Footer (depurados de redundancias) | CommercialHero, BusinessSolutions, CommercialProjects, ProfessionalSkills, ProfessionalTrajectory, Certificates, ExecutiveProfile, Footer | ⏳ (nuevo copy editorial; pendiente de revisión del titular) |
 
 ## 6. Assets gráficos
 

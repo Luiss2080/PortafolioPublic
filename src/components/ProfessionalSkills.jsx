@@ -112,7 +112,7 @@ const ProfessionalSkills = () => {
           >
             <Sparkles size={14} className="text-emerald-light" />
             <span className="text-titanium text-xs sm:text-sm font-semibold tracking-wider uppercase">
-              03 · Competencias
+              02 · Competencias
             </span>
           </motion.div>
           

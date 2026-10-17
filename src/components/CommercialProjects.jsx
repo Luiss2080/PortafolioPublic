@@ -102,7 +102,7 @@ const CommercialProjects = () => {
           >
             <Briefcase size={14} className="text-emerald-light" />
             <span className="text-titanium text-xs sm:text-sm font-semibold tracking-wider uppercase">
-              02 · Casos
+              01 · Casos
             </span>
           </motion.div>
           

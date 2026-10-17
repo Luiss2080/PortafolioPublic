@@ -197,17 +197,17 @@ Tareas ordenadas por dependencia, acotadas (< 30 min cada una), vinculadas a sus
 
 ## Fase 4b — Polish visual y copy (solicitud del titular)
 
-### [ ] Tarea 6.1: Diferenciación visual y de animación
+### [x] Tarea 6.1: Diferenciación visual y de animación
 - **RFs cubiertos**: RNF-1, RNF-2 · **Archivos**: `src/index.css`, `Navbar.jsx`, secciones, `CommercialHero.jsx`
-- **Hecho cuando**: motivos de scroll nuevos (barra de progreso, encabezados numerados con revelado con desenfoque, entrada del Hero y micro-interacciones de CTAs) verificados en 320/1440 con build OK.
+- **Hecho cuando**: motivos de scroll nuevos (barra de progreso, encabezados numerados con revelado con desenfoque, entrada del Hero y micro-interacciones de CTAs) verificados en 320/1440 con build OK. (Barra de progreso esmeralda→dorada con escala 0.15 a scrollY 1016; pills "01 · Casos" … "06 · Sobre mí" con blur-reveal (opacity 0.99, blur 0.13px al completar); entrada del Hero con blur+scale; CTA con barrido `.btn-shine`; build OK 30.20s)
 
-### [ ] Tarea 6.2: Depuración de copy redundante
+### [x] Tarea 6.2: Depuración de copy redundante
 - **RFs cubiertos**: RF-2 … RF-9 · **Archivos**: componentes de contenido
-- **Hecho cuando**: una idea única por bloque; sin frases de valor repetidas entre secciones; "paso a paso" solo en contexto financiero educativo.
+- **Hecho cuando**: una idea única por bloque; sin frases de valor repetidas entre secciones; "paso a paso" solo en contexto financiero educativo. ("hace crecer" de 5→1 (solo H1 del Hero); "digital/presencial" de 4→2 (chip del Hero + contacto del Footer); "paso a paso" restante (7) 100% en contexto financiero/mentoría; subtítulos de las 6 secciones diferenciados; insignias duplicadas eliminadas de Sobre mí)
 
-### [ ] Tarea 6.3: QA visual post-polish
+### [x] Tarea 6.3: QA visual post-polish
 - **Herramienta**: Chrome DevTools MCP
-- **Hecho cuando**: screenshots de Hero/Servicios/Sobre mí coherentes, consola limpia y `npm run build` OK.
+- **Hecho cuando**: screenshots de Hero/Servicios/Sobre mí coherentes, consola limpia y `npm run build` OK. (Capturas en `.playwright-mcp/f4b/` (hero/servicios/sobremi/casos-1440, polish-320/1440); 0 overflow en 320 y 1440; consola sin mensajes; build OK)
 
 ## Fase 5 — Validación SDD y cierre
 

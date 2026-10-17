@@ -93,7 +93,7 @@
 
 ---
 
-## Fase 4b — Polish visual y copy (solicitud del titular)
+## Fase 4b — Polish visual y copy (solicitud del titular) ✅
 
 **Objetivo**: diferenciar visualmente la experiencia respecto del portafolio anterior y eliminar copy redundante o repetitivo antes de la validación final.
 
@@ -129,7 +129,7 @@
 | F2 | RF-2 … RF-9, RNF-4 | ✅ Completada |
 | F3 | RF-1, RF-10, RF-11, RNF-5 | ✅ Completada |
 | F4 | RNF-2, RNF-3 | ✅ Completada |
-| F4b | RNF-1, RNF-2, RF-2…RF-9 | en curso |
+| F4b | RNF-1, RNF-2, RF-2…RF-9 | ✅ Completada |
 | F5 | Criterios de finalización | pendiente |
 
 ## Riesgos principales

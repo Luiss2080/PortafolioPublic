@@ -42,9 +42,9 @@
 
 ## 6. Polish visual y copy (solicitud del titular, previo a F5)
 
-- [ ] 6.1 Diferenciar la experiencia visual y de animación respecto del portafolio anterior (nuevos motivos de scroll: barra de progreso, encabezados numerados con revelado con desenfoque, entrada del Hero y micro-interacciones de CTAs) y verificar en 320/1440 con build OK
-- [ ] 6.2 Depurar el copy redundante o repetitivo entre secciones (una idea única por bloque; conservar "paso a paso" solo en contexto financiero educativo) y verificar coherencia con `marketing-brand-voice` y el registro de datos
-- [ ] 6.3 Pasada final de QA visual post-polish (screenshots Hero/Servicios/Sobre mí, consola limpia) y cierre de la fase con `npm run build`
+- [x] 6.1 Diferenciar la experiencia visual y de animación respecto del portafolio anterior (nuevos motivos de scroll: barra de progreso, encabezados numerados con revelado con desenfoque, entrada del Hero y micro-interacciones de CTAs) y verificar en 320/1440 con build OK
+- [x] 6.2 Depurar el copy redundante o repetitivo entre secciones (una idea única por bloque; conservar "paso a paso" solo en contexto financiero educativo) y verificar coherencia con `marketing-brand-voice` y el registro de datos
+- [x] 6.3 Pasada final de QA visual post-polish (screenshots Hero/Servicios/Sobre mí, consola limpia) y cierre de la fase con `npm run build`
 
 ## Workflow follow-up
 

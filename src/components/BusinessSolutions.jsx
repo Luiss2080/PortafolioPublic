@@ -70,7 +70,7 @@ const BusinessSolutions = () => {
           >
             <Sparkles size={14} className="text-emerald-light" />
             <span className="text-titanium text-xs sm:text-sm font-semibold tracking-wider uppercase">
-              01 · Servicios
+              03 · Servicios
             </span>
           </motion.div>
           

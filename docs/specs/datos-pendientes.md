@@ -62,7 +62,7 @@
 | Dato | Ubicación | Estado |
 | :--- | :--- | :--- |
 | Fotografía de perfil (aún corresponde al titular anterior; al reemplazarla, optimizar el peso — Lighthouse señala ~5.1 MB de imágenes mejorables) | `public/img/perfil.png` → CommercialHero | ⏳ |
-| Logo/favicon (pendiente de alinear con la identidad del titular) | `public/img/flavicon.png`, `public/flavicon.png` → Navbar, Footer | ⏳ |
+| Logo/favicon: monograma "LA" sintetizado (SVG, esmeralda→dorado sobre obsidiana) en uso | `public/flavicon.svg`, `public/img/flavicon.svg` → Navbar, Footer, index.html | ⏳ (propuesta sintetizada; pendiente logo definitivo del titular) |
 
 ## 7. SEO y metadatos
 

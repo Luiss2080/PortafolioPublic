@@ -14,6 +14,7 @@ import {
   CheckCircle2 
 } from 'lucide-react';
 import { FaLinkedinIn, FaFacebookF, FaInstagram, FaTiktok, FaWhatsapp } from 'react-icons/fa';
+import ParticlesBackground from './ParticlesBackground';
 const profileImg = '/PortafolioEstandar/img/perfil.png';
 
 const CommercialHero = () => {
@@ -23,6 +24,9 @@ const CommercialHero = () => {
       {/* Luz ambiental sutil y elegante */}
       <div className="absolute top-1/4 left-1/4 w-[500px] h-[500px] bg-emerald-deep/10 rounded-full blur-[140px] pointer-events-none z-0"></div>
       <div className="absolute bottom-1/4 right-1/4 w-[400px] h-[400px] bg-emerald-light/5 rounded-full blur-[160px] pointer-events-none z-0"></div>
+
+      {/* Fondo de partículas temático (identidad v2) */}
+      <ParticlesBackground />
 
       <div className="container mx-auto px-4 sm:px-6 max-w-7xl z-10 relative">
         <div className="grid lg:grid-cols-12 gap-10 lg:gap-8 items-center">

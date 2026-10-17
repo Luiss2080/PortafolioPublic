@@ -331,7 +331,7 @@ const Projects = () => {
                       {/* Botón de Enlace/Detalle */}
                       <div className="mt-auto w-full pt-3 border-t border-white/[0.06]">
                         <a 
-                          href="https://wa.me/59170000000?text=Hola%20Luis%20Enrique,%20me%20interesa%20conversar%20sobre%20una%20iniciativa%20similar%20a%20este%20caso%20de%20estudio." 
+                          href="https://wa.me/59175728767?text=Hola%20Luis%20Enrique,%20me%20interesa%20conversar%20sobre%20una%20iniciativa%20similar%20a%20este%20caso%20de%20estudio." 
                           target="_blank"
                           rel="noreferrer"
                           className="w-full py-2.5 px-4 rounded-xl border border-white/10 hover:border-emerald-light/50 bg-white/[0.02] hover:bg-white/[0.06] text-slate-200 hover:text-white text-xs font-semibold flex items-center justify-center gap-2 transition-all group/btn shadow-sm"

@@ -1,4 +1,4 @@
-# Roadmap — Adaptación del Portafolio a Luis Enrique Abri Fernández
+# Roadmap — Adaptación del Portafolio a Luis Enrique Albis Fernández
 
 > **Perfil destino**: Estudiante de Marketing, Publicidad y Comercio | Mentor en Mercados Financieros.
 > **Spec activa**: [002-portafolio-marketing.md](specs/002-portafolio-marketing.md) · **Change OpenSpec**: `adapt-portafolio-marketing`

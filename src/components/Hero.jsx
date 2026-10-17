@@ -52,7 +52,7 @@ const Hero = () => {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="text-slate-300 text-base md:text-lg leading-relaxed font-normal"
             >
-              Soy <strong className="text-white font-semibold">Luis Enrique Abri Fernández</strong>. Combino el <strong className="text-white font-medium">marketing</strong> que hace crecer tu marca con la visión de los <strong className="text-white font-medium">mercados financieros</strong>: identifico el problema, diseño la solución y la entrego de forma clara, digital o presencial.
+              Soy <strong className="text-white font-semibold">Luis Enrique Albis Fernández</strong>. Combino el <strong className="text-white font-medium">marketing</strong> que hace crecer tu marca con la visión de los <strong className="text-white font-medium">mercados financieros</strong>: identifico el problema, diseño la solución y la entrego de forma clara, digital o presencial.
             </motion.p>
 
             {/* Llamados a la acción (CTAs) */}
@@ -119,7 +119,7 @@ const Hero = () => {
                   <FaTiktok size={14} />
                 </a>
                 <a 
-                  href="https://wa.me/59170000000?text=Hola%20Luis%20Enrique,%20estoy%20interesado%20en%20conversar%20sobre%20un%20proyecto." 
+                  href="https://wa.me/59175728767?text=Hola%20Luis%20Enrique,%20estoy%20interesado%20en%20conversar%20sobre%20un%20proyecto." 
                   target="_blank" 
                   rel="noreferrer" 
                   aria-label="WhatsApp"
@@ -157,7 +157,7 @@ const Hero = () => {
             >
               <img 
                 src={profileImg} 
-                alt="Luis Enrique Abri Fernández"
+                alt="Luis Enrique Albis Fernández"
                 className="w-full object-contain filter drop-shadow-[0_20px_40px_rgba(0,0,0,0.8)]"
                 style={{ 
                   maskImage: 'linear-gradient(to bottom, black 80%, transparent 100%)',

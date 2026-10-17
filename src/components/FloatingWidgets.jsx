@@ -10,7 +10,7 @@ const FloatingWidgets = () => {
     { 
       id: 1, 
       sender: 'bot', 
-      text: '¡Hola! Soy el asistente de Luis Enrique Abri Fernández, quien combina marketing para hacer crecer tu marca con mentoría en mercados financieros. Puedes conocer sus servicios, casos y comunidad. ¿En qué te puedo orientar hoy?', 
+      text: '¡Hola! Soy el asistente de Luis Enrique Albis Fernández, quien combina marketing para hacer crecer tu marca con mentoría en mercados financieros. Puedes conocer sus servicios, casos y comunidad. ¿En qué te puedo orientar hoy?', 
       time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) 
     }
   ]);
@@ -31,13 +31,13 @@ const FloatingWidgets = () => {
       return "Luis Enrique trabaja en cuatro frentes:\n\n1. Estrategia de Comunicación: mensajes clave y plan de difusión para conectar con las personas correctas.\n2. Gestión de Redes y Contenido: imagen, video y copy con una línea visual coherente.\n3. Asesoría Estratégica para Emprendedores: diagnóstico FODA/PESTEL, segmentación y plan de acción.\n4. Mentoría en Mercados Financieros: educación paso a paso, con práctica guiada y gestión de riesgo.";
     }
     if (text.includes('perfil') || text.includes('adaptable') || text.includes('versatil') || text.includes('habilidades') || text.includes('quien es') || text.includes('quién es')) {
-      return "Luis Enrique Abri Fernández estudia Marketing, Publicidad y Comercio y es mentor en mercados financieros. Combina la creatividad del marketing con la disciplina de los mercados: identifica el problema, diseña la solución y la entrega de forma clara, digital o presencial.";
+      return "Luis Enrique Albis Fernández estudia Marketing, Publicidad y Comercio y es mentor en mercados financieros. Combina la creatividad del marketing con la disciplina de los mercados: identifica el problema, diseña la solución y la entrega de forma clara, digital o presencial.";
     }
     if (text.includes('proyecto') || text.includes('caso') || text.includes('trabajo') || text.includes('exito') || text.includes('éxito')) {
       return "Algunos resultados de su trabajo con emprendedores:\n• Tienda de moda local: +60% de interacción y +1.200 seguidores en 90 días\n• Delivery: plan de acción de 90 días con 2 segmentos prioritarios\n• Comunidad de aprendizaje financiero: +30 participantes\n\nPuedes ver el detalle en la sección 'Casos'.";
     }
     if (text.includes('precio') || text.includes('tarifa') || text.includes('cotizacion') || text.includes('cotización') || text.includes('costo') || text.includes('asesoria') || text.includes('asesoría') || text.includes('consulta')) {
-      return "Cada propuesta se formula a medida según el tamaño del desafío y tus metas. Puedes contactar a Luis Enrique por WhatsApp (+591 70000000) para conversar sin compromiso.";
+      return "Cada propuesta se formula a medida según el tamaño del desafío y tus metas. Puedes contactar a Luis Enrique por WhatsApp (+591 75728767) para conversar sin compromiso.";
     }
     if (text.includes('mentoria') || text.includes('mentoría') || text.includes('mentor') || text.includes('aprender') || text.includes('comunidad')) {
       return "La mentoría en mercados financieros acompaña el aprendizaje con comunidad y práctica guiada: análisis del mercado, comportamiento de activos, gestión de riesgo y explicación didáctica. Es contenido educativo; no constituye recomendación de inversión.";
@@ -46,13 +46,13 @@ const FloatingWidgets = () => {
       return "Sobre mercados financieros, Luis Enrique enseña paso a paso y con enfoque educativo: entender el mercado, analizar activos, practicar con riesgo controlado y tomar decisiones informadas. No hay promesas de rendimiento ni recomendaciones personalizadas: es formación para que decidas con criterio.";
     }
     if (text.includes('contacto') || text.includes('contacta') || text.includes('escribir') || text.includes('correo') || text.includes('telefono') || text.includes('celular') || text.includes('hablar')) {
-      return "Comunícate directamente con Luis Enrique por WhatsApp al +591 70000000 (botón en la esquina inferior izquierda) o por correo a luisabri.contacto@gmail.com.";
+      return "Comunícate directamente con Luis Enrique por WhatsApp al +591 75728767 (botón en la esquina inferior izquierda) o por correo a luisabri.contacto@gmail.com.";
     }
     if (text.includes('gracias') || text.includes('excelente') || text.includes('perfecto')) {
       return "¡Ha sido un placer! Estoy a tu total disposición para cualquier consulta adicional.";
     }
     
-    return "Gracias por tu consulta. Luis Enrique comparte contenido de marketing y educación financiera paso a paso. Puedes contactarlo por WhatsApp al +591 70000000 o al correo luisabri.contacto@gmail.com.";
+    return "Gracias por tu consulta. Luis Enrique comparte contenido de marketing y educación financiera paso a paso. Puedes contactarlo por WhatsApp al +591 75728767 o al correo luisabri.contacto@gmail.com.";
   };
 
   const processMessage = (textToSend) => {
@@ -91,7 +91,7 @@ const FloatingWidgets = () => {
       {/* Botón Flotante WhatsApp Oficial (Izquierda) */}
       <div className="fixed bottom-6 left-6 z-40">
         <motion.a
-          href="https://wa.me/59170000000?text=Hola%20Luis%20Enrique,%20vi%20tu%20portafolio%20y%20me%20gustar%C3%ADa%20conversar."
+          href="https://wa.me/59175728767?text=Hola%20Luis%20Enrique,%20vi%20tu%20portafolio%20y%20me%20gustar%C3%ADa%20conversar."
           target="_blank"
           rel="noreferrer"
           aria-label="Contactar por WhatsApp"

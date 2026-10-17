@@ -94,7 +94,7 @@ Tareas ordenadas por dependencia, acotadas (< 30 min cada una), vinculadas a sus
 
 ---
 
-# Sprint 002 — Adaptación Marketing: Luis Enrique Abri Fernández
+# Sprint 002 — Adaptación Marketing: Luis Enrique Albis Fernández
 
 > **Fuente canónica**: `openspec/changes/adapt-portafolio-marketing/tasks.md` · **Spec**: [002-portafolio-marketing.md](002-portafolio-marketing.md) · **Roadmap**: [../roadmap.md](../roadmap.md)
 > Se marcan al cerrar cada fase (gate: `npm run build` OK + escenario verificado). Los datos sintetizados se registran en [datos-pendientes.md](datos-pendientes.md).
@@ -175,7 +175,7 @@ Tareas ordenadas por dependencia, acotadas (< 30 min cada una), vinculadas a sus
 
 ### [x] Tarea 3.3: Enlaces de contacto
 - **RFs cubiertos**: RF-11 · **Archivos**: Navbar, Hero, Footer, FloatingWidgets
-- **Hecho cuando**: WhatsApp/correo abren correctamente; destinos pendientes registrados. (Todos los `wa.me` apuntan a `59170000000` y los `mailto:` a `luisabri.contacto@gmail.com`; destinos ⏳ registrados en datos-pendientes)
+- **Hecho cuando**: WhatsApp/correo abren correctamente; destinos pendientes registrados. (Todos los `wa.me` apuntan a `59175728767` y los `mailto:` a `luisabri.contacto@gmail.com`; destinos ⏳ registrados en datos-pendientes)
 
 ### [x] Tarea 3.4: SEO y metadatos
 - **Archivos**: `index.html`

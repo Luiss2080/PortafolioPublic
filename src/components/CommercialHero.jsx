@@ -15,7 +15,7 @@ import { FaLinkedinIn, FaInstagram, FaTiktok, FaWhatsapp } from 'react-icons/fa'
 import ParticlesBackground from './ParticlesBackground';
 
 const profileImg = `${import.meta.env.BASE_URL}img/perfil.png`;
-const whatsappUrl = 'https://wa.me/59170000000?text=Hola%20Luis%20Enrique,%20quiero%20agendar%20una%20asesor%C3%ADa.';
+const whatsappUrl = 'https://wa.me/59175728767?text=Hola%20Luis%20Enrique,%20quiero%20agendar%20una%20asesor%C3%ADa.';
 
 const placeholder = (e) => e.preventDefault();
 
@@ -70,7 +70,7 @@ const CommercialHero = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-slate-300 text-sm sm:text-base md:text-lg leading-relaxed font-normal"
             >
-              Soy <strong className="text-white font-semibold">Luis Enrique Abri Fernández</strong>, estudiante de Marketing, Publicidad y Comercio y <strong className="text-white font-semibold">mentor en Mercados Financieros</strong>. Combino estrategia de marca y visión financiera para que decidas con inteligencia. Mi forma de trabajar: Identifico el problema → Diseño la solución → La entrego de forma clara.
+              Soy <strong className="text-white font-semibold">Luis Enrique Albis Fernández</strong>, estudiante de Marketing, Publicidad y Comercio y <strong className="text-white font-semibold">mentor en Mercados Financieros</strong>. Combino estrategia de marca y visión financiera para que decidas con inteligencia. Mi forma de trabajar: Identifico el problema → Diseño la solución → La entrego de forma clara.
             </motion.p>
 
             {/* Micro-puntos de Valor */}
@@ -198,7 +198,7 @@ const CommercialHero = () => {
             >
               <img 
                 src={profileImg} 
-                alt="Luis Enrique Abri Fernández"
+                alt="Luis Enrique Albis Fernández"
                 className="w-full object-contain filter drop-shadow-[0_20px_40px_rgba(0,0,0,0.8)]"
                 style={{ 
                   maskImage: 'linear-gradient(to bottom, black 80%, transparent 100%)',

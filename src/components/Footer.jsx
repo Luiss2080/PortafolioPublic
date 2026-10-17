@@ -4,7 +4,7 @@ import { Mail, MapPin, Phone, ArrowUpRight } from 'lucide-react';
 import { FaLinkedinIn, FaInstagram, FaTiktok, FaWhatsapp } from 'react-icons/fa';
 
 const faviconImg = `${import.meta.env.BASE_URL}img/flavicon.svg`;
-const whatsappUrl = 'https://wa.me/59170000000?text=Hola%20Luis%20Enrique,%20quiero%20conversar%20sobre%20una%20asesor%C3%ADa.';
+const whatsappUrl = 'https://wa.me/59175728767?text=Hola%20Luis%20Enrique,%20quiero%20conversar%20sobre%20una%20asesor%C3%ADa.';
 const emailUrl = 'mailto:luisabri.contacto@gmail.com?subject=Quiero%20agendar%20una%20asesor%C3%ADa';
 
 const placeholder = (e) => e.preventDefault();
@@ -97,11 +97,11 @@ const Footer = () => {
           <div className="lg:col-span-5 flex flex-col">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-11 h-11 rounded-xl overflow-hidden border border-white/10 bg-white/5 flex items-center justify-center">
-                <img src={faviconImg} alt="Logo Luis Abri" className="w-full h-full object-cover" />
+                <img src={faviconImg} alt="Logo Luis Albis" className="w-full h-full object-cover" />
               </div>
               <div className="flex flex-col">
                 <h3 className="text-xl font-black text-white font-inter tracking-tight leading-none">
-                  Luis Enrique <span className="text-emerald-light">Abri</span>
+                  Luis Enrique <span className="text-emerald-light">Albis</span>
                 </h3>
                 <span className="text-[10px] text-titanium uppercase tracking-[0.25em] mt-1">
                   Marketing & Mercados Financieros
@@ -213,7 +213,7 @@ const Footer = () => {
                 </div>
                 <div className="flex flex-col">
                   <span className="text-[10px] text-titanium uppercase tracking-wider">WhatsApp</span>
-                  <span className="text-xs sm:text-sm text-slate-200 font-medium">+591 70000000</span>
+                  <span className="text-xs sm:text-sm text-slate-200 font-medium">+591 75728767</span>
                 </div>
               </a>
               <div className="flex items-center gap-3 p-3 rounded-xl bg-white/[0.02] border border-white/[0.06]">
@@ -234,14 +234,14 @@ const Footer = () => {
       {/* Marca de Agua */}
       <div aria-hidden="true" className="relative select-none pointer-events-none -mb-2 sm:-mb-4">
         <p className="text-center font-black font-inter tracking-tighter leading-none whitespace-nowrap text-[16vw] lg:text-[10.5rem] bg-gradient-to-b from-white/[0.06] via-white/[0.025] to-transparent bg-clip-text text-transparent">
-          LUIS ENRIQUE ABRI
+          LUIS ENRIQUE ALBIS
         </p>
       </div>
 
       {/* Barra Inferior */}
       <div className="container mx-auto px-6 xl:px-12 max-w-7xl relative z-10">
         <div className="border-t border-white/[0.08] py-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-[11px] text-titanium">
-          <p>© {new Date().getFullYear()} Luis Enrique Abri Fernández · Marketing & Mercados Financieros</p>
+          <p>© {new Date().getFullYear()} Luis Enrique Albis Fernández · Marketing & Mercados Financieros</p>
           <p className="flex items-center gap-2">
             <span className="w-1.5 h-1.5 rounded-full bg-emerald-light"></span>
             Disponible para asesorías y mentorías

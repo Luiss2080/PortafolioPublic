@@ -1,7 +1,7 @@
 # Informe de Validación SDD — Spec 002 (Portafolio Marketing & Mercados Financieros)
 
 - **Fecha de auditoría**: 2026-10-17
-- **Titular**: Luis Enrique Abri Fernández — Estudiante de Marketing, Publicidad y Comercio | Mentor en Mercados Financieros
+- **Titular**: Luis Enrique Albis Fernández — Estudiante de Marketing, Publicidad y Comercio | Mentor en Mercados Financieros
 - **Alcance**: RF-1 … RF-11 y RNF-1 … RNF-5 de [002-portafolio-marketing.md](002-portafolio-marketing.md), fases F1–F4b del [roadmap](../roadmap.md).
 - **Veredicto técnico**: ✅ **ESPECIFICACIÓN CUMPLIDA** (RF y RNF verificados con evidencia). Pendiente únicamente el gate humano de la Fase 5.2 (validación del titular sobre [datos-pendientes.md](datos-pendientes.md)).
 - **Principio**: *"Que el código diga la verdad y la especificación también"*.
@@ -12,7 +12,7 @@
 
 | RF | Criterio EARS (resumen) | Estado | Evidencia de cumplimiento |
 | :--- | :--- | :---: | :--- |
-| **RF-1** | Navbar con navegación a las 8 secciones y CTA "Agenda una asesoría" | ✅ | `src/components/Navbar.jsx` — 9/9 anclas verificadas en navegador con aterrizaje en top 0 (F2); CTA `Agenda una asesoría` → `wa.me/59170000000`; scroll-spy activo por sección |
+| **RF-1** | Navbar con navegación a las 8 secciones y CTA "Agenda una asesoría" | ✅ | `src/components/Navbar.jsx` — 9/9 anclas verificadas en navegador con aterrizaje en top 0 (F2); CTA `Agenda una asesoría` → `wa.me/59175728767`; scroll-spy activo por sección |
 | **RF-2** | Hero con nombre, rol, propuesta dual y lema "Identifico el problema → Diseño la solución → La entrego de forma clara" + CTAs | ✅ | `src/components/CommercialHero.jsx` — badge de rol, titular de impacto, bio dual y lema presentes; verificado visualmente en 320/1440 (`.playwright-mcp/f4b/hero-1440.png`, `polish-320.png`); sin jerga de software (grep `console.log|<pre|<code|git` en `src/` → 0 resultados) |
 | **RF-3** | Carrusel continuo con las 6 áreas de conocimiento | ✅ | `src/components/TechCarousel.jsx` — marquee 35s `linear infinite` con ítems duplicados para bucle sin cortes (verificado en vivo durante F2) |
 | **RF-4** | Fichas de casos con desafío, solución y resultado en 4 categorías | ✅ | `src/components/CommercialProjects.jsx` — 3 casos con categorías (Identidad Visual: Redes y Contenido/Comunicación; Diagnóstico FODA/PESTEL: Estrategia; Comunidad de Aprendizaje: Mercados Financieros); bloques Desafío/Solución/Resultado y nota de compliance (ajuste F4d 2026-10-17) |
@@ -22,7 +22,7 @@
 | **RF-8** | Trayectoria con formación académica, experiencia con emprendedores y mentoría | ✅ | `src/components/ProfessionalTrajectory.jsx` — hitos 01 (2022-Presente), 02 (2023-Presente), 03 (2024-Presente) en orden cronológico |
 | **RF-9** | "Sobre mí" editorial con manifiesto, pilares y enfoque dual; sin consolas ni código | ✅ | `src/components/ExecutiveProfile.jsx` — manifiesto, cita editorial y 4 pilares; grep de jerga de software en `src/` → 0 resultados; captura `.playwright-mcp/f4b/sobremi-1440.png` |
 | **RF-10** | Asistente flotante responde servicios, conocimiento, mentoría, trayectoria y contacto; framing educativo en finanzas | ✅ | `src/components/FloatingWidgets.jsx` — 6/6 conversaciones de prueba correctas (servicios, precios, mentoría, finanzas, contacto, fuera de alcance) con lenguaje educativo y sin promesas (F3) |
-| **RF-11** | Consulta no contemplada → respuesta cordial con enlaces a WhatsApp/correo | ✅ | `FloatingWidgets.jsx` — respuesta de fallback con enlaces directos `wa.me/59170000000` y `mailto:luisabri.contacto@gmail.com`; keywords `contacta`/`escribir` enrutadas correctamente (F3) |
+| **RF-11** | Consulta no contemplada → respuesta cordial con enlaces a WhatsApp/correo | ✅ | `FloatingWidgets.jsx` — respuesta de fallback con enlaces directos `wa.me/59175728767` y `mailto:luisabri.contacto@gmail.com`; keywords `contacta`/`escribir` enrutadas correctamente (F3) |
 
 ## 2. Requisitos no funcionales
 

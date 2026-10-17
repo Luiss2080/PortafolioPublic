@@ -1,12 +1,12 @@
 # portfolio-content Specification
 
 ## Purpose
-Define el contenido y la estructura de las secciones que presentan a Luis Enrique Abri Fernández como estudiante de Marketing, Publicidad y Comercio y mentor en Mercados Financieros, incluida la política de datos sintetizados.
+Define el contenido y la estructura de las secciones que presentan a Luis Enrique Albis Fernández como estudiante de Marketing, Publicidad y Comercio y mentor en Mercados Financieros, incluida la política de datos sintetizados.
 
 ## Requirements
 
 ### Requirement: Propuesta de valor dual en la portada
-La portada (Hero) SHALL presentar a Luis Enrique Abri Fernández con su enfoque dual — marketing para hacer crecer marcas y visión financiera para decidir con inteligencia — y su lema "Identifico el problema → Diseño la solución → La entrego de forma clara".
+La portada (Hero) SHALL presentar a Luis Enrique Albis Fernández con su enfoque dual — marketing para hacer crecer marcas y visión financiera para decidir con inteligencia — y su lema "Identifico el problema → Diseño la solución → La entrego de forma clara".
 
 #### Scenario: Lectura inmediata del perfil
 - **WHEN** el visitante carga la página

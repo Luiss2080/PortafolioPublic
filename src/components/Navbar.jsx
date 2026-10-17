@@ -3,7 +3,7 @@ import { motion, AnimatePresence, useScroll, useSpring } from 'framer-motion';
 import { Menu, X, Mail, ArrowRight } from 'lucide-react';
 
 const faviconImg = `${import.meta.env.BASE_URL}img/flavicon.svg`;
-const whatsappUrl = 'https://wa.me/59170000000?text=Hola%20Luis%20Enrique,%20quiero%20agendar%20una%20asesor%C3%ADa.';
+const whatsappUrl = 'https://wa.me/59175728767?text=Hola%20Luis%20Enrique,%20quiero%20agendar%20una%20asesor%C3%ADa.';
 const emailUrl = 'mailto:luisabri.contacto@gmail.com?subject=Quiero%20agendar%20una%20asesor%C3%ADa';
 
 const navItems = [
@@ -79,7 +79,7 @@ const Navbar = () => {
             </div>
             <div className="flex flex-col">
               <span className="text-lg font-bold whitespace-nowrap font-inter tracking-tight text-white group-hover:text-white transition-colors">
-                Luis Enrique <span className="text-emerald-light">Abri</span>
+                Luis Enrique <span className="text-emerald-light">Albis</span>
               </span>
               <span className="text-[10px] text-titanium uppercase tracking-wider hidden sm:block -mt-1 font-medium">
                 Marketing & Finanzas

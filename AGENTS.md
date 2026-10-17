@@ -1,7 +1,7 @@
-# AGENTS.md — Portafolio Luis Enrique Abri Fernández (Marketing & Mercados Financieros)
+# AGENTS.md — Portafolio Luis Enrique Albis Fernández (Marketing & Mercados Financieros)
 
 ## Proyecto
-Portafolio personal de **Luis Enrique Abri Fernández** — Estudiante de Marketing, Publicidad y Comercio | Mentor en Mercados Financieros.
+Portafolio personal de **Luis Enrique Albis Fernández** — Estudiante de Marketing, Publicidad y Comercio | Mentor en Mercados Financieros.
 Adaptado in-place desde el portafolio estándar corporativo (Spec 001) mediante la [Spec 002](docs/specs/002-portafolio-marketing.md) y el change OpenSpec `adapt-portafolio-marketing`.
 Desarrollado en React 18, Vite 5, Tailwind CSS y Framer Motion con arquitectura modular de componentes.
 

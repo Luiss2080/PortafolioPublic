@@ -1,6 +1,6 @@
 # Registro de Datos Pendientes de Validación — Spec 002
 
-> **✅ Aprobación del titular (gate F5.2 — 2026-10-17)**: Luis Enrique Abri Fernández aprobó explícitamente este registro completo para publicación. Los ítems ⏳ quedan **aprobados como versión vigente** y se actualizarán cuando el titular entregue los valores reales (foto de perfil, número de WhatsApp, credenciales, dominio).
+> **✅ Aprobación del titular (gate F5.2 — 2026-10-17)**: Luis Enrique Albis Fernández aprobó explícitamente este registro completo para publicación. Los ítems ⏳ quedan **aprobados como versión vigente** y se actualizarán cuando el titular entregue los valores reales (foto de perfil, credenciales, dominio).
 
 > Todo dato **completado por el asistente** (no entregado por el titular en la base) se registra aquí con su ubicación exacta en el código.
 > **Estados**: ⏳ pendiente de reemplazo por valor real (aprobado para esta versión) · ✅ validado por el titular · ♻️ reemplazado por dato real.
@@ -10,7 +10,7 @@
 
 | Dato | Ubicación | Estado |
 | :--- | :--- | :--- |
-| WhatsApp: `+591 70000000` (número sintetizado) | Navbar, CommercialHero, BusinessSolutions, CommercialProjects, FloatingWidgets, Footer | ⏳ |
+| WhatsApp: `+591 75728767` (dato real entregado por el titular, 2026-10-17) | Navbar, CommercialHero, BusinessSolutions, CommercialProjects, FloatingWidgets, Footer | ✅ |
 | Correo: `luisabri.contacto@gmail.com` (sintetizado) | Navbar, CommercialHero, FloatingWidgets, Footer | ⏳ |
 | LinkedIn: enlace **deshabilitado intencionalmente** (`href="#"`, inerte, aviso "Próximamente") hasta recibir la URL real | CommercialHero, Footer | ⏳ (placeholder sin destino falso) |
 | Instagram: enlace **deshabilitado intencionalmente** hasta recibir la URL real | CommercialHero, Footer | ⏳ (placeholder sin destino falso) |

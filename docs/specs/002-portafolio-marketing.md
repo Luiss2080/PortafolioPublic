@@ -1,10 +1,10 @@
-# Spec 002 — Adaptación a Portafolio de Marketing y Mercados Financieros (Luis Enrique Abri Fernández)
+# Spec 002 — Adaptación a Portafolio de Marketing y Mercados Financieros (Luis Enrique Albis Fernández)
 
 ## Contexto y objetivo
-El portafolio estándar (Spec 001) debe adaptarse in-place para presentar a **Luis Enrique Abri Fernández**, estudiante de Marketing, Publicidad y Comercio y mentor en Mercados Financieros. El objetivo es que la identidad visual, los mensajes y la totalidad de los datos reflejen su perfil dual — marketing para hacer crecer marcas y visión financiera para decidir con inteligencia — conservando la elegancia premium, el dinamismo visual y la arquitectura del portafolio base. Aplica el principio SDD: *"el código dice la verdad y la especificación también"*.
+El portafolio estándar (Spec 001) debe adaptarse in-place para presentar a **Luis Enrique Albis Fernández**, estudiante de Marketing, Publicidad y Comercio y mentor en Mercados Financieros. El objetivo es que la identidad visual, los mensajes y la totalidad de los datos reflejen su perfil dual — marketing para hacer crecer marcas y visión financiera para decidir con inteligencia — conservando la elegancia premium, el dinamismo visual y la arquitectura del portafolio base. Aplica el principio SDD: *"el código dice la verdad y la especificación también"*.
 
 ## Perfil del titular (fuente de verdad entregada)
-- **Nombre**: Luis Enrique Abri Fernández.
+- **Nombre**: Luis Enrique Albis Fernández.
 - **Rol**: Estudiante de Marketing, Publicidad y Comercio | Mentor en Mercados Financieros.
 - **Sobre mí**: persona proactiva y orientada a resultados; conecta necesidades reales de emprendedores con soluciones prácticas (digitales y presenciales); valora entender el problema exacto y entregar una solución clara y efectiva.
 - **Áreas de conocimiento**: estrategias de comunicación y difusión; edición básica de imagen y video para redes; análisis FODA y PESTEL; definición y segmentación de público objetivo; identificación de problemas y soluciones a medida para emprendedores; análisis del mercado financiero y comportamiento de activos; proceso de compra y venta de activos; mentoría y gestión de comunidad de aprendizaje; explicación paso a paso de conceptos y operativa.

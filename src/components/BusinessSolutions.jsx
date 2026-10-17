@@ -11,7 +11,7 @@ import {
   Sparkles
 } from 'lucide-react';
 
-const whatsappUrl = 'https://wa.me/59170000000?text=Hola%20Luis%20Enrique,%20quiero%20consultar%20sobre%20tus%20servicios.';
+const whatsappUrl = 'https://wa.me/59175728767?text=Hola%20Luis%20Enrique,%20quiero%20consultar%20sobre%20tus%20servicios.';
 
 const businessServices = [
   {

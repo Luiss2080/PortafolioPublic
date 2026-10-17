@@ -1,12 +1,12 @@
 ---
 name: marketing-brand-voice
-description: Use when writing, rewriting or reviewing ANY visible content of the Luis Enrique Abri Fernández portfolio (marketing, publicidad, comercio y mentoría en mercados financieros) — titulares, bio, servicios, casos de éxito, competencias, trayectoria, chatbot y CTAs. Trigger keywords: Luis Enrique, marketing, publicidad, segmentación, FODA, PESTEL, emprendedores, copy, contenido.
+description: Use when writing, rewriting or reviewing ANY visible content of the Luis Enrique Albis Fernández portfolio (marketing, publicidad, comercio y mentoría en mercados financieros) — titulares, bio, servicios, casos de éxito, competencias, trayectoria, chatbot y CTAs. Trigger keywords: Luis Enrique, marketing, publicidad, segmentación, FODA, PESTEL, emprendedores, copy, contenido.
 ---
 
-# Voz de Marca — Luis Enrique Abri Fernández
+# Voz de Marca — Luis Enrique Albis Fernández
 
 ## Perfil (fuente de verdad)
-- **Luis Enrique Abri Fernández** — Estudiante de Marketing, Publicidad y Comercio | Mentor en Mercados Financieros.
+- **Luis Enrique Albis Fernández** — Estudiante de Marketing, Publicidad y Comercio | Mentor en Mercados Financieros.
 - Enfoque: *"Identifico el problema → Diseño la solución → La entrego de forma clara, ya sea digital o presencial"*.
 - Público objetivo: emprendedores y PYMEs que buscan hacer crecer su marca y tomar mejores decisiones con su dinero.
 - Propuesta de valor: combina dos mundos — marketing para crecer marcas y conectar con más personas; visión financiera para entender el valor del dinero y los activos.

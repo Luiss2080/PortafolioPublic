@@ -1,7 +1,7 @@
 # portfolio-identity Specification
 
 ## Purpose
-Define la identidad visual del portafolio de Luis Enrique Abri Fernández: base obsidiana premium con acentos esmeralda (marketing/crecimiento) y dorado champán (finanzas), coherente en fondos, superficies y micro-animaciones.
+Define la identidad visual del portafolio de Luis Enrique Albis Fernández: base obsidiana premium con acentos esmeralda (marketing/crecimiento) y dorado champán (finanzas), coherente en fondos, superficies y micro-animaciones.
 
 ## Requirements
 

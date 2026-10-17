@@ -104,7 +104,7 @@ const About = () => {
                 
                 <div className="space-y-4 text-slate-300 text-sm sm:text-base leading-relaxed">
                   <p>
-                    Mi nombre es <strong className="text-white font-semibold">Luis Enrique Abri Fernández</strong>. A lo largo de mi trayectoria y formación profesional, he desarrollado una visión integral que se adapta con facilidad a las exigencias de emprendimientos y proyectos de marketing, comunicación y educación financiera.
+                    Mi nombre es <strong className="text-white font-semibold">Luis Enrique Albis Fernández</strong>. A lo largo de mi trayectoria y formación profesional, he desarrollado una visión integral que se adapta con facilidad a las exigencias de emprendimientos y proyectos de marketing, comunicación y educación financiera.
                   </p>
                   <p>
                     Parto de un principio fundamental: el éxito de cualquier iniciativa no depende de tecnicismos complejos ni de fórmulas rígidas, sino de comprender a fondo el modelo de valor del cliente, diagnosticar cuellos de botella con precisión y ejecutar soluciones prácticas que eleven la rentabilidad y la eficiencia.

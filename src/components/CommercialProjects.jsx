@@ -11,7 +11,7 @@ import {
 } from 'lucide-react';
 import Tilt from 'react-parallax-tilt';
 
-const whatsappUrl = 'https://wa.me/59170000000?text=Hola%20Luis%20Enrique,%20me%20interesa%20un%20caso%20como%20los%20que%20vi%20en%20tu%20portafolio.';
+const whatsappUrl = 'https://wa.me/59175728767?text=Hola%20Luis%20Enrique,%20me%20interesa%20un%20caso%20como%20los%20que%20vi%20en%20tu%20portafolio.';
 
 const businessCases = [
   {

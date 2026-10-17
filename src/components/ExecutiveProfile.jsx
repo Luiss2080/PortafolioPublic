@@ -102,7 +102,7 @@ const ExecutiveProfile = () => {
                 
                 <div className="space-y-3 text-slate-300 text-xs sm:text-sm md:text-base leading-relaxed">
                   <p>
-                    Mi nombre es <strong className="text-white font-semibold">Luis Enrique Abri Fernández</strong>. Estudio Marketing, Publicidad y Comercio y soy mentor en mercados financieros. Conecto necesidades reales de emprendedores con soluciones prácticas y medibles.
+                    Mi nombre es <strong className="text-white font-semibold">Luis Enrique Albis Fernández</strong>. Estudio Marketing, Publicidad y Comercio y soy mentor en mercados financieros. Conecto necesidades reales de emprendedores con soluciones prácticas y medibles.
                   </p>
                   <p>
                     Trabajo con diagnóstico antes que con opiniones: cada propuesta se apoya en el contexto del negocio y se cuenta en palabras simples. La marca y las decisiones financieras son dos caras del mismo proyecto.

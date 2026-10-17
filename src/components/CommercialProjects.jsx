@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { 
   ArrowUpRight, 
   Layers, 
@@ -16,21 +16,8 @@ const whatsappUrl = 'https://wa.me/59170000000?text=Hola%20Luis%20Enrique,%20me%
 const businessCases = [
   {
     id: 1,
-    title: 'Lanzamiento de Marca Local',
-    category: 'Comunicación',
-    impact: '+180% Alcance',
-    result: 'La marca pasó de cero presencia a ser reconocida en su zona en 3 meses.',
-    clientType: 'Emprendimiento gastronómico',
-    icon: <Megaphone size={24} />,
-    tags: ['Mensajes clave', 'Plan de difusión', 'Identidad'],
-    challenge: 'Marca nueva sin plan de difusión ni mensajes definidos.',
-    solution: 'Mensajes clave, piezas de comunicación y plan de difusión digital y presencial.',
-    accent: '#34D399'
-  },
-  {
-    id: 2,
     title: 'Identidad Visual para Redes',
-    category: 'Redes y Contenido',
+    categories: ['Redes y Contenido', 'Comunicación'],
     impact: '+60% Interacción',
     result: 'Comunidad activa y constante: +60% de interacción y +1.200 seguidores en 90 días.',
     clientType: 'Tienda de moda local',
@@ -41,9 +28,9 @@ const businessCases = [
     accent: '#E7C873'
   },
   {
-    id: 3,
+    id: 2,
     title: 'Diagnóstico Estratégico FODA/PESTEL',
-    category: 'Estrategia',
+    categories: ['Estrategia'],
     impact: 'Plan de 90 días',
     result: 'Dos segmentos prioritarios definidos y un plan de acción claro para 90 días.',
     clientType: 'Servicio de delivery',
@@ -54,9 +41,9 @@ const businessCases = [
     accent: '#10B981'
   },
   {
-    id: 4,
+    id: 3,
     title: 'Comunidad de Aprendizaje Financiero',
-    category: 'Mercados Financieros',
+    categories: ['Mercados Financieros'],
     impact: '+30 Participantes',
     result: 'Principiantes que ganan base y confianza, sesión a sesión. Contenido educativo.',
     clientType: 'Grupo de principiantes',
@@ -78,9 +65,9 @@ const filters = [
 
 const CommercialProjects = () => {
   const [activeFilter, setActiveFilter] = useState('Todos');
-  const filteredProjects = activeFilter === 'Todos'
+  const orderedProjects = activeFilter === 'Todos'
     ? businessCases
-    : businessCases.filter(p => p.category === activeFilter);
+    : [...businessCases].sort((a, b) => Number(b.categories.includes(activeFilter)) - Number(a.categories.includes(activeFilter)));
 
   return (
     <section id="projects" className="py-24 bg-obsidian-black relative overflow-hidden section-sep corporate-grid">
@@ -111,7 +98,7 @@ const CommercialProjects = () => {
             initial={{ opacity: 0, scale: 0.95, filter: 'blur(12px)' }}
             whileInView={{ opacity: 1, scale: 1, filter: 'blur(0px)' }}
             viewport={{ once: true }}
-            transition={{ type: "spring", stiffness: 100, delay: 0.1 }}
+            transition={{ duration: 0.6, delay: 0.1, ease: 'easeOut' }}
             className="text-2xl sm:text-4xl lg:text-5xl font-black text-white font-inter mb-3 leading-tight tracking-tight"
           >
             Casos que muestran el proceso:{' '}
@@ -145,14 +132,14 @@ const CommercialProjects = () => {
 
         {/* Rejilla de Casos */}
         <motion.div layout className="grid grid-cols-1 md:grid-cols-3 gap-6 relative z-20">
-          <AnimatePresence mode='popLayout'>
-            {filteredProjects.map((project) => (
+          {orderedProjects.map((project) => {
+            const isFocus = activeFilter !== 'Todos' && project.categories.includes(activeFilter);
+            return (
               <motion.div 
                 key={project.id}
                 layout
                 initial={{ opacity: 0, scale: 0.95 }}
                 animate={{ opacity: 1, scale: 1 }}
-                exit={{ opacity: 0, scale: 0.95, transition: { duration: 0.2 } }}
                 transition={{ duration: 0.3 }}
                 className="h-full flex flex-col"
               >
@@ -164,7 +151,11 @@ const CommercialProjects = () => {
                   className="w-full h-full flex"
                 >
                   <div 
-                    className="glass-card w-full rounded-2xl bg-obsidian-card/90 backdrop-blur-xl border border-white/[0.08] hover:border-white/25 transition-all duration-300 group relative overflow-hidden shadow-subtle-card flex flex-col h-full"
+                    className={`glass-card w-full rounded-2xl bg-obsidian-card/90 backdrop-blur-xl border transition-all duration-300 group relative overflow-hidden flex flex-col h-full ${
+                      isFocus
+                        ? 'border-emerald-light/40 shadow-[0_0_35px_rgba(52,211,153,0.14)]'
+                        : 'border-white/[0.08] hover:border-white/25 shadow-subtle-card'
+                    }`}
                     style={{ borderTop: `2px solid ${project.accent}` }}
                   >
                     
@@ -182,6 +173,13 @@ const CommercialProjects = () => {
                     {/* Contenido Principal */}
                     <div className="p-6 flex flex-col flex-grow relative z-20 text-center items-center">
                       
+                      {isFocus && (
+                        <span className="mb-3 inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-emerald-deep/90 border border-emerald-light/50 text-white text-[10px] font-bold uppercase tracking-wider">
+                          <span className="w-1.5 h-1.5 rounded-full bg-emerald-light"></span>
+                          En foco
+                        </span>
+                      )}
+
                       {/* Icono Distintivo */}
                       <div 
                         className="w-12 h-12 rounded-2xl flex items-center justify-center mb-3.5 transition-transform duration-300 group-hover:scale-110 shadow-md"
@@ -244,8 +242,8 @@ const CommercialProjects = () => {
                   </div>
                 </Tilt>
               </motion.div>
-            ))}
-          </AnimatePresence>
+            );
+          })}
         </motion.div>
 
         {/* Nota de cumplimiento financiero */}

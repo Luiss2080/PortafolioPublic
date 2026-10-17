@@ -40,11 +40,11 @@
 
 | Dato | Ubicación | Estado |
 | :--- | :--- | :--- |
-| `+180% Alcance` — Lanzamiento de Marca Local (emprendimiento gastronómico) | CommercialProjects.jsx | ⏳ |
+| Caso "Lanzamiento de Marca Local" y su métrica `+180% Alcance`: **retirados a pedido del titular** para dejar 3 tarjetas fijas en la sección Casos (2026-10-17) | CommercialProjects.jsx, FloatingWidgets.jsx | ♻️ retirado |
 | `+60% Interacción` y `+1.200 seguidores en 90 días` — Identidad Visual para Redes (tienda de moda) | CommercialProjects.jsx | ⏳ |
 | `2 segmentos + Plan de 90 días` — Diagnóstico FODA/PESTEL (delivery) | CommercialProjects.jsx | ⏳ |
 | `+30 Participantes` — Comunidad de Aprendizaje Financiero (principiantes) | CommercialProjects.jsx | ⏳ |
-| Tipos de cliente sintetizados de los 4 casos | CommercialProjects.jsx | ⏳ |
+| Tipos de cliente sintetizados de los 3 casos | CommercialProjects.jsx | ⏳ |
 
 ## 5. Contenido editorial
 

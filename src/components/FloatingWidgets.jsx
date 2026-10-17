@@ -34,7 +34,7 @@ const FloatingWidgets = () => {
       return "Luis Enrique Abri Fernández estudia Marketing, Publicidad y Comercio y es mentor en mercados financieros. Combina la creatividad del marketing con la disciplina de los mercados: identifica el problema, diseña la solución y la entrega de forma clara, digital o presencial.";
     }
     if (text.includes('proyecto') || text.includes('caso') || text.includes('trabajo') || text.includes('exito') || text.includes('éxito')) {
-      return "Algunos resultados de su trabajo con emprendedores:\n• Lanzamiento gastronómico: +180% de alcance\n• Tienda de moda local: +60% de interacción y +1.200 seguidores en 90 días\n• Delivery: plan de acción de 90 días con 2 segmentos prioritarios\n• Comunidad de aprendizaje financiero: +30 participantes\n\nPuedes ver el detalle en la sección 'Casos'.";
+      return "Algunos resultados de su trabajo con emprendedores:\n• Tienda de moda local: +60% de interacción y +1.200 seguidores en 90 días\n• Delivery: plan de acción de 90 días con 2 segmentos prioritarios\n• Comunidad de aprendizaje financiero: +30 participantes\n\nPuedes ver el detalle en la sección 'Casos'.";
     }
     if (text.includes('precio') || text.includes('tarifa') || text.includes('cotizacion') || text.includes('cotización') || text.includes('costo') || text.includes('asesoria') || text.includes('asesoría') || text.includes('consulta')) {
       return "Cada propuesta se formula a medida según el tamaño del desafío y tus metas. Puedes contactar a Luis Enrique por WhatsApp (+591 70000000) para conversar sin compromiso.";

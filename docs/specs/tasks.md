@@ -227,6 +227,16 @@ Tareas ordenadas por dependencia, acotadas (< 30 min cada una), vinculadas a sus
 - **RFs cubiertos**: RF-1, RNF-1 · **Archivos**: `Footer.jsx`, `public/flavicon.svg`, `public/img/flavicon.svg`, `index.html`, `Navbar.jsx`
 - **Hecho cuando**: footer con estructura nueva y favicon propio en uso. (Banda CTA "¿Trabajamos tus próximos resultados?" + 5/3/4 columnas + marca de agua "LUIS ENRIQUE ABRI"; monograma LA SVG servido 200 y visible en Navbar/Footer; capturas `f4c/footer-1440.png`, `footer-320.png`)
 
+## Fase 4d — Ajustes del titular (CV fuera y Casos fijos de 3)
+
+### [x] Tarea 6.8: Retiro del botón de CV
+- **RFs cubiertos**: RF-2 · **Archivos**: `CommercialHero.jsx`
+- **Hecho cuando**: botón "Descargar CV / Pronto" eliminado del Hero. (Retirado a pedido del titular 2026-10-17; se reincorporará como descarga real cuando exista el PDF; build OK)
+
+### [x] Tarea 6.9: Casos — siempre 3 tarjetas por pestaña
+- **RFs cubiertos**: RF-4, RF-5 · **Archivos**: `CommercialProjects.jsx`, `FloatingWidgets.jsx`
+- **Hecho cuando**: toda pestaña (Todos + 4 áreas) muestra exactamente 3 tarjetas. (Caso "Lanzamiento de Marca Local" retirado; casos con categorías múltiples; pestañas reordenan y destacan «En foco» con Framer Motion `layout`; chatbot sin referencias al caso retirado; verificado en navegador)
+
 ## Fase 5 — Validación SDD y cierre
 
 ### [x] Tarea 5.1: Verificación EARS con evidencias

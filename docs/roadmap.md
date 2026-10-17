@@ -119,6 +119,18 @@
 
 ---
 
+## Fase 4d — Ajustes del titular (CV fuera y Casos fijos de 3) ✅
+
+**Objetivo**: atender dos solicitudes puntuales del titular: retirar el botón de CV del Hero y garantizar que la sección Casos muestre siempre exactamente 3 tarjetas en cualquier pestaña.
+
+- **Archivos**: `CommercialHero.jsx`, `CommercialProjects.jsx`, `FloatingWidgets.jsx`.
+- **Gate**:
+  - Botón "Descargar CV" eliminado (se reincorporará cuando exista el PDF real).
+  - Toda pestaña de Casos (Todos + 4 áreas) muestra exactamente 3 tarjetas; la pestaña activa reordena y destaca su caso («En foco»).
+  - `npm run build` OK y chatbot sin referencias al caso retirado.
+
+---
+
 ## Fase 5 — Validación SDD y cierre ✅
 
 **Objetivo**: demostrar que el código dice la verdad y archivar el change.
@@ -144,6 +156,7 @@
 | F4 | RNF-2, RNF-3 | ✅ Completada |
 | F4b | RNF-1, RNF-2, RF-2…RF-9 | ✅ Completada |
 | F4c | RF-1, RF-2, RF-4, RNF-1 | ✅ Completada |
+| F4d | RF-2, RF-4, RF-5 | ✅ Completada |
 | F5 | Criterios de finalización | ✅ Completada |
 
 ## Riesgos principales

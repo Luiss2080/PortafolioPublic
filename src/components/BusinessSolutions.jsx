@@ -21,7 +21,7 @@ const businessServices = [
     title: "Estrategia & Consultoría Comercial",
     desc: "Diagnóstico de modelos de negocio, apertura de canales y planificación estratégica para maximizar ventas.",
     tags: ["Diagnóstico", "Modelos Comerciales", "Hoja de Ruta"],
-    accent: "#38BDF8"
+    accent: "#34D399"
   },
   {
     num: "02",
@@ -54,8 +54,8 @@ const BusinessSolutions = () => {
     <section id="services" className="py-24 bg-obsidian-black relative overflow-hidden border-t border-white/[0.08] flex items-center corporate-grid">
       
       {/* Luces de fondo sutiles */}
-      <div className="absolute top-1/2 left-0 w-[500px] h-[500px] bg-sapphire-blue/[0.06] rounded-full blur-[140px] -translate-y-1/2 pointer-events-none z-0"></div>
-      <div className="absolute top-1/2 right-0 w-[500px] h-[500px] bg-sapphire-light/[0.05] rounded-full blur-[140px] -translate-y-1/2 pointer-events-none z-0"></div>
+      <div className="absolute top-1/2 left-0 w-[500px] h-[500px] bg-emerald-deep/[0.06] rounded-full blur-[140px] -translate-y-1/2 pointer-events-none z-0"></div>
+      <div className="absolute top-1/2 right-0 w-[500px] h-[500px] bg-emerald-light/[0.05] rounded-full blur-[140px] -translate-y-1/2 pointer-events-none z-0"></div>
 
       <div className="container mx-auto px-4 sm:px-6 xl:px-12 max-w-7xl relative z-10">
         
@@ -67,7 +67,7 @@ const BusinessSolutions = () => {
             viewport={{ once: true }}
             className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-white/10 bg-white/[0.03] backdrop-blur-md mb-3"
           >
-            <Sparkles size={14} className="text-sapphire-light" />
+            <Sparkles size={14} className="text-emerald-light" />
             <span className="text-titanium text-xs sm:text-sm font-semibold tracking-wider uppercase">
               Soluciones para Empresas
             </span>
@@ -80,7 +80,7 @@ const BusinessSolutions = () => {
             className="text-2xl sm:text-4xl lg:text-5xl font-black text-white font-inter mb-3 leading-tight tracking-tight"
           >
             Servicios Diseñados para{' '}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-sapphire-light to-blue-400">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-light to-gold-light">
               Generar Ingresos y Orden
             </span>
           </motion.h2>
@@ -135,7 +135,7 @@ const BusinessSolutions = () => {
                       </span>
                     </div>
                     
-                    <h3 className="text-base sm:text-lg font-bold text-white mb-2 leading-snug group-hover:text-sapphire-light transition-colors duration-300">
+                    <h3 className="text-base sm:text-lg font-bold text-white mb-2 leading-snug group-hover:text-emerald-light transition-colors duration-300">
                       {service.title}
                     </h3>
                     
@@ -162,7 +162,7 @@ const BusinessSolutions = () => {
                         href="https://wa.me/59168832828?text=Hola%20Luis,%20quisiera%20consultar%20sobre%20tus%20soluciones%20empresariales."
                         target="_blank"
                         rel="noreferrer"
-                        className="w-full py-2 rounded-xl border border-white/10 text-xs font-semibold font-inter transition-all flex items-center justify-center gap-1.5 group/btn hover:bg-white/5 text-slate-200 hover:text-white hover:border-sapphire-light/50"
+                        className="w-full py-2 rounded-xl border border-white/10 text-xs font-semibold font-inter transition-all flex items-center justify-center gap-1.5 group/btn hover:bg-white/5 text-slate-200 hover:text-white hover:border-emerald-light/50"
                       >
                         <span>Consultar Solución</span>
                         <ArrowRight size={13} className="group-hover/btn:translate-x-1 transition-transform" />

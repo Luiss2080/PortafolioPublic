@@ -116,7 +116,7 @@ const FloatingWidgets = () => {
               {/* Encabezado del Asistente */}
               <div className="bg-white/[0.04] p-4 border-b border-white/[0.08] flex items-center justify-between">
                 <div className="flex items-center gap-3">
-                  <div className="w-9 h-9 rounded-xl bg-sapphire-blue/20 border border-sapphire-light/30 flex items-center justify-center text-sapphire-light shadow-sm">
+                  <div className="w-9 h-9 rounded-xl bg-emerald-deep/20 border border-emerald-light/30 flex items-center justify-center text-emerald-light shadow-sm">
                     <Sparkles size={18} />
                   </div>
                   <div>
@@ -148,7 +148,7 @@ const FloatingWidgets = () => {
                     <div 
                       className={`p-3.5 rounded-2xl whitespace-pre-line ${
                         msg.sender === 'user'
-                          ? 'bg-sapphire-blue text-white rounded-br-sm shadow-sm'
+                          ? 'bg-emerald-deep text-white rounded-br-sm shadow-sm'
                           : 'bg-white/[0.05] border border-white/[0.08] text-slate-200 rounded-bl-sm shadow-sm'
                       }`}
                     >
@@ -160,9 +160,9 @@ const FloatingWidgets = () => {
 
                 {isTyping && (
                   <div className="self-start bg-white/[0.05] border border-white/[0.08] p-3 rounded-2xl rounded-bl-sm flex gap-1 items-center">
-                    <span className="w-1.5 h-1.5 rounded-full bg-sapphire-light animate-bounce"></span>
-                    <span className="w-1.5 h-1.5 rounded-full bg-sapphire-light animate-bounce [animation-delay:0.2s]"></span>
-                    <span className="w-1.5 h-1.5 rounded-full bg-sapphire-light animate-bounce [animation-delay:0.4s]"></span>
+                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-light animate-bounce"></span>
+                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-light animate-bounce [animation-delay:0.2s]"></span>
+                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-light animate-bounce [animation-delay:0.4s]"></span>
                   </div>
                 )}
                 <div ref={messagesEndRef} />
@@ -175,12 +175,12 @@ const FloatingWidgets = () => {
                   value={input}
                   onChange={(e) => setInput(e.target.value)}
                   placeholder="Pregunta sobre servicios, proyectos..."
-                  className="flex-1 bg-white/5 border border-white/10 rounded-xl px-3.5 py-2 text-xs text-white placeholder-titanium focus:outline-none focus:border-sapphire-light/50 transition-colors"
+                  className="flex-1 bg-white/5 border border-white/10 rounded-xl px-3.5 py-2 text-xs text-white placeholder-titanium focus:outline-none focus:border-emerald-light/50 transition-colors"
                 />
                 <button
                   type="submit"
                   disabled={!input.trim()}
-                  className="p-2 rounded-xl bg-sapphire-blue text-white disabled:opacity-40 disabled:cursor-not-allowed hover:bg-blue-600 transition-all flex items-center justify-center shadow-sm"
+                  className="p-2 rounded-xl bg-emerald-deep text-white disabled:opacity-40 disabled:cursor-not-allowed hover:bg-emerald-bright transition-all flex items-center justify-center shadow-sm"
                   aria-label="Enviar mensaje"
                 >
                   <Send size={15} />
@@ -197,7 +197,7 @@ const FloatingWidgets = () => {
               exit={{ scale: 0.9, opacity: 0 }}
               whileHover={{ scale: 1.08 }}
               whileTap={{ scale: 0.95 }}
-              className="w-13 h-13 p-3.5 rounded-2xl bg-sapphire-blue text-white flex items-center justify-center shadow-[0_4px_25px_rgba(37,99,235,0.45)] hover:bg-blue-600 transition-all focus:outline-none group"
+              className="w-13 h-13 p-3.5 rounded-2xl bg-emerald-deep text-white flex items-center justify-center shadow-[0_4px_25px_rgba(5,150,105,0.45)] hover:bg-emerald-bright transition-all focus:outline-none group"
               aria-label="Abrir asistente virtual"
             >
               <MessageSquare size={24} className="group-hover:scale-110 transition-transform" />

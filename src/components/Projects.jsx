@@ -26,7 +26,7 @@ const allProjects = [
     tags: ['Reingeniería de Procesos', 'Gobernanza', 'KPIs'],
     challenge: 'Reducción de tiempos de entrega y alineación departamental en empresa de servicios.',
     solution: 'Implementación de marco ágil corporativo y automatización de flujos de aprobación.',
-    accent: '#38BDF8',
+    accent: '#34D399',
     link: '#projects'
   },
   {
@@ -64,7 +64,7 @@ const allProjects = [
     tags: ['Automatización', 'Integración Cloud', 'Experiencia 360°'],
     challenge: 'Gestión fragmentada de clientes potenciales y pérdida de trazabilidad en ventas.',
     solution: 'Despliegue de plataforma centralizada con flujos automáticos de seguimiento.',
-    accent: '#38BDF8',
+    accent: '#34D399',
     link: '#projects'
   },
   {
@@ -126,7 +126,7 @@ const allProjects = [
     tags: ['Catálogo Interactivo', 'Filtros Dinámicos', 'Presentación Premium'],
     challenge: 'Exhibición interactiva de proyectos residenciales de lujo para inversionistas.',
     solution: 'Experiencia inmersiva con fichas detalladas, visualización guiada y contacto ágil.',
-    accent: '#38BDF8',
+    accent: '#34D399',
     link: '#projects'
   },
 
@@ -164,7 +164,7 @@ const allProjects = [
     tags: ['Gestión de Turnos', 'Recordatorios SMS/WA', 'Experiencia Paciente'],
     challenge: 'Inasistencias a citas programadas y sobrecarga de personal en recepción.',
     solution: 'Portal de reserva autónoma con confirmaciones automáticas y sincronización de agenda.',
-    accent: '#38BDF8',
+    accent: '#34D399',
     link: '#projects'
   }
 ];
@@ -185,8 +185,8 @@ const Projects = () => {
     <section id="projects" className="py-28 bg-obsidian-black relative overflow-hidden border-t border-white/[0.08] min-h-[900px] corporate-grid">
       
       {/* Luz Ambiental Suave */}
-      <div className="absolute top-1/2 left-0 w-[550px] h-[550px] bg-sapphire-blue/[0.05] rounded-full blur-[140px] -translate-y-1/2 pointer-events-none z-0"></div>
-      <div className="absolute top-1/2 right-0 w-[550px] h-[550px] bg-sapphire-light/[0.05] rounded-full blur-[140px] -translate-y-1/2 pointer-events-none z-0"></div>
+      <div className="absolute top-1/2 left-0 w-[550px] h-[550px] bg-emerald-deep/[0.05] rounded-full blur-[140px] -translate-y-1/2 pointer-events-none z-0"></div>
+      <div className="absolute top-1/2 right-0 w-[550px] h-[550px] bg-emerald-light/[0.05] rounded-full blur-[140px] -translate-y-1/2 pointer-events-none z-0"></div>
 
       <div className="container mx-auto px-6 xl:px-12 max-w-7xl relative z-10">
         
@@ -198,7 +198,7 @@ const Projects = () => {
             viewport={{ once: true }}
             className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-white/10 bg-white/[0.03] backdrop-blur-md mb-4"
           >
-            <Briefcase size={14} className="text-sapphire-light" />
+            <Briefcase size={14} className="text-emerald-light" />
             <span className="text-titanium text-xs md:text-sm font-semibold tracking-wider uppercase">
               Casos de Éxito & Resultados
             </span>
@@ -212,7 +212,7 @@ const Projects = () => {
             className="text-3xl sm:text-4xl lg:text-5xl font-black text-white font-inter mb-4 leading-tight tracking-tight"
           >
             Iniciativas &{' '}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-sapphire-light via-blue-400 to-indigo-300">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-light via-emerald-bright to-gold-champagne">
               Proyectos de Valor
             </span>
           </motion.h2>
@@ -230,7 +230,7 @@ const Projects = () => {
               onClick={() => setActiveFilter(filter.id)}
               className={`flex items-center gap-2 px-5 py-2.5 rounded-full text-xs md:text-sm font-semibold transition-all duration-300 backdrop-blur-md relative ${
                 activeFilter === filter.id 
-                  ? 'bg-sapphire-blue text-white shadow-[0_4px_20px_rgba(37,99,235,0.4)] border border-sapphire-light/50' 
+                  ? 'bg-emerald-deep text-white shadow-[0_4px_20px_rgba(5,150,105,0.4)] border border-emerald-light/50' 
                   : 'bg-obsidian-card/80 border border-white/[0.08] text-titanium hover:text-white hover:border-white/20 hover:bg-white/5'
               }`}
             >
@@ -301,7 +301,7 @@ const Projects = () => {
                         )}
                       </div>
 
-                      <h3 className="text-lg md:text-xl font-bold font-inter text-white leading-snug mb-4 group-hover:text-sapphire-light transition-colors max-w-sm">
+                      <h3 className="text-lg md:text-xl font-bold font-inter text-white leading-snug mb-4 group-hover:text-emerald-light transition-colors max-w-sm">
                         {project.title}
                       </h3>
 
@@ -311,7 +311,7 @@ const Projects = () => {
                           {project.challenge}
                         </div>
                         <div className="text-xs text-slate-300 leading-relaxed bg-white/[0.02] p-3 rounded-xl border border-white/[0.04]">
-                          <strong className="text-sapphire-light block mb-1 uppercase text-[10px] tracking-wider text-center sm:text-left">Solución Aplicada:</strong>
+                          <strong className="text-emerald-light block mb-1 uppercase text-[10px] tracking-wider text-center sm:text-left">Solución Aplicada:</strong>
                           {project.solution}
                         </div>
                       </div>
@@ -334,7 +334,7 @@ const Projects = () => {
                           href="https://wa.me/59168832828?text=Hola%20Luis,%20me%20interesa%20conversar%20sobre%20una%20iniciativa%20similar%20a%20este%20caso%20de%20estudio." 
                           target="_blank"
                           rel="noreferrer"
-                          className="w-full py-2.5 px-4 rounded-xl border border-white/10 hover:border-sapphire-light/50 bg-white/[0.02] hover:bg-white/[0.06] text-slate-200 hover:text-white text-xs font-semibold flex items-center justify-center gap-2 transition-all group/btn shadow-sm"
+                          className="w-full py-2.5 px-4 rounded-xl border border-white/10 hover:border-emerald-light/50 bg-white/[0.02] hover:bg-white/[0.06] text-slate-200 hover:text-white text-xs font-semibold flex items-center justify-center gap-2 transition-all group/btn shadow-sm"
                         >
                           <span>Consultar Caso Similar</span>
                           <ArrowUpRight size={14} className="group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5 transition-transform" />

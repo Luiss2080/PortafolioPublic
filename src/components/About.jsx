@@ -18,7 +18,7 @@ const pillars = [
     icon: <Target size={20} />,
     title: 'Visión Estratégica',
     desc: 'Comprender el negocio antes de actuar para asegurar que cada acción responda a un objetivo claro.',
-    accent: '#38BDF8'
+    accent: '#34D399'
   },
   {
     icon: <ShieldCheck size={20} />,
@@ -45,8 +45,8 @@ const About = () => {
     <section id="about" className="py-28 bg-obsidian-black relative overflow-hidden border-t border-white/[0.08] corporate-grid">
       
       {/* Luz Ambiental Suave */}
-      <div className="absolute top-1/2 left-0 w-[500px] h-[500px] bg-sapphire-blue/[0.05] rounded-full blur-[140px] -translate-y-1/2 pointer-events-none z-0"></div>
-      <div className="absolute top-1/2 right-0 w-[500px] h-[500px] bg-sapphire-light/[0.05] rounded-full blur-[140px] -translate-y-1/2 pointer-events-none z-0"></div>
+      <div className="absolute top-1/2 left-0 w-[500px] h-[500px] bg-emerald-deep/[0.05] rounded-full blur-[140px] -translate-y-1/2 pointer-events-none z-0"></div>
+      <div className="absolute top-1/2 right-0 w-[500px] h-[500px] bg-emerald-light/[0.05] rounded-full blur-[140px] -translate-y-1/2 pointer-events-none z-0"></div>
 
       <div className="container mx-auto px-6 xl:px-12 max-w-7xl relative z-10">
         
@@ -58,7 +58,7 @@ const About = () => {
             viewport={{ once: true }}
             className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-white/10 bg-white/[0.03] backdrop-blur-md mb-4"
           >
-            <Sparkles size={14} className="text-sapphire-light" />
+            <Sparkles size={14} className="text-emerald-light" />
             <span className="text-titanium text-xs md:text-sm font-semibold tracking-wider uppercase">
               Identidad & Valores
             </span>
@@ -72,7 +72,7 @@ const About = () => {
             className="text-3xl sm:text-4xl lg:text-5xl font-black text-white font-inter mb-4 leading-tight tracking-tight"
           >
             Filosofía de Trabajo &{' '}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-sapphire-light to-blue-400">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-light to-gold-light">
               Compromiso
             </span>
           </motion.h2>
@@ -95,7 +95,7 @@ const About = () => {
           >
             <div className="glass-card p-8 md:p-10 rounded-2xl bg-obsidian-card/85 backdrop-blur-xl border border-white/[0.08] shadow-subtle-card flex flex-col justify-between h-full">
               <div>
-                <span className="text-xs font-semibold text-sapphire-light uppercase tracking-wider block mb-2">
+                <span className="text-xs font-semibold text-emerald-light uppercase tracking-wider block mb-2">
                   Presentación Personal
                 </span>
                 <h3 className="text-2xl sm:text-3xl font-bold text-white mb-6 leading-snug">
@@ -117,7 +117,7 @@ const About = () => {
 
               {/* Cita Editorial */}
               <div className="mt-8 pt-6 border-t border-white/[0.08] flex items-center gap-4">
-                <div className="w-1.5 h-12 bg-sapphire-blue rounded-full"></div>
+                <div className="w-1.5 h-12 bg-emerald-deep rounded-full"></div>
                 <p className="text-slate-200 text-sm italic font-medium">
                   "El profesionalismo no es solo un estándar técnico, es la promesa cumplida de generar tranquilidad y resultados a quienes confían en tu trabajo."
                 </p>
@@ -151,7 +151,7 @@ const About = () => {
                   {pillar.icon}
                 </div>
                 <div>
-                  <h4 className="text-base font-bold text-white mb-1 leading-snug group-hover:text-sapphire-light transition-colors">
+                  <h4 className="text-base font-bold text-white mb-1 leading-snug group-hover:text-emerald-light transition-colors">
                     {pillar.title}
                   </h4>
                   <p className="text-slate-300 text-xs sm:text-sm leading-relaxed">

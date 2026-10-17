@@ -12,7 +12,7 @@ const experiences = [
     desc: 'Dirección metodológica de proyectos, diseño de estrategias de transformación y coordinación multidisciplinar orientada a resultados de negocio.',
     tags: ["Gestión Estratégica", "Dirección de Proyectos", "Optimización"],
     icon: <Compass size={22} />,
-    accent: '#38BDF8',
+    accent: '#34D399',
     number: '01'
   },
   {
@@ -55,8 +55,8 @@ const Experience = () => {
     <section id="experience" className="py-28 bg-obsidian-black relative overflow-hidden border-t border-white/[0.08] min-h-[850px] corporate-grid">
       
       {/* Luz ambiental */}
-      <div className="absolute top-1/2 left-0 w-[500px] h-[500px] bg-sapphire-blue/[0.05] rounded-full blur-[140px] -translate-y-1/2 pointer-events-none z-0"></div>
-      <div className="absolute top-1/2 right-0 w-[500px] h-[500px] bg-sapphire-light/[0.05] rounded-full blur-[140px] -translate-y-1/2 pointer-events-none z-0"></div>
+      <div className="absolute top-1/2 left-0 w-[500px] h-[500px] bg-emerald-deep/[0.05] rounded-full blur-[140px] -translate-y-1/2 pointer-events-none z-0"></div>
+      <div className="absolute top-1/2 right-0 w-[500px] h-[500px] bg-emerald-light/[0.05] rounded-full blur-[140px] -translate-y-1/2 pointer-events-none z-0"></div>
 
       <div className="container mx-auto px-6 xl:px-12 max-w-7xl relative z-10">
         
@@ -68,7 +68,7 @@ const Experience = () => {
             viewport={{ once: true }}
             className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-white/10 bg-white/[0.03] backdrop-blur-md mb-4"
           >
-            <Layers size={14} className="text-sapphire-light" />
+            <Layers size={14} className="text-emerald-light" />
             <span className="text-titanium text-xs md:text-sm font-semibold tracking-wider uppercase">
               Trayectoria Profesional
             </span>
@@ -82,7 +82,7 @@ const Experience = () => {
             className="text-3xl sm:text-4xl lg:text-5xl font-black text-white font-inter mb-4 leading-tight tracking-tight"
           >
             Evolución &{' '}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-sapphire-light to-blue-400">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-light to-gold-light">
               Experiencia Comprobada
             </span>
           </motion.h2>
@@ -98,7 +98,7 @@ const Experience = () => {
           {/* Línea horizontal en pantallas grandes */}
           <div className="hidden lg:block absolute top-[24px] left-[8%] right-[8%] h-[2px] bg-white/[0.08] z-0 rounded-full">
             <motion.div 
-              className="h-full bg-gradient-to-r from-sapphire-light via-blue-500 to-indigo-400"
+              className="h-full bg-gradient-to-r from-emerald-light via-emerald-bright to-gold-champagne"
               initial={{ width: 0 }}
               whileInView={{ width: '100%' }}
               viewport={{ once: true }}
@@ -157,7 +157,7 @@ const Experience = () => {
                       
                       {/* Título y Empresa */}
                       <div className="mb-5 flex-grow">
-                        <h3 className="text-lg font-bold text-white mb-1 leading-snug group-hover:text-sapphire-light transition-colors">
+                        <h3 className="text-lg font-bold text-white mb-1 leading-snug group-hover:text-emerald-light transition-colors">
                           {exp.title}
                         </h3>
                         <p className="text-xs font-semibold mb-3" style={{ color: exp.accent }}>

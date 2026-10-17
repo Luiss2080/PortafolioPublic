@@ -21,8 +21,8 @@ const CommercialHero = () => {
     <section id="home" className="min-h-screen bg-obsidian-black relative flex items-center pt-28 pb-16 overflow-hidden corporate-grid">
       
       {/* Luz ambiental sutil y elegante */}
-      <div className="absolute top-1/4 left-1/4 w-[500px] h-[500px] bg-sapphire-blue/10 rounded-full blur-[140px] pointer-events-none z-0"></div>
-      <div className="absolute bottom-1/4 right-1/4 w-[400px] h-[400px] bg-sapphire-light/5 rounded-full blur-[160px] pointer-events-none z-0"></div>
+      <div className="absolute top-1/4 left-1/4 w-[500px] h-[500px] bg-emerald-deep/10 rounded-full blur-[140px] pointer-events-none z-0"></div>
+      <div className="absolute bottom-1/4 right-1/4 w-[400px] h-[400px] bg-emerald-light/5 rounded-full blur-[160px] pointer-events-none z-0"></div>
 
       <div className="container mx-auto px-4 sm:px-6 max-w-7xl z-10 relative">
         <div className="grid lg:grid-cols-12 gap-10 lg:gap-8 items-center">
@@ -39,7 +39,7 @@ const CommercialHero = () => {
             >
               <span className="w-2 h-2 rounded-full bg-emerald-400 shadow-[0_0_8px_rgba(52,211,153,0.8)]"></span>
               <span className="text-titanium text-xs sm:text-sm font-semibold tracking-wide flex items-center gap-1.5">
-                <Building2 size={13} className="text-sapphire-light" />
+                <Building2 size={13} className="text-emerald-light" />
                 Consultor & Gestor de Negocios • Todo Rubro
               </span>
             </motion.div>
@@ -52,7 +52,7 @@ const CommercialHero = () => {
               className="text-3xl sm:text-4xl lg:text-[52px] font-black text-white leading-[1.15] tracking-tight font-inter"
             >
               Hago crecer tu negocio con{' '}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-sapphire-light via-blue-400 to-indigo-300 text-glow-sapphire">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-light via-emerald-bright to-gold-champagne text-glow-emerald">
                 estrategia, orden y resultados.
               </span>
             </motion.h1>
@@ -79,7 +79,7 @@ const CommercialHero = () => {
                 <span className="text-xs font-semibold text-slate-200">Ejecución Ágil</span>
               </div>
               <div className="flex items-center gap-2 p-2 rounded-xl bg-white/[0.02] border border-white/[0.05]">
-                <Target size={15} className="text-sapphire-light flex-shrink-0" />
+                <Target size={15} className="text-emerald-light flex-shrink-0" />
                 <span className="text-xs font-semibold text-slate-200">Rentabilidad</span>
               </div>
               <div className="flex items-center gap-2 p-2 rounded-xl bg-white/[0.02] border border-white/[0.05] col-span-2 sm:col-span-1">
@@ -97,7 +97,7 @@ const CommercialHero = () => {
             >
               <a 
                 href="#projects" 
-                className="px-6 py-3 bg-sapphire-blue text-white font-semibold font-inter rounded-xl hover:bg-blue-600 hover:scale-[1.02] shadow-[0_4px_25px_rgba(37,99,235,0.4)] transition-all flex items-center gap-2 group text-xs sm:text-sm"
+                className="px-6 py-3 bg-emerald-deep text-white font-semibold font-inter rounded-xl hover:bg-emerald-bright hover:scale-[1.02] shadow-[0_4px_25px_rgba(5,150,105,0.4)] transition-all flex items-center gap-2 group text-xs sm:text-sm"
               >
                 <span>Ver Casos de Éxito</span>
                 <ArrowUpRight size={16} className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
@@ -105,10 +105,10 @@ const CommercialHero = () => {
 
               <a 
                 href="#services" 
-                className="px-6 py-3 bg-white/[0.04] border border-white/15 text-platinum font-semibold font-inter rounded-xl hover:bg-white/[0.08] hover:border-sapphire-light/40 hover:text-white hover:scale-[1.02] transition-all flex items-center gap-2 text-xs sm:text-sm backdrop-blur-md shadow-subtle-card group"
+                className="px-6 py-3 bg-white/[0.04] border border-white/15 text-platinum font-semibold font-inter rounded-xl hover:bg-white/[0.08] hover:border-emerald-light/40 hover:text-white hover:scale-[1.02] transition-all flex items-center gap-2 text-xs sm:text-sm backdrop-blur-md shadow-subtle-card group"
               >
                 <span>Servicios y Soluciones</span>
-                <Briefcase size={16} className="text-sapphire-light group-hover:scale-110 transition-transform" />
+                <Briefcase size={16} className="text-emerald-light group-hover:scale-110 transition-transform" />
               </a>
             </motion.div>
 
@@ -127,7 +127,7 @@ const CommercialHero = () => {
                   rel="noreferrer" 
                   aria-label="LinkedIn"
                   title="LinkedIn"
-                  className="w-8 h-8 flex items-center justify-center rounded-lg bg-white/5 border border-white/10 text-titanium hover:text-white hover:border-sapphire-light/50 hover:bg-white/10 transition-all"
+                  className="w-8 h-8 flex items-center justify-center rounded-lg bg-white/5 border border-white/10 text-titanium hover:text-white hover:border-emerald-light/50 hover:bg-white/10 transition-all"
                 >
                   <FaLinkedinIn size={14} />
                 </a>
@@ -137,7 +137,7 @@ const CommercialHero = () => {
                   rel="noreferrer" 
                   aria-label="Facebook"
                   title="Facebook"
-                  className="w-8 h-8 flex items-center justify-center rounded-lg bg-white/5 border border-white/10 text-titanium hover:text-blue-400 hover:border-blue-400/50 hover:bg-white/10 transition-all"
+                  className="w-8 h-8 flex items-center justify-center rounded-lg bg-white/5 border border-white/10 text-titanium hover:text-emerald-light hover:border-emerald-light/50 hover:bg-white/10 transition-all"
                 >
                   <FaFacebookF size={14} />
                 </a>
@@ -175,7 +175,7 @@ const CommercialHero = () => {
                   href="mailto:luisrochavela1@gmail.com" 
                   aria-label="Correo"
                   title="Enviar Correo"
-                  className="w-8 h-8 flex items-center justify-center rounded-lg bg-white/5 border border-white/10 text-titanium hover:text-white hover:border-sapphire-light/50 hover:bg-white/10 transition-all"
+                  className="w-8 h-8 flex items-center justify-center rounded-lg bg-white/5 border border-white/10 text-titanium hover:text-white hover:border-emerald-light/50 hover:bg-white/10 transition-all"
                 >
                   <Mail size={14} />
                 </a>
@@ -222,7 +222,7 @@ const CommercialHero = () => {
               }}
               className="absolute -top-2 right-0 sm:right-4 z-20 glass-card p-3 sm:p-4 flex items-center gap-3 max-w-[190px] sm:max-w-[210px] shadow-glass"
             >
-              <div className="w-9 h-9 rounded-xl bg-sapphire-blue/20 border border-sapphire-light/30 flex items-center justify-center text-sapphire-light flex-shrink-0">
+              <div className="w-9 h-9 rounded-xl bg-emerald-deep/20 border border-emerald-light/30 flex items-center justify-center text-emerald-light flex-shrink-0">
                 <ShieldCheck size={18} />
               </div>
               <div className="flex flex-col">

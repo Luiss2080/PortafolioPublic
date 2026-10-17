@@ -29,7 +29,7 @@ const businessCases = [
     tags: ['Reingeniería de Procesos', 'Gobernanza', 'KPIs'],
     challenge: 'Reducción de tiempos de entrega y sincronización departamental.',
     solution: 'Marco ágil corporativo y automatización de flujos de aprobación.',
-    accent: '#38BDF8'
+    accent: '#34D399'
   },
   {
     id: 2,
@@ -67,7 +67,7 @@ const businessCases = [
     tags: ['Automatización CRM', 'Atención Ágil', 'Trazabilidad 360°'],
     challenge: 'Gestión dispersa de clientes y pérdida de oportunidades de venta.',
     solution: 'Plataforma centralizada con seguimiento automático de prospectos.',
-    accent: '#38BDF8'
+    accent: '#34D399'
   },
   {
     id: 5,
@@ -129,7 +129,7 @@ const businessCases = [
     tags: ['Catálogo de Alto Valor', 'Filtros Ágiles', 'Cierre de Ventas'],
     challenge: 'Presentación estática y poco atractiva de propiedades.',
     solution: 'Fichas interactivas con contacto directo a WhatsApp de ventas.',
-    accent: '#38BDF8'
+    accent: '#34D399'
   }
 ];
 
@@ -147,8 +147,8 @@ const CommercialProjects = () => {
     <section id="projects" className="py-24 bg-obsidian-black relative overflow-hidden border-t border-white/[0.08] corporate-grid">
       
       {/* Luz Ambiental Suave */}
-      <div className="absolute top-1/2 left-0 w-[500px] h-[500px] bg-sapphire-blue/[0.05] rounded-full blur-[140px] -translate-y-1/2 pointer-events-none z-0"></div>
-      <div className="absolute top-1/2 right-0 w-[500px] h-[500px] bg-sapphire-light/[0.05] rounded-full blur-[140px] -translate-y-1/2 pointer-events-none z-0"></div>
+      <div className="absolute top-1/2 left-0 w-[500px] h-[500px] bg-emerald-deep/[0.05] rounded-full blur-[140px] -translate-y-1/2 pointer-events-none z-0"></div>
+      <div className="absolute top-1/2 right-0 w-[500px] h-[500px] bg-emerald-light/[0.05] rounded-full blur-[140px] -translate-y-1/2 pointer-events-none z-0"></div>
 
       <div className="container mx-auto px-4 sm:px-6 xl:px-12 max-w-7xl relative z-10">
         
@@ -160,7 +160,7 @@ const CommercialProjects = () => {
             viewport={{ once: true }}
             className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-white/10 bg-white/[0.03] backdrop-blur-md mb-3"
           >
-            <Briefcase size={14} className="text-sapphire-light" />
+            <Briefcase size={14} className="text-emerald-light" />
             <span className="text-titanium text-xs sm:text-sm font-semibold tracking-wider uppercase">
               Resultados Comprobados
             </span>
@@ -174,7 +174,7 @@ const CommercialProjects = () => {
             className="text-2xl sm:text-4xl lg:text-5xl font-black text-white font-inter mb-3 leading-tight tracking-tight"
           >
             Casos de Éxito en{' '}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-sapphire-light via-blue-400 to-indigo-300">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-light via-emerald-bright to-gold-champagne">
               Diversos Sectores
             </span>
           </motion.h2>
@@ -192,7 +192,7 @@ const CommercialProjects = () => {
               onClick={() => setActiveFilter(filter.id)}
               className={`flex items-center gap-2 px-4 py-2 rounded-full text-xs sm:text-sm font-semibold transition-all duration-300 backdrop-blur-md ${
                 activeFilter === filter.id 
-                  ? 'bg-sapphire-blue text-white shadow-[0_4px_20px_rgba(37,99,235,0.4)] border border-sapphire-light/50' 
+                  ? 'bg-emerald-deep text-white shadow-[0_4px_20px_rgba(5,150,105,0.4)] border border-emerald-light/50' 
                   : 'bg-obsidian-card/80 border border-white/[0.08] text-titanium hover:text-white hover:border-white/20 hover:bg-white/5'
               }`}
             >
@@ -255,7 +255,7 @@ const CommercialProjects = () => {
                         {project.icon}
                       </div>
 
-                      <h3 className="text-base sm:text-lg font-bold font-inter text-white leading-snug mb-3 group-hover:text-sapphire-light transition-colors">
+                      <h3 className="text-base sm:text-lg font-bold font-inter text-white leading-snug mb-3 group-hover:text-emerald-light transition-colors">
                         {project.title}
                       </h3>
 
@@ -265,7 +265,7 @@ const CommercialProjects = () => {
                           {project.challenge}
                         </div>
                         <div className="text-xs text-slate-300 leading-relaxed bg-white/[0.02] p-2.5 rounded-xl border border-white/[0.04]">
-                          <strong className="text-sapphire-light block text-[10px] uppercase tracking-wider">Solución:</strong>
+                          <strong className="text-emerald-light block text-[10px] uppercase tracking-wider">Solución:</strong>
                           {project.solution}
                         </div>
                       </div>
@@ -288,7 +288,7 @@ const CommercialProjects = () => {
                           href="https://wa.me/59168832828?text=Hola%20Luis,%20me%20interesa%20un%20caso%20similar%20a%20este%20proyecto." 
                           target="_blank"
                           rel="noreferrer"
-                          className="w-full py-2 px-3 rounded-xl border border-white/10 hover:border-sapphire-light/50 bg-white/[0.02] hover:bg-white/[0.06] text-slate-200 hover:text-white text-xs font-semibold flex items-center justify-center gap-2 transition-all group/btn shadow-sm"
+                          className="w-full py-2 px-3 rounded-xl border border-white/10 hover:border-emerald-light/50 bg-white/[0.02] hover:bg-white/[0.06] text-slate-200 hover:text-white text-xs font-semibold flex items-center justify-center gap-2 transition-all group/btn shadow-sm"
                         >
                           <span>Consultar Iniciativa</span>
                           <ArrowUpRight size={13} className="group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5 transition-transform" />

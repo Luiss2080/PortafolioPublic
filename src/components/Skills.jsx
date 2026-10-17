@@ -21,7 +21,7 @@ const competenceCategories = [
     id: 'liderazgo',
     title: 'Liderazgo & Gestión',
     icon: <Users size={24} />,
-    accent: '#38BDF8', // Sapphire light
+    accent: '#34D399', // Esmeralda
     desc: 'Capacidad para liderar iniciativas, alinear equipos y cumplir metas estratégicas.',
     competences: [
       { name: 'Dirección de Proyectos', icon: <Target size={16} /> },
@@ -84,8 +84,8 @@ const Skills = () => {
     <section id="skills" className="py-28 bg-obsidian-black relative overflow-hidden border-t border-white/[0.08] min-h-[850px] corporate-grid">
       
       {/* Luces de Fondo Sutiles */}
-      <div className="absolute top-1/2 left-0 w-[500px] h-[500px] bg-sapphire-blue/[0.05] rounded-full blur-[140px] -translate-y-1/2 pointer-events-none z-0"></div>
-      <div className="absolute top-1/2 right-0 w-[500px] h-[500px] bg-sapphire-light/[0.05] rounded-full blur-[140px] -translate-y-1/2 pointer-events-none z-0"></div>
+      <div className="absolute top-1/2 left-0 w-[500px] h-[500px] bg-emerald-deep/[0.05] rounded-full blur-[140px] -translate-y-1/2 pointer-events-none z-0"></div>
+      <div className="absolute top-1/2 right-0 w-[500px] h-[500px] bg-emerald-light/[0.05] rounded-full blur-[140px] -translate-y-1/2 pointer-events-none z-0"></div>
 
       <div className="container mx-auto px-6 xl:px-12 max-w-7xl relative z-10">
         
@@ -97,7 +97,7 @@ const Skills = () => {
             viewport={{ once: true }}
             className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-white/10 bg-white/[0.03] backdrop-blur-md mb-4"
           >
-            <Sparkles size={14} className="text-sapphire-light" />
+            <Sparkles size={14} className="text-emerald-light" />
             <span className="text-titanium text-xs md:text-sm font-semibold tracking-wider uppercase">
               Competencias Profesionales
             </span>
@@ -111,7 +111,7 @@ const Skills = () => {
             className="text-3xl sm:text-4xl lg:text-5xl font-black text-white font-inter mb-4 leading-tight tracking-tight"
           >
             Matriz de{' '}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-sapphire-light via-blue-400 to-indigo-300">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-light via-emerald-bright to-gold-champagne">
               Habilidades Estratégicas
             </span>
           </motion.h2>
@@ -156,7 +156,7 @@ const Skills = () => {
                       {category.icon}
                     </div>
                     <div>
-                      <h3 className="text-xl font-bold text-white leading-tight group-hover:text-sapphire-light transition-colors mb-1.5">
+                      <h3 className="text-xl font-bold text-white leading-tight group-hover:text-emerald-light transition-colors mb-1.5">
                         {category.title}
                       </h3>
                       <p className="text-slate-300 text-xs max-w-sm mx-auto">

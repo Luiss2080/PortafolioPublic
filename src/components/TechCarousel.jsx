@@ -19,8 +19,8 @@ const strategicAreas = [
     name: 'Dirección Estratégica', 
     desc: 'Planificación & Visión Integral', 
     Icon: Compass,
-    color: '#38BDF8', // Cyan Sapphire
-    glow: 'rgba(56, 189, 248, 0.45)'
+    color: '#34D399', // Esmeralda y dorado
+    glow: 'rgba(52, 211, 153, 0.45)'
   },
   { 
     name: 'Consultoría Multidisciplinar', 
@@ -85,7 +85,7 @@ const TechCarousel = () => {
     <section id="enfoques" className="w-full bg-transparent border-y border-white/[0.06] py-7 overflow-hidden relative flex items-center z-20 backdrop-blur-sm">
       
       {/* Luz ambiental sutil y etérea */}
-      <div className="absolute inset-0 bg-gradient-to-r from-sapphire-blue/[0.03] via-transparent to-sapphire-blue/[0.03] pointer-events-none z-0"></div>
+      <div className="absolute inset-0 bg-gradient-to-r from-emerald-deep/[0.03] via-transparent to-emerald-deep/[0.03] pointer-events-none z-0"></div>
       
       {/* Difuminados de bordes para transición suave */}
       <div className="absolute left-0 top-0 bottom-0 w-24 sm:w-40 bg-gradient-to-r from-obsidian-black via-obsidian-black/90 to-transparent z-10 pointer-events-none"></div>

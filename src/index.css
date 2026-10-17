@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 @layer utilities {
-  .text-glow-sapphire {
-    text-shadow: 0 0 16px rgba(56, 189, 248, 0.4), 0 0 32px rgba(37, 99, 235, 0.25);
+  .text-glow-emerald {
+    text-shadow: 0 0 16px rgba(52, 211, 153, 0.4), 0 0 32px rgba(5, 150, 105, 0.25);
   }
   .animate-shimmer {
     animation: shimmer 4s linear infinite;
@@ -48,14 +48,14 @@
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
   .glass-card-hover:hover {
-    border-color: rgba(56, 189, 248, 0.3);
-    box-shadow: 0 16px 40px -8px rgba(37, 99, 235, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    border-color: rgba(52, 211, 153, 0.3);
+    box-shadow: 0 16px 40px -8px rgba(5, 150, 105, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.1);
     transform: translateY(-2px);
   }
   .globe-bg {
-    background: radial-gradient(circle at 50% 50%, rgba(37, 99, 235, 0.25) 0%, rgba(56, 189, 248, 0.08) 50%, transparent 70%);
+    background: radial-gradient(circle at 50% 50%, rgba(5, 150, 105, 0.25) 0%, rgba(52, 211, 153, 0.08) 50%, transparent 70%);
     border-radius: 50%;
-    box-shadow: inset 0 0 120px rgba(37, 99, 235, 0.35), 0 0 80px rgba(37, 99, 235, 0.2);
+    box-shadow: inset 0 0 120px rgba(5, 150, 105, 0.35), 0 0 80px rgba(5, 150, 105, 0.2);
     animation: globePulse 5s ease-in-out infinite alternate;
   }
   @keyframes globePulse {
@@ -90,5 +90,5 @@ body {
   border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #2563EB; 
+  background: #10B981; 
 }

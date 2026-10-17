@@ -9,8 +9,8 @@ const Hero = () => {
     <section id="home" className="min-h-screen bg-obsidian-black relative flex items-center pt-32 pb-16 overflow-hidden corporate-grid">
       
       {/* Luz ambiental sutil y elegante */}
-      <div className="absolute top-1/4 left-1/4 w-[500px] h-[500px] bg-sapphire-blue/10 rounded-full blur-[140px] pointer-events-none z-0"></div>
-      <div className="absolute bottom-1/4 right-1/4 w-[400px] h-[400px] bg-sapphire-light/5 rounded-full blur-[160px] pointer-events-none z-0"></div>
+      <div className="absolute top-1/4 left-1/4 w-[500px] h-[500px] bg-emerald-deep/10 rounded-full blur-[140px] pointer-events-none z-0"></div>
+      <div className="absolute bottom-1/4 right-1/4 w-[400px] h-[400px] bg-emerald-light/5 rounded-full blur-[160px] pointer-events-none z-0"></div>
 
       <div className="container mx-auto px-6 max-w-7xl z-10 relative">
         <div className="grid lg:grid-cols-12 gap-12 lg:gap-8 items-center">
@@ -39,7 +39,7 @@ const Hero = () => {
               className="text-4xl sm:text-5xl lg:text-[56px] font-black text-white leading-[1.12] tracking-tight font-inter"
             >
               Capacidad integral para resolver{' '}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-sapphire-light via-blue-400 to-indigo-300 text-glow-sapphire">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-light via-emerald-bright to-gold-champagne text-glow-emerald">
                 cualquier desafío
               </span>{' '}
               con adaptabilidad y resultados.
@@ -64,7 +64,7 @@ const Hero = () => {
             >
               <a 
                 href="#projects" 
-                className="px-7 py-3.5 bg-sapphire-blue text-white font-semibold font-inter rounded-xl hover:bg-blue-600 hover:scale-[1.02] shadow-[0_4px_25px_rgba(37,99,235,0.4)] transition-all flex items-center gap-2 group text-sm md:text-base"
+                className="px-7 py-3.5 bg-emerald-deep text-white font-semibold font-inter rounded-xl hover:bg-emerald-bright hover:scale-[1.02] shadow-[0_4px_25px_rgba(5,150,105,0.4)] transition-all flex items-center gap-2 group text-sm md:text-base"
               >
                 <span>Explorar Casos de Éxito</span>
                 <ArrowUpRight size={18} className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
@@ -72,10 +72,10 @@ const Hero = () => {
 
               <a 
                 href="#services" 
-                className="px-7 py-3.5 bg-white/[0.04] border border-white/15 text-platinum font-semibold font-inter rounded-xl hover:bg-white/[0.08] hover:border-sapphire-light/40 hover:text-white hover:scale-[1.02] transition-all flex items-center gap-2.5 text-sm md:text-base backdrop-blur-md shadow-subtle-card group"
+                className="px-7 py-3.5 bg-white/[0.04] border border-white/15 text-platinum font-semibold font-inter rounded-xl hover:bg-white/[0.08] hover:border-emerald-light/40 hover:text-white hover:scale-[1.02] transition-all flex items-center gap-2.5 text-sm md:text-base backdrop-blur-md shadow-subtle-card group"
               >
                 <span>Soluciones & Propuesta</span>
-                <Briefcase size={18} className="text-sapphire-light group-hover:scale-110 transition-transform" />
+                <Briefcase size={18} className="text-emerald-light group-hover:scale-110 transition-transform" />
               </a>
             </motion.div>
 
@@ -94,7 +94,7 @@ const Hero = () => {
                   rel="noreferrer" 
                   aria-label="LinkedIn"
                   title="LinkedIn"
-                  className="w-9 h-9 flex items-center justify-center rounded-lg bg-white/5 border border-white/10 text-titanium hover:text-white hover:border-sapphire-light/50 hover:bg-white/10 transition-all"
+                  className="w-9 h-9 flex items-center justify-center rounded-lg bg-white/5 border border-white/10 text-titanium hover:text-white hover:border-emerald-light/50 hover:bg-white/10 transition-all"
                 >
                   <FaLinkedinIn size={15} />
                 </a>
@@ -104,7 +104,7 @@ const Hero = () => {
                   rel="noreferrer" 
                   aria-label="Facebook"
                   title="Facebook"
-                  className="w-9 h-9 flex items-center justify-center rounded-lg bg-white/5 border border-white/10 text-titanium hover:text-blue-400 hover:border-blue-400/50 hover:bg-white/10 transition-all"
+                  className="w-9 h-9 flex items-center justify-center rounded-lg bg-white/5 border border-white/10 text-titanium hover:text-emerald-light hover:border-emerald-light/50 hover:bg-white/10 transition-all"
                 >
                   <FaFacebookF size={15} />
                 </a>
@@ -142,7 +142,7 @@ const Hero = () => {
                   href="mailto:luisrochavela1@gmail.com" 
                   aria-label="Correo Electrónico"
                   title="Enviar Correo"
-                  className="w-9 h-9 flex items-center justify-center rounded-lg bg-white/5 border border-white/10 text-titanium hover:text-white hover:border-sapphire-light/50 hover:bg-white/10 transition-all"
+                  className="w-9 h-9 flex items-center justify-center rounded-lg bg-white/5 border border-white/10 text-titanium hover:text-white hover:border-emerald-light/50 hover:bg-white/10 transition-all"
                 >
                   <Mail size={16} />
                 </a>
@@ -189,7 +189,7 @@ const Hero = () => {
               }}
               className="absolute -top-4 -right-2 md:right-4 z-20 glass-card p-4 flex items-center gap-3.5 max-w-[210px] shadow-glass"
             >
-              <div className="w-10 h-10 rounded-xl bg-sapphire-blue/20 border border-sapphire-light/30 flex items-center justify-center text-sapphire-light flex-shrink-0">
+              <div className="w-10 h-10 rounded-xl bg-emerald-deep/20 border border-emerald-light/30 flex items-center justify-center text-emerald-light flex-shrink-0">
                 <ShieldCheck size={20} />
               </div>
               <div className="flex flex-col">

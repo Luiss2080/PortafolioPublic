@@ -24,7 +24,7 @@ const competenceCategories = [
     id: 'gestion',
     title: 'Gestión Comercial & Dirección',
     icon: <Users size={24} />,
-    accent: '#38BDF8',
+    accent: '#34D399',
     desc: 'Liderazgo de proyectos y alineación de equipos para alcanzar metas de ventas y entrega.',
     competences: [
       { name: 'Dirección de Proyectos', icon: <Target size={15} /> },
@@ -87,8 +87,8 @@ const ProfessionalSkills = () => {
     <section id="skills" className="py-24 bg-obsidian-black relative overflow-hidden border-t border-white/[0.08] corporate-grid">
       
       {/* Luces de Fondo Sutiles */}
-      <div className="absolute top-1/2 left-0 w-[500px] h-[500px] bg-sapphire-blue/[0.05] rounded-full blur-[140px] -translate-y-1/2 pointer-events-none z-0"></div>
-      <div className="absolute top-1/2 right-0 w-[500px] h-[500px] bg-sapphire-light/[0.05] rounded-full blur-[140px] -translate-y-1/2 pointer-events-none z-0"></div>
+      <div className="absolute top-1/2 left-0 w-[500px] h-[500px] bg-emerald-deep/[0.05] rounded-full blur-[140px] -translate-y-1/2 pointer-events-none z-0"></div>
+      <div className="absolute top-1/2 right-0 w-[500px] h-[500px] bg-emerald-light/[0.05] rounded-full blur-[140px] -translate-y-1/2 pointer-events-none z-0"></div>
 
       <div className="container mx-auto px-4 sm:px-6 xl:px-12 max-w-7xl relative z-10">
         
@@ -100,7 +100,7 @@ const ProfessionalSkills = () => {
             viewport={{ once: true }}
             className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-white/10 bg-white/[0.03] backdrop-blur-md mb-3"
           >
-            <Sparkles size={14} className="text-sapphire-light" />
+            <Sparkles size={14} className="text-emerald-light" />
             <span className="text-titanium text-xs sm:text-sm font-semibold tracking-wider uppercase">
               Competencias Integrales
             </span>
@@ -114,7 +114,7 @@ const ProfessionalSkills = () => {
             className="text-2xl sm:text-4xl lg:text-5xl font-black text-white font-inter mb-3 leading-tight tracking-tight"
           >
             Capacidades para{' '}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-sapphire-light via-blue-400 to-indigo-300">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-light via-emerald-bright to-gold-champagne">
               Cualquier Rubro
             </span>
           </motion.h2>
@@ -159,7 +159,7 @@ const ProfessionalSkills = () => {
                       {category.icon}
                     </div>
                     <div>
-                      <h3 className="text-lg sm:text-xl font-bold text-white leading-tight group-hover:text-sapphire-light transition-colors mb-1">
+                      <h3 className="text-lg sm:text-xl font-bold text-white leading-tight group-hover:text-emerald-light transition-colors mb-1">
                         {category.title}
                       </h3>
                       <p className="text-slate-300 text-xs sm:text-sm max-w-sm mx-auto">

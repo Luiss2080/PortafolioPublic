@@ -18,7 +18,7 @@ const services = [
     title: "Consultoría & Estrategia Integral",
     desc: "Diagnóstico profundo de necesidades, formulación de hojas de ruta ejecutivas y asesoramiento para toma de decisiones de alto impacto.",
     tags: ["Diagnóstico Estratégico", "Modelos de Valor", "Hoja de Ruta"],
-    accent: "#38BDF8" // Sapphire light
+    accent: "#34D399" // Esmeralda
   },
   {
     num: "02",
@@ -51,8 +51,8 @@ const Services = () => {
     <section id="services" className="py-28 bg-obsidian-black relative overflow-hidden border-t border-white/[0.08] min-h-[750px] flex items-center corporate-grid">
       
       {/* Luces de fondo sutiles */}
-      <div className="absolute top-1/2 left-0 w-[500px] h-[500px] bg-sapphire-blue/[0.06] rounded-full blur-[140px] -translate-y-1/2 pointer-events-none z-0"></div>
-      <div className="absolute top-1/2 right-0 w-[500px] h-[500px] bg-sapphire-light/[0.05] rounded-full blur-[140px] -translate-y-1/2 pointer-events-none z-0"></div>
+      <div className="absolute top-1/2 left-0 w-[500px] h-[500px] bg-emerald-deep/[0.06] rounded-full blur-[140px] -translate-y-1/2 pointer-events-none z-0"></div>
+      <div className="absolute top-1/2 right-0 w-[500px] h-[500px] bg-emerald-light/[0.05] rounded-full blur-[140px] -translate-y-1/2 pointer-events-none z-0"></div>
 
       <div className="container mx-auto px-6 xl:px-12 max-w-7xl relative z-10">
         
@@ -64,7 +64,7 @@ const Services = () => {
             viewport={{ once: true }}
             className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-white/10 bg-white/[0.03] backdrop-blur-md mb-4"
           >
-            <Sparkles size={14} className="text-sapphire-light" />
+            <Sparkles size={14} className="text-emerald-light" />
             <span className="text-titanium text-xs md:text-sm font-semibold tracking-wider uppercase">
               Soluciones & Servicios
             </span>
@@ -78,7 +78,7 @@ const Services = () => {
             className="text-3xl sm:text-4xl lg:text-5xl font-black text-white font-inter mb-4 leading-tight tracking-tight"
           >
             Capacidades Diseñadas para{' '}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-sapphire-light to-blue-400">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-light to-gold-light">
               Generar Resultados
             </span>
           </motion.h2>
@@ -139,7 +139,7 @@ const Services = () => {
                       </span>
                     </div>
                     
-                    <h3 className="text-xl font-bold text-white mb-3 leading-snug group-hover:text-sapphire-light transition-colors duration-300">
+                    <h3 className="text-xl font-bold text-white mb-3 leading-snug group-hover:text-emerald-light transition-colors duration-300">
                       {service.title}
                     </h3>
                     
@@ -166,7 +166,7 @@ const Services = () => {
                         href="https://wa.me/59168832828?text=Hola%20Luis,%20quisiera%20consultar%20sobre%20tus%20servicios%20y%20soluciones."
                         target="_blank"
                         rel="noreferrer"
-                        className="w-full py-2.5 rounded-xl border border-white/10 text-xs font-semibold font-inter transition-all flex items-center justify-center gap-2 group/btn hover:bg-white/5 text-slate-200 hover:text-white hover:border-sapphire-light/50"
+                        className="w-full py-2.5 rounded-xl border border-white/10 text-xs font-semibold font-inter transition-all flex items-center justify-center gap-2 group/btn hover:bg-white/5 text-slate-200 hover:text-white hover:border-emerald-light/50"
                       >
                         <span>Consultar Solución</span>
                         <ArrowRight size={14} className="group-hover/btn:translate-x-1 transition-transform" />

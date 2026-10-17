@@ -45,8 +45,8 @@ const Certificates = () => {
     <section id="certificates" className="py-28 bg-obsidian-black relative overflow-hidden border-t border-white/[0.08] min-h-[750px] flex items-center corporate-grid">
       
       {/* Luz Ambiental Suave */}
-      <div className="absolute top-1/2 left-0 w-[500px] h-[500px] bg-sapphire-blue/[0.05] rounded-full blur-[140px] -translate-y-1/2 pointer-events-none z-0"></div>
-      <div className="absolute top-1/2 right-0 w-[500px] h-[500px] bg-sapphire-light/[0.05] rounded-full blur-[140px] -translate-y-1/2 pointer-events-none z-0"></div>
+      <div className="absolute top-1/2 left-0 w-[500px] h-[500px] bg-emerald-deep/[0.05] rounded-full blur-[140px] -translate-y-1/2 pointer-events-none z-0"></div>
+      <div className="absolute top-1/2 right-0 w-[500px] h-[500px] bg-emerald-light/[0.05] rounded-full blur-[140px] -translate-y-1/2 pointer-events-none z-0"></div>
       
       <div className="container mx-auto px-6 xl:px-12 max-w-7xl relative z-10">
         
@@ -58,7 +58,7 @@ const Certificates = () => {
             viewport={{ once: true }}
             className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-white/10 bg-white/[0.03] backdrop-blur-md mb-4"
           >
-            <Award size={14} className="text-sapphire-light" />
+            <Award size={14} className="text-emerald-light" />
             <span className="text-titanium text-xs md:text-sm font-semibold tracking-wider uppercase">
               Credenciales & Avales
             </span>
@@ -72,7 +72,7 @@ const Certificates = () => {
             className="text-3xl sm:text-4xl lg:text-5xl font-black text-white font-inter mb-4 leading-tight tracking-tight"
           >
             Certificaciones &{' '}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-sapphire-light to-blue-400">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-light to-gold-light">
               Respaldo Profesional
             </span>
           </motion.h2>
@@ -105,7 +105,7 @@ const Certificates = () => {
                   {/* Encabezado */}
                   <div className="flex justify-between items-start mb-6">
                     <div className="flex items-center gap-3.5">
-                      <div className="w-12 h-12 rounded-xl bg-sapphire-blue/15 border border-sapphire-light/30 flex-shrink-0 flex items-center justify-center text-sapphire-light transition-transform duration-300 group-hover:scale-105">
+                      <div className="w-12 h-12 rounded-xl bg-emerald-deep/15 border border-emerald-light/30 flex-shrink-0 flex items-center justify-center text-emerald-light transition-transform duration-300 group-hover:scale-105">
                         <Award size={22} />
                       </div>
                       <div>
@@ -119,12 +119,12 @@ const Certificates = () => {
                       </div>
                     </div>
 
-                    <span className="font-black text-2xl text-white/20 font-inter group-hover:text-sapphire-light/60 transition-colors">
+                    <span className="font-black text-2xl text-white/20 font-inter group-hover:text-emerald-light/60 transition-colors">
                       {cert.year}
                     </span>
                   </div>
 
-                  <h3 className="text-lg font-bold text-white leading-snug mb-4 group-hover:text-sapphire-light transition-colors">
+                  <h3 className="text-lg font-bold text-white leading-snug mb-4 group-hover:text-emerald-light transition-colors">
                     {cert.title}
                   </h3>
 
@@ -144,7 +144,7 @@ const Certificates = () => {
                   <div className="mt-auto pt-3 border-t border-white/[0.06]">
                     <a 
                       href={cert.link} 
-                      className="w-full py-2.5 rounded-xl border border-white/10 hover:border-sapphire-light/40 bg-white/[0.02] hover:bg-white/[0.06] text-slate-200 hover:text-white text-xs font-semibold flex items-center justify-center gap-2 transition-all"
+                      className="w-full py-2.5 rounded-xl border border-white/10 hover:border-emerald-light/40 bg-white/[0.02] hover:bg-white/[0.06] text-slate-200 hover:text-white text-xs font-semibold flex items-center justify-center gap-2 transition-all"
                     >
                       <span>Consultar Credencial</span>
                       <ExternalLink size={13} />

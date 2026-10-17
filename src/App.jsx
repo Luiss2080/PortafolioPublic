@@ -13,7 +13,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="min-h-screen bg-obsidian-black text-slate-100 selection:bg-sapphire-blue selection:text-white">
+    <div className="min-h-screen bg-obsidian-black text-slate-100 selection:bg-emerald-deep selection:text-white">
       <Navbar />
       <FloatingWidgets />
       <main>

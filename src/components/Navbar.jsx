@@ -60,7 +60,7 @@ const Navbar = () => {
             href="#home" 
             className="flex items-center gap-3 group flex-shrink-0 cursor-pointer"
           >
-            <div className="relative w-10 h-10 rounded-xl overflow-hidden border border-white/10 group-hover:border-sapphire-light/80 group-hover:shadow-[0_0_20px_rgba(37,99,235,0.4)] transition-all duration-300 flex-shrink-0 bg-white/5">
+            <div className="relative w-10 h-10 rounded-xl overflow-hidden border border-white/10 group-hover:border-emerald-light/80 group-hover:shadow-[0_0_20px_rgba(5,150,105,0.4)] transition-all duration-300 flex-shrink-0 bg-white/5">
               <img 
                 src={faviconImg} 
                 alt="Logo" 
@@ -69,7 +69,7 @@ const Navbar = () => {
             </div>
             <div className="flex flex-col">
               <span className="text-lg font-bold whitespace-nowrap font-inter tracking-tight text-white group-hover:text-white transition-colors">
-                Luis <span className="text-sapphire-light">Rocha</span>
+                Luis <span className="text-emerald-light">Rocha</span>
               </span>
               <span className="text-[10px] text-titanium uppercase tracking-wider hidden sm:block -mt-1 font-medium">
                 Estrategia & Soluciones
@@ -114,7 +114,7 @@ const Navbar = () => {
                     {isActive && (
                       <motion.div
                         layoutId="nav-pill"
-                        className="absolute inset-0 rounded-full bg-sapphire-blue/20 border border-sapphire-light/50 shadow-[0_0_20px_rgba(37,99,235,0.35)]"
+                        className="absolute inset-0 rounded-full bg-emerald-deep/20 border border-emerald-light/50 shadow-[0_0_20px_rgba(5,150,105,0.35)]"
                         transition={{ type: 'spring', stiffness: 380, damping: 28 }}
                       />
                     )}
@@ -135,10 +135,10 @@ const Navbar = () => {
               rel="noreferrer"
               whileHover={{ scale: 1.04, y: -1 }}
               whileTap={{ scale: 0.95 }}
-              className="relative overflow-hidden flex items-center gap-2 px-5 py-2 rounded-full border border-white/10 bg-white/5 text-platinum text-xs sm:text-sm font-semibold font-inter hover:bg-white/10 hover:border-sapphire-light/50 hover:shadow-sapphire transition-all duration-300 group whitespace-nowrap"
+              className="relative overflow-hidden flex items-center gap-2 px-5 py-2 rounded-full border border-white/10 bg-white/5 text-platinum text-xs sm:text-sm font-semibold font-inter hover:bg-white/10 hover:border-emerald-light/50 hover:shadow-emerald transition-all duration-300 group whitespace-nowrap"
             >
               <span className="absolute inset-0 -translate-x-full group-hover:translate-x-full bg-gradient-to-r from-transparent via-white/15 to-transparent transition-transform duration-700 pointer-events-none" />
-              <FileText size={15} className="text-sapphire-light group-hover:scale-110 transition-transform duration-300" />
+              <FileText size={15} className="text-emerald-light group-hover:scale-110 transition-transform duration-300" />
               <span>Curriculum</span>
             </motion.a>
 
@@ -148,7 +148,7 @@ const Navbar = () => {
               rel="noreferrer"
               whileHover={{ scale: 1.04, y: -1 }}
               whileTap={{ scale: 0.95 }}
-              className="flex items-center gap-2 px-5 py-2 rounded-full bg-sapphire-blue text-white text-xs sm:text-sm font-semibold font-inter hover:bg-blue-600 shadow-[0_4px_20px_rgba(37,99,235,0.4)] transition-all duration-300 whitespace-nowrap"
+              className="flex items-center gap-2 px-5 py-2 rounded-full bg-emerald-deep text-white text-xs sm:text-sm font-semibold font-inter hover:bg-emerald-bright shadow-[0_4px_20px_rgba(5,150,105,0.4)] transition-all duration-300 whitespace-nowrap"
             >
               <span>Contactar</span>
               <ArrowRight size={14} />
@@ -185,7 +185,7 @@ const Navbar = () => {
                   onClick={() => setIsOpen(false)}
                   className={`px-4 py-2.5 rounded-lg text-sm font-medium transition-all ${
                     activeSection === item.id
-                      ? 'bg-sapphire-blue/20 text-sapphire-light border border-sapphire-light/30'
+                      ? 'bg-emerald-deep/20 text-emerald-light border border-emerald-light/30'
                       : 'text-titanium hover:text-white hover:bg-white/5'
                   }`}
                 >
@@ -210,7 +210,7 @@ const Navbar = () => {
                 target="_blank"
                 rel="noreferrer"
                 onClick={() => setIsOpen(false)}
-                className="flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg bg-sapphire-blue text-white text-sm font-semibold shadow-sapphire"
+                className="flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg bg-emerald-deep text-white text-sm font-semibold shadow-emerald"
               >
                 <span>Contactar por WhatsApp</span>
                 <ArrowRight size={16} />

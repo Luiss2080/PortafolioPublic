@@ -8,7 +8,7 @@ const Footer = () => {
     <footer id="contact" className="bg-obsidian-black pt-20 pb-10 border-t border-white/[0.08] relative z-20 overflow-hidden corporate-grid">
       
       {/* Luz Ambiental Suave */}
-      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[800px] h-[300px] bg-sapphire-blue/[0.04] rounded-full blur-[140px] pointer-events-none z-0"></div>
+      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[800px] h-[300px] bg-emerald-deep/[0.04] rounded-full blur-[140px] pointer-events-none z-0"></div>
 
       <div className="container mx-auto px-6 xl:px-12 max-w-7xl relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-16">
@@ -20,7 +20,7 @@ const Footer = () => {
                 <img src={faviconImg} alt="Logo" className="w-full h-full object-cover" />
               </div>
               <h3 className="text-xl font-black text-white font-inter tracking-tight">
-                Luis <span className="text-sapphire-light">Rocha</span>
+                Luis <span className="text-emerald-light">Rocha</span>
               </h3>
             </div>
             <p className="text-slate-400 text-xs sm:text-sm leading-relaxed mb-6">
@@ -33,7 +33,7 @@ const Footer = () => {
                 rel="noreferrer" 
                 aria-label="LinkedIn"
                 title="LinkedIn"
-                className="w-9 h-9 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-titanium hover:text-white hover:border-sapphire-light/50 hover:bg-white/10 transition-all"
+                className="w-9 h-9 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-titanium hover:text-white hover:border-emerald-light/50 hover:bg-white/10 transition-all"
               >
                 <FaLinkedinIn size={14} />
               </a>
@@ -43,7 +43,7 @@ const Footer = () => {
                 rel="noreferrer" 
                 aria-label="Facebook"
                 title="Facebook"
-                className="w-9 h-9 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-titanium hover:text-blue-400 hover:border-blue-400/50 hover:bg-white/10 transition-all"
+                className="w-9 h-9 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-titanium hover:text-emerald-light hover:border-emerald-light/50 hover:bg-white/10 transition-all"
               >
                 <FaFacebookF size={14} />
               </a>
@@ -81,7 +81,7 @@ const Footer = () => {
                 href="mailto:luisrochavela1@gmail.com" 
                 aria-label="Correo"
                 title="Enviar Correo"
-                className="w-9 h-9 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-titanium hover:text-white hover:border-sapphire-light/50 hover:bg-white/10 transition-all"
+                className="w-9 h-9 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-titanium hover:text-white hover:border-emerald-light/50 hover:bg-white/10 transition-all"
               >
                 <Mail size={15} />
               </a>
@@ -91,22 +91,22 @@ const Footer = () => {
           {/* Col 2: Enlaces de Navegación */}
           <div>
             <h4 className="text-white font-bold text-sm mb-5 flex items-center gap-2 uppercase tracking-wider">
-              <span className="w-1.5 h-1.5 rounded-full bg-sapphire-light"></span>
+              <span className="w-1.5 h-1.5 rounded-full bg-emerald-light"></span>
               Navegación
             </h4>
             <ul className="space-y-3 text-xs sm:text-sm">
-              <li><a href="#home" className="text-slate-400 hover:text-white transition-colors flex items-center gap-1.5"><ArrowUpRight size={13} className="text-sapphire-light" /> Inicio</a></li>
-              <li><a href="#enfoques" className="text-slate-400 hover:text-white transition-colors flex items-center gap-1.5"><ArrowUpRight size={13} className="text-sapphire-light" /> Áreas de Enfoque</a></li>
-              <li><a href="#projects" className="text-slate-400 hover:text-white transition-colors flex items-center gap-1.5"><ArrowUpRight size={13} className="text-sapphire-light" /> Casos de Éxito</a></li>
-              <li><a href="#skills" className="text-slate-400 hover:text-white transition-colors flex items-center gap-1.5"><ArrowUpRight size={13} className="text-sapphire-light" /> Competencias</a></li>
-              <li><a href="#about" className="text-slate-400 hover:text-white transition-colors flex items-center gap-1.5"><ArrowUpRight size={13} className="text-sapphire-light" /> Sobre mí</a></li>
+              <li><a href="#home" className="text-slate-400 hover:text-white transition-colors flex items-center gap-1.5"><ArrowUpRight size={13} className="text-emerald-light" /> Inicio</a></li>
+              <li><a href="#enfoques" className="text-slate-400 hover:text-white transition-colors flex items-center gap-1.5"><ArrowUpRight size={13} className="text-emerald-light" /> Áreas de Enfoque</a></li>
+              <li><a href="#projects" className="text-slate-400 hover:text-white transition-colors flex items-center gap-1.5"><ArrowUpRight size={13} className="text-emerald-light" /> Casos de Éxito</a></li>
+              <li><a href="#skills" className="text-slate-400 hover:text-white transition-colors flex items-center gap-1.5"><ArrowUpRight size={13} className="text-emerald-light" /> Competencias</a></li>
+              <li><a href="#about" className="text-slate-400 hover:text-white transition-colors flex items-center gap-1.5"><ArrowUpRight size={13} className="text-emerald-light" /> Sobre mí</a></li>
             </ul>
           </div>
 
           {/* Col 3: Soluciones */}
           <div>
             <h4 className="text-white font-bold text-sm mb-5 flex items-center gap-2 uppercase tracking-wider">
-              <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
+              <span className="w-1.5 h-1.5 rounded-full bg-emerald-light"></span>
               Soluciones Clave
             </h4>
             <ul className="space-y-3 text-xs sm:text-sm text-slate-400">
@@ -127,7 +127,7 @@ const Footer = () => {
             <ul className="space-y-3.5 text-xs sm:text-sm">
               <li>
                 <a href="mailto:luisrochavela1@gmail.com" className="flex items-center gap-2.5 text-slate-400 hover:text-white transition-colors">
-                  <div className="w-7 h-7 rounded-lg bg-white/5 flex items-center justify-center text-sapphire-light flex-shrink-0">
+                  <div className="w-7 h-7 rounded-lg bg-white/5 flex items-center justify-center text-emerald-light flex-shrink-0">
                     <Mail size={13} />
                   </div>
                   <span className="break-all">luisrochavela1@gmail.com</span>

@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FaWhatsapp } from 'react-icons/fa';
-import { X, Send, MessageSquare, Sparkles, User, Briefcase, Mail, CheckCircle2 } from 'lucide-react';
+import { X, Send, MessageSquare, Sparkles } from 'lucide-react';
 
 const FloatingWidgets = () => {
   const [isChatOpen, setIsChatOpen] = useState(false);
@@ -10,7 +10,7 @@ const FloatingWidgets = () => {
     { 
       id: 1, 
       sender: 'bot', 
-      text: '¡Hola! Bienvenido al portal de Luis Mario Rocha Vela. Soy su Asistente Ejecutivo. Luis es un profesional integral y altamente adaptable, capacitado para estructurar, coordinar y ejecutar soluciones de alto valor en cualquier rubro, desde consultoría de negocios hasta optimización de proyectos. ¿En qué puedo orientarte hoy?', 
+      text: '¡Hola! Soy el asistente de Luis Enrique Abri Fernández, quien combina marketing para hacer crecer tu marca con mentoría en mercados financieros. Puedes conocer sus servicios, casos y comunidad. ¿En qué te puedo orientar hoy?', 
       time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) 
     }
   ]);
@@ -25,7 +25,7 @@ const FloatingWidgets = () => {
     const text = userInput.toLowerCase();
     
     if (text.includes('hola') || text.includes('saludos') || text.includes('buenos dias') || text.includes('buenas tardes')) {
-      return "¡Un cordial saludo! Luis es un profesional con alta versatilidad que resuelve desde la planificación estratégica hasta la ejecución práctica de proyectos. ¿Te gustaría conocer sus áreas de consultoría, trayectoria o coordinar una conversación directa?";
+      return "¡Un cordial saludo! Luis Enrique combina marketing, contenido y educación financiera paso a paso. ¿Te gustaría conocer sus servicios, sus casos o coordinar una conversación directa?";
     }
     if (text.includes('servicio') || text.includes('solucion') || text.includes('ofrece') || text.includes('que hace') || text.includes('que sabe')) {
       return "Luis tiene una capacidad de acción transversal ('hace de todo con rigor profesional'):\n\n1. Consultoría & Estrategia Integral: Diagnóstico y plan de crecimiento para cualquier industria.\n2. Dirección & Gestión de Proyectos: Cumplimiento estricto en tiempo, costos y calidad.\n3. Soluciones Integradas & Modernas: Canales interactivos, plataformas eficientes y automatización.\n4. Optimización de Procesos: Reducción de costos y sistematización operativa.";
@@ -37,19 +37,19 @@ const FloatingWidgets = () => {
       return "Ha liderado y materializado iniciativas de impacto como:\n• Transformación Operativa B2B (+45% de eficiencia)\n• Ecosistemas de Gestión CRM (-60% tiempo de respuesta)\n• Plataformas Transaccionales Integradas (99.9% disponibilidad)\n\nPuedes revisar todas las fichas en la sección 'Casos de Éxito'.";
     }
     if (text.includes('curriculum') || text.includes('cv') || text.includes('resumen') || text.includes('pdf')) {
-      return "Puedes descargar su Curriculum Vitae actualizado desde el botón 'Curriculum' en la cabecera superior, o solicitárselo en formato ejecutivo directamente por WhatsApp.";
+      return "Puedes solicitar su perfil profesional actualizado directamente por WhatsApp o por correo electrónico; con gusto te orientan.";
     }
     if (text.includes('precio') || text.includes('tarifa') || text.includes('cotizacion') || text.includes('costo') || text.includes('asesoria') || text.includes('consulta')) {
-      return "Dado su enfoque flexible, cada propuesta se formula a medida según el tamaño del desafío y las metas de tu empresa. Puedes contactar a Luis por WhatsApp (+591 68832828) para un diagnóstico inicial sin compromiso.";
+      return "Cada propuesta se formula a medida según el tamaño del desafío y tus metas. Puedes contactar a Luis Enrique por WhatsApp (+591 70000000) para conversar sin compromiso.";
     }
     if (text.includes('contacto') || text.includes('correo') || text.includes('telefono') || text.includes('celular') || text.includes('hablar')) {
-      return "Comunícate directamente con Luis por WhatsApp al +591 68832828 (botón en la esquina inferior izquierda) o por correo a luisrochavela1@gmail.com.";
+      return "Comunícate directamente con Luis Enrique por WhatsApp al +591 70000000 (botón en la esquina inferior izquierda) o por correo a luisabri.contacto@gmail.com.";
     }
     if (text.includes('gracias') || text.includes('excelente') || text.includes('perfecto')) {
       return "¡Ha sido un placer! Estoy a tu total disposición para cualquier consulta adicional.";
     }
     
-    return "Gracias por tu consulta. Luis está preparado para asumir desafíos integrales en cualquier rubro. Puedes contactarlo directamente por WhatsApp al +591 68832828 o al correo luisrochavela1@gmail.com.";
+    return "Gracias por tu consulta. Luis Enrique comparte contenido de marketing y educación financiera paso a paso. Puedes contactarlo por WhatsApp al +591 70000000 o al correo luisabri.contacto@gmail.com.";
   };
 
   const processMessage = (textToSend) => {
@@ -88,7 +88,7 @@ const FloatingWidgets = () => {
       {/* Botón Flotante WhatsApp Oficial (Izquierda) */}
       <div className="fixed bottom-6 left-6 z-40">
         <motion.a
-          href="https://wa.me/59168832828?text=Hola%20Luis,%20vi%20tu%20portafolio%20y%20me%20gustar%C3%ADa%20conversar."
+          href="https://wa.me/59170000000?text=Hola%20Luis%20Enrique,%20vi%20tu%20portafolio%20y%20me%20gustar%C3%ADa%20conversar."
           target="_blank"
           rel="noreferrer"
           aria-label="Contactar por WhatsApp"
@@ -100,7 +100,7 @@ const FloatingWidgets = () => {
         </motion.a>
       </div>
 
-      {/* Widget Chatbot Ejecutivo (Derecha) */}
+      {/* Widget Chatbot (Derecha) */}
       <div className="fixed bottom-6 right-6 z-50">
         <AnimatePresence mode="wait">
           {isChatOpen ? (
@@ -120,7 +120,7 @@ const FloatingWidgets = () => {
                     <Sparkles size={18} />
                   </div>
                   <div>
-                    <h3 className="text-white font-bold text-sm">Asistente Ejecutivo</h3>
+                    <h3 className="text-white font-bold text-sm">Asistente de Luis Enrique</h3>
                     <div className="flex items-center gap-1.5 mt-0.5">
                       <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 shadow-[0_0_8px_rgba(52,211,153,0.8)]"></span>
                       <span className="text-titanium text-[11px] font-medium">Disponible ahora</span>
@@ -174,7 +174,7 @@ const FloatingWidgets = () => {
                   type="text"
                   value={input}
                   onChange={(e) => setInput(e.target.value)}
-                  placeholder="Pregunta sobre servicios, proyectos..."
+                  placeholder="Pregunta sobre servicios, casos, mentoría..."
                   className="flex-1 bg-white/5 border border-white/10 rounded-xl px-3.5 py-2 text-xs text-white placeholder-titanium focus:outline-none focus:border-emerald-light/50 transition-colors"
                 />
                 <button

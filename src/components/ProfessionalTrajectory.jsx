@@ -1,64 +1,49 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { 
-  Briefcase, 
-  GraduationCap, 
   Calendar, 
   CheckCircle2, 
-  ChevronRight, 
   Award, 
-  Compass, 
+  GraduationCap, 
+  Lightbulb, 
   TrendingUp, 
-  Layers,
-  Building2,
-  Users
+  Building2
 } from 'lucide-react';
 import Tilt from 'react-parallax-tilt';
 
 const careerMilestones = [
   {
-    title: 'Consultor & Líder de Proyectos',
-    company: 'Iniciativas Empresariales & Comerciales',
-    date: '2024 - Presente',
-    duration: 'Actualidad',
-    desc: 'Dirección metodológica de proyectos, diseño de estrategias de transformación y coordinación multidisciplinar orientada a resultados.',
-    tags: ["Gestión Integral", "Dirección de Proyectos", "Optimización"],
-    icon: <Compass size={22} />,
-    accent: '#34D399',
+    title: 'Formación en Marketing, Publicidad y Comercio',
+    company: 'Formación Universitaria',
+    date: '2022 - Presente',
+    duration: 'En curso',
+    desc: 'Base académica en marketing, publicidad y comercio: estrategias de comunicación, análisis de mercado, comportamiento del consumidor y comercialización.',
+    tags: ["Marketing", "Publicidad", "Comercio"],
+    icon: <GraduationCap size={22} />,
+    accent: '#10B981',
     number: '01'
   },
   {
-    title: 'Estratega de Soluciones de Negocio',
-    company: 'Consultoría & Servicios Profesionales',
-    date: '2023 - 2024',
-    duration: '1 Año 5 Meses',
-    desc: 'Diagnóstico organizacional, estructuración de procesos comerciales y despliegue de plataformas integradas para diversos rubros.',
-    tags: ["Estrategia Comercial", "Eficiencia Operativa", "Negocios"],
-    icon: <TrendingUp size={22} />,
-    accent: '#60A5FA',
+    title: 'Experiencia Práctica con Emprendedores',
+    company: 'Proyectos de marketing y comunicación',
+    date: '2023 - Presente',
+    duration: 'Actualidad',
+    desc: 'Trabajo directo con emprendedores: diagnóstico de problemas, estrategias de comunicación, contenido para redes y soluciones digitales y presenciales.',
+    tags: ["Marketing digital", "Contenido", "Soluciones a medida"],
+    icon: <Lightbulb size={22} />,
+    accent: '#34D399',
     number: '02'
   },
   {
-    title: 'Coordinador Operativo & Calidad',
-    company: 'Soluciones Corporativas',
-    date: '2022 - 2023',
-    duration: '1 Año 2 Meses',
-    desc: 'Estandarización de flujos de trabajo, control de calidad en la entrega y optimización de interacción con clientes y usuarios finales.',
-    tags: ["Calidad de Entrega", "Estandarización", "Atención"],
-    icon: <Briefcase size={22} />,
-    accent: '#818CF8',
+    title: 'Mentor en Mercados Financieros',
+    company: 'Comunidad de aprendizaje',
+    date: '2024 - Presente',
+    duration: 'Actualidad',
+    desc: 'Acompaño el aprendizaje del mercado y su operativa paso a paso: análisis de activos, práctica guiada y gestión de riesgo, en una comunidad que crece junta.',
+    tags: ["Mentoría", "Análisis de mercados", "Comunidad"],
+    icon: <TrendingUp size={22} />,
+    accent: '#D4AF37',
     number: '03'
-  },
-  {
-    title: 'Formación en Ingeniería de Sistemas',
-    company: 'Univ. Privada Domingo Savio',
-    date: '2020 - 2026',
-    duration: 'Egresado',
-    desc: 'Formación rigurosa en análisis sistémico, modelado de procesos, pensamiento lógico estructurado y toma de decisiones.',
-    tags: ["Pensamiento Sistémico", "Análisis de Datos", "Metodologías"],
-    icon: <GraduationCap size={22} />,
-    accent: '#34D399',
-    number: '04'
   }
 ];
 
@@ -82,7 +67,7 @@ const ProfessionalTrajectory = () => {
           >
             <Award size={14} className="text-emerald-light" />
             <span className="text-titanium text-xs sm:text-sm font-semibold tracking-wider uppercase">
-              Trayectoria Profesional
+              Trayectoria
             </span>
           </motion.div>
           
@@ -93,19 +78,19 @@ const ProfessionalTrajectory = () => {
             transition={{ delay: 0.1 }}
             className="text-2xl sm:text-4xl lg:text-5xl font-black text-white font-inter mb-3 leading-tight tracking-tight"
           >
-            Experiencia &{' '}
+            Aprender, aplicar y{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-light via-emerald-bright to-gold-champagne">
-              Liderazgo de Proyectos
+              compartir lo aprendido
             </span>
           </motion.h2>
 
           <p className="text-slate-300 text-xs sm:text-sm md:text-base max-w-xl text-center leading-relaxed">
-            Una carrera construida sobre la disciplina, la entrega oportuna y la satisfacción de clientes y equipos de trabajo.
+            Del aula al trabajo con emprendedores, y de ahí a la mentoría en mercados financieros: un camino que sigue creciendo.
           </p>
         </div>
 
-        {/* Rejilla de Hitos de Carrera */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 relative z-20">
+        {/* Rejilla de Hitos */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 relative z-20">
           {careerMilestones.map((item, index) => (
             <motion.div 
               key={index} 
@@ -124,7 +109,7 @@ const ProfessionalTrajectory = () => {
                     style={{ backgroundColor: item.accent }}
                   ></div>
 
-                  {/* Encabezado con Icono Centrado y Periodo */}
+                  {/* Encabezado con Icono y Periodo */}
                   <div className="flex justify-between items-start mb-4">
                     <div 
                       className="w-12 h-12 rounded-2xl flex items-center justify-center flex-shrink-0 transition-transform duration-300 group-hover:scale-110 shadow-sm"
@@ -149,6 +134,9 @@ const ProfessionalTrajectory = () => {
                   </div>
 
                   <div>
+                    <span className="text-[10px] font-black tracking-widest uppercase font-inter opacity-60 block mb-1" style={{ color: item.accent }}>
+                      Hito {item.number}
+                    </span>
                     <h3 className="text-base sm:text-lg font-bold text-white leading-snug group-hover:text-emerald-light transition-colors mb-1">
                       {item.title}
                     </h3>

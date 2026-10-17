@@ -3,145 +3,84 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { 
   ArrowUpRight, 
   Layers, 
-  LineChart, 
-  Briefcase, 
-  CheckCircle2, 
+  Megaphone, 
+  Clapperboard, 
+  SearchCheck, 
   TrendingUp, 
-  Sparkles,
-  Target,
-  Building,
-  Store,
-  Factory,
-  Globe2,
-  BarChart3
+  Briefcase
 } from 'lucide-react';
 import Tilt from 'react-parallax-tilt';
 
+const whatsappUrl = 'https://wa.me/59170000000?text=Hola%20Luis%20Enrique,%20me%20interesa%20un%20caso%20como%20los%20que%20vi%20en%20tu%20portafolio.';
+
 const businessCases = [
-  // ESTRATEGIA Y GESTIÓN COMERCIAL
   {
     id: 1,
-    title: 'Transformación Operativa B2B',
-    category: 'Estrategia',
-    impact: '+45% Eficiencia Operativa',
-    clientType: 'Servicios Corporativos',
-    icon: <Building size={24} />,
-    tags: ['Reingeniería de Procesos', 'Gobernanza', 'KPIs'],
-    challenge: 'Reducción de tiempos de entrega y sincronización departamental.',
-    solution: 'Marco ágil corporativo y automatización de flujos de aprobación.',
+    title: 'Lanzamiento de Marca Local',
+    category: 'Comunicación',
+    impact: '+180% Alcance',
+    result: 'La marca pasó de cero presencia a ser reconocida en su zona en 3 meses.',
+    clientType: 'Emprendimiento gastronómico',
+    icon: <Megaphone size={24} />,
+    tags: ['Mensajes clave', 'Plan de difusión', 'Identidad'],
+    challenge: 'Marca nueva sin plan de difusión ni mensajes definidos.',
+    solution: 'Mensajes clave, piezas de comunicación y plan de difusión digital y presencial.',
     accent: '#34D399'
   },
   {
     id: 2,
-    title: 'Expansión Comercial & Mercado',
-    category: 'Estrategia',
-    impact: 'Escalabilidad Multi-Región',
-    clientType: 'Retail & Distribución',
-    icon: <Store size={24} />,
-    tags: ['Estrategia de Mercado', 'Canales Comerciales', 'Roadmap'],
-    challenge: 'Hoja de ruta para apertura en 3 nuevas plazas comerciales.',
-    solution: 'Auditoría competitiva, optimización de canales y modelo de servicio.',
-    accent: '#60A5FA'
+    title: 'Identidad Visual para Redes',
+    category: 'Redes y Contenido',
+    impact: '+60% Interacción',
+    result: 'Comunidad activa y constante: +60% de interacción y +1.200 seguidores en 90 días.',
+    clientType: 'Tienda de moda local',
+    icon: <Clapperboard size={24} />,
+    tags: ['Contenido visual', 'Edición de video', 'Calendario'],
+    challenge: 'Redes sin línea visual ni constancia de publicación.',
+    solution: 'Identidad visual, calendario de contenido y edición de imagen y video.',
+    accent: '#E7C873'
   },
   {
     id: 3,
-    title: 'Optimización Financiera de Cartera',
+    title: 'Diagnóstico Estratégico FODA/PESTEL',
     category: 'Estrategia',
-    impact: 'ROI Maximizado',
-    clientType: 'Finanzas & Inversión',
-    icon: <BarChart3 size={24} />,
-    tags: ['Control de Rentabilidad', 'Mitigación de Riesgos', 'Reporting'],
-    challenge: 'Indicadores dispersos para comités de gerencia general.',
-    solution: 'Tablero ejecutivo en tiempo real con alertas predictivas.',
-    accent: '#818CF8'
+    impact: 'Plan de 90 días',
+    result: 'Dos segmentos prioritarios definidos y un plan de acción claro para 90 días.',
+    clientType: 'Servicio de delivery',
+    icon: <SearchCheck size={24} />,
+    tags: ['FODA/PESTEL', 'Segmentación', 'Propuesta de valor'],
+    challenge: 'Decisiones sin datos: público y ventaja competitiva poco claros.',
+    solution: 'Análisis FODA y PESTEL, segmentación de público y propuesta de valor.',
+    accent: '#10B981'
   },
-
-  // DIGITALIZACIÓN DE NEGOCIOS
   {
     id: 4,
-    title: 'Ecosistema Comercial & CRM',
-    category: 'Digitalización',
-    impact: '-60% Tiempo de Respuesta',
-    clientType: 'Consultoría & Ventas',
-    icon: <Target size={24} />,
-    tags: ['Automatización CRM', 'Atención Ágil', 'Trazabilidad 360°'],
-    challenge: 'Gestión dispersa de clientes y pérdida de oportunidades de venta.',
-    solution: 'Plataforma centralizada con seguimiento automático de prospectos.',
-    accent: '#34D399'
-  },
-  {
-    id: 5,
-    title: 'Canal Transaccional Seguro',
-    category: 'Digitalización',
-    impact: '99.9% Disponibilidad',
-    clientType: 'Servicios Financieros',
-    icon: <Globe2 size={24} />,
-    tags: ['Seguridad Bancaria', 'Alta Concurrencia', 'UX Comercial'],
-    challenge: 'Modernización de cobros y transacciones sin fricción.',
-    solution: 'Arquitectura modular resiliente con protocolos de seguridad.',
-    accent: '#34D399'
-  },
-  {
-    id: 6,
-    title: 'Portal de Autoservicio y Cobranza',
-    category: 'Digitalización',
-    impact: '+70% Autogestión',
-    clientType: 'Logística & Comercio',
-    icon: <Factory size={24} />,
-    tags: ['Facturación Ágil', 'Autogestión Clientes', 'Cero Filas'],
-    challenge: 'Sobrecarga administrativa en emisión de órdenes y cobros.',
-    solution: 'Portal dinámico de autoservicio para consulta y pagos directos.',
-    accent: '#F59E0B'
-  },
-
-  // SISTEMAS INTEGRADOS
-  {
-    id: 7,
-    title: 'Control Logístico de Flota',
-    category: 'Operaciones',
-    impact: 'Trazabilidad 100% en Vivo',
-    clientType: 'Cadena de Suministro',
-    icon: <Factory size={24} />,
-    tags: ['Rutas Eficientes', 'Monitoreo de Flota', 'Control Despachos'],
-    challenge: 'Falta de visibilidad sobre despachos y tiempos de entrega.',
-    solution: 'Panel central con geolocalización y métricas de desempeño.',
-    accent: '#60A5FA'
-  },
-  {
-    id: 8,
-    title: 'Campus de Formación de Personal',
-    category: 'Operaciones',
-    impact: '+1,200 Colaboradores',
-    clientType: 'Recursos Humanos',
-    icon: <Building size={24} />,
-    tags: ['Onboarding Digital', 'Capacitación Continua', 'Desempeño'],
-    challenge: 'Entrenamiento tardío y disperso para nuevas incorporaciones.',
-    solution: 'Entorno dinámico de aprendizaje con rutas de avance personalizadas.',
-    accent: '#818CF8'
-  },
-  {
-    id: 9,
-    title: 'Catálogo Interactivo Comercial',
-    category: 'Operaciones',
-    impact: '+3.5x Conversión',
-    clientType: 'Sector Inmobiliario',
-    icon: <Store size={24} />,
-    tags: ['Catálogo de Alto Valor', 'Filtros Ágiles', 'Cierre de Ventas'],
-    challenge: 'Presentación estática y poco atractiva de propiedades.',
-    solution: 'Fichas interactivas con contacto directo a WhatsApp de ventas.',
-    accent: '#34D399'
+    title: 'Comunidad de Aprendizaje Financiero',
+    category: 'Mercados Financieros',
+    impact: '+30 Participantes',
+    result: 'Una comunidad activa de principiantes que avanza paso a paso. Contenido educativo.',
+    clientType: 'Grupo de principiantes',
+    icon: <TrendingUp size={24} />,
+    tags: ['Educación financiera', 'Análisis de activos', 'Comunidad'],
+    challenge: 'Personas curiosas del mercado sin base para entender la operativa.',
+    solution: 'Sesiones guiadas paso a paso, análisis de activos y práctica acompañada.',
+    accent: '#D4AF37'
   }
 ];
 
 const filters = [
-  { id: 'Estrategia', label: 'Estrategia de Negocios', icon: <Briefcase size={14} /> },
-  { id: 'Digitalización', label: 'Digitalización Comercial', icon: <TrendingUp size={14} /> },
-  { id: 'Operaciones', label: 'Operaciones & Sistemas', icon: <Layers size={14} /> },
+  { id: 'Todos', label: 'Todos', icon: <Layers size={14} /> },
+  { id: 'Comunicación', label: 'Comunicación', icon: <Megaphone size={14} /> },
+  { id: 'Redes y Contenido', label: 'Redes y Contenido', icon: <Clapperboard size={14} /> },
+  { id: 'Estrategia', label: 'Estrategia', icon: <SearchCheck size={14} /> },
+  { id: 'Mercados Financieros', label: 'Mercados Financieros', icon: <TrendingUp size={14} /> },
 ];
 
 const CommercialProjects = () => {
-  const [activeFilter, setActiveFilter] = useState('Estrategia');
-  const filteredProjects = businessCases.filter(p => p.category === activeFilter);
+  const [activeFilter, setActiveFilter] = useState('Todos');
+  const filteredProjects = activeFilter === 'Todos'
+    ? businessCases
+    : businessCases.filter(p => p.category === activeFilter);
 
   return (
     <section id="projects" className="py-24 bg-obsidian-black relative overflow-hidden border-t border-white/[0.08] corporate-grid">
@@ -152,7 +91,7 @@ const CommercialProjects = () => {
 
       <div className="container mx-auto px-4 sm:px-6 xl:px-12 max-w-7xl relative z-10">
         
-        {/* Encabezado Conciso */}
+        {/* Encabezado */}
         <div className="flex flex-col items-center justify-center text-center mb-12 relative z-10">
           <motion.div 
             initial={{ opacity: 0, y: 15 }}
@@ -162,7 +101,7 @@ const CommercialProjects = () => {
           >
             <Briefcase size={14} className="text-emerald-light" />
             <span className="text-titanium text-xs sm:text-sm font-semibold tracking-wider uppercase">
-              Resultados Comprobados
+              Casos & Resultados
             </span>
           </motion.div>
           
@@ -173,14 +112,14 @@ const CommercialProjects = () => {
             transition={{ type: "spring", stiffness: 100, delay: 0.1 }}
             className="text-2xl sm:text-4xl lg:text-5xl font-black text-white font-inter mb-3 leading-tight tracking-tight"
           >
-            Casos de Éxito en{' '}
+            Casos que muestran el proceso:{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-light via-emerald-bright to-gold-champagne">
-              Diversos Sectores
+              desafío, solución y resultado
             </span>
           </motion.h2>
 
           <p className="text-slate-300 text-xs sm:text-sm md:text-base max-w-xl text-center leading-relaxed">
-            Iniciativas ejecutadas con foco en ahorro de costos, aumento de ventas y orden operacional.
+            Ejemplos del trabajo con emprendedores y comunidad: qué problema había, qué solución se diseñó y qué cambió.
           </p>
         </div>
 
@@ -202,7 +141,7 @@ const CommercialProjects = () => {
           ))}
         </div>
 
-        {/* Rejilla de Proyectos Centrados con Iconos */}
+        {/* Rejilla de Casos */}
         <motion.div layout className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 relative z-20">
           <AnimatePresence mode='popLayout'>
             {filteredProjects.map((project) => (
@@ -228,17 +167,17 @@ const CommercialProjects = () => {
                   >
                     
                     {/* Barra Superior con Tipo de Cliente y Métrica */}
-                    <div className="bg-white/[0.02] border-b border-white/[0.06] px-5 py-3 flex justify-between items-center z-20">
-                      <span className="text-[11px] font-semibold text-titanium uppercase tracking-wider">
+                    <div className="bg-white/[0.02] border-b border-white/[0.06] px-5 py-3 flex justify-between items-center gap-2 z-20">
+                      <span className="text-[11px] font-semibold text-titanium uppercase tracking-wider truncate">
                         {project.clientType}
                       </span>
-                      <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-emerald-500/10 border border-emerald-400/20 text-emerald-400 text-[10px] font-bold">
+                      <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-emerald-500/10 border border-emerald-400/20 text-emerald-400 text-[10px] font-bold whitespace-nowrap">
                         <TrendingUp size={11} />
                         {project.impact}
                       </span>
                     </div>
 
-                    {/* Contenido Principal Centrado */}
+                    {/* Contenido Principal */}
                     <div className="p-6 flex flex-col flex-grow relative z-20 text-center items-center">
                       
                       {/* Icono Distintivo */}
@@ -268,9 +207,13 @@ const CommercialProjects = () => {
                           <strong className="text-emerald-light block text-[10px] uppercase tracking-wider">Solución:</strong>
                           {project.solution}
                         </div>
+                        <div className="text-xs text-slate-300 leading-relaxed bg-gold-champagne/[0.04] p-2.5 rounded-xl border border-gold-champagne/15">
+                          <strong className="text-gold-light block text-[10px] uppercase tracking-wider">Resultado:</strong>
+                          {project.result}
+                        </div>
                       </div>
 
-                      {/* Etiquetas de Áreas */}
+                      {/* Etiquetas */}
                       <div className="flex flex-wrap justify-center gap-1 mb-5 w-full">
                         {project.tags.map((tag, i) => (
                           <span 
@@ -285,12 +228,12 @@ const CommercialProjects = () => {
                       {/* Botón de Enlace/Detalle */}
                       <div className="mt-auto w-full pt-2.5 border-t border-white/[0.06]">
                         <a 
-                          href="https://wa.me/59168832828?text=Hola%20Luis,%20me%20interesa%20un%20caso%20similar%20a%20este%20proyecto." 
+                          href={whatsappUrl}
                           target="_blank"
                           rel="noreferrer"
                           className="w-full py-2 px-3 rounded-xl border border-white/10 hover:border-emerald-light/50 bg-white/[0.02] hover:bg-white/[0.06] text-slate-200 hover:text-white text-xs font-semibold flex items-center justify-center gap-2 transition-all group/btn shadow-sm"
                         >
-                          <span>Consultar Iniciativa</span>
+                          <span>Consultar iniciativa</span>
                           <ArrowUpRight size={13} className="group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5 transition-transform" />
                         </a>
                       </div>
@@ -302,6 +245,11 @@ const CommercialProjects = () => {
             ))}
           </AnimatePresence>
         </motion.div>
+
+        {/* Nota de cumplimiento financiero */}
+        <p className="text-center text-[11px] text-titanium mt-8 relative z-20">
+          Los contenidos de mercados financieros son educativos y no constituyen recomendación de inversión.
+        </p>
       </div>
     </section>
   );

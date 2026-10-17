@@ -2,83 +2,92 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import Tilt from 'react-parallax-tilt';
 import { 
-  Users, 
-  LineChart, 
-  Cpu, 
-  MessageSquare, 
-  Sparkles, 
-  CheckCircle2, 
-  Target, 
-  Lightbulb, 
-  ShieldCheck, 
-  Layers, 
-  Workflow, 
-  FileCheck,
+  SearchCheck,
+  Clapperboard,
+  Lightbulb,
   TrendingUp,
-  Award,
-  Zap
+  ScanSearch, 
+  Search,
+  Users, 
+  Target, 
+  CheckCircle2, 
+  Image,
+  Video,
+  CalendarDays,
+  Palette,
+  MessageSquare,
+  BarChart3,
+  ClipboardList,
+  ListChecks,
+  Globe,
+  LineChart,
+  ShieldCheck,
+  GraduationCap,
+  Workflow,
+  Sparkles
 } from 'lucide-react';
 
 const competenceCategories = [
   {
-    id: 'gestion',
-    title: 'Gestión Comercial & Dirección',
-    icon: <Users size={24} />,
+    id: 'marketing',
+    title: 'Estrategia de Marketing y Análisis',
+    icon: <SearchCheck size={24} />,
     accent: '#34D399',
-    desc: 'Liderazgo de proyectos y alineación de equipos para alcanzar metas de ventas y entrega.',
+    desc: 'Entiendo el negocio y el mercado para decidir con base: análisis, segmentación y planes claros.',
     competences: [
-      { name: 'Dirección de Proyectos', icon: <Target size={15} /> },
-      { name: 'Estrategia de Crecimiento', icon: <Layers size={15} /> },
-      { name: 'Toma de Decisiones', icon: <CheckCircle2 size={15} /> },
-      { name: 'Coordinación Multidisciplinar', icon: <Users size={15} /> },
-      { name: 'Control Presupuestario', icon: <ShieldCheck size={15} /> },
-      { name: 'Metodologías Ágiles', icon: <Workflow size={15} /> }
+      { name: 'FODA & PESTEL', icon: <ScanSearch size={15} /> },
+      { name: 'Investigación de mercado', icon: <Search size={15} /> },
+      { name: 'Segmentación de público', icon: <Users size={15} /> },
+      { name: 'Propuesta de valor', icon: <Target size={15} /> },
+      { name: 'Objetivos & KPIs', icon: <TrendingUp size={15} /> },
+      { name: 'Toma de decisiones', icon: <CheckCircle2 size={15} /> }
     ]
   },
   {
-    id: 'analitica',
-    title: 'Análisis de Rentabilidad & Negocio',
-    icon: <LineChart size={24} />,
-    accent: '#60A5FA',
-    desc: 'Diagnóstico de cuellos de botella y diseño de soluciones basadas en números e impacto real.',
+    id: 'contenido',
+    title: 'Contenido y Redes Sociales',
+    icon: <Clapperboard size={24} />,
+    accent: '#E7C873',
+    desc: 'Creo contenido que conecta: imagen, video y copy con una línea visual coherente.',
     competences: [
-      { name: 'Diagnóstico de Procesos', icon: <LineChart size={15} /> },
-      { name: 'Resolución de Problemas', icon: <Lightbulb size={15} /> },
-      { name: 'Métricas & KPIs Comerciales', icon: <Target size={15} /> },
-      { name: 'Modelado de Negocio', icon: <Layers size={15} /> },
-      { name: 'Optimización de Costos', icon: <Workflow size={15} /> },
-      { name: 'Informes Ejecutivos', icon: <FileCheck size={15} /> }
+      { name: 'Edición de imagen', icon: <Image size={15} /> },
+      { name: 'Edición de video', icon: <Video size={15} /> },
+      { name: 'Calendario de contenido', icon: <CalendarDays size={15} /> },
+      { name: 'Identidad visual', icon: <Palette size={15} /> },
+      { name: 'Copy para redes', icon: <MessageSquare size={15} /> },
+      { name: 'Métricas de redes', icon: <BarChart3 size={15} /> }
     ]
   },
   {
-    id: 'adaptabilidad',
-    title: 'Versatilidad & Soluciones Prácticas',
-    icon: <Zap size={24} />,
-    accent: '#818CF8',
-    desc: 'Capacidad de aprender, adaptarse y resolver problemas operativos y técnicos en cualquier sector.',
+    id: 'emprendedores',
+    title: 'Soluciones para Emprendedores',
+    icon: <Lightbulb size={24} />,
+    accent: '#10B981',
+    desc: 'Identifico el problema exacto y diseño respuestas a medida, digitales o presenciales.',
     competences: [
-      { name: 'Resolución Integral de Problemas', icon: <Sparkles size={15} /> },
-      { name: 'Automatización de Tareas', icon: <Workflow size={15} /> },
-      { name: 'Ecosistemas Cloud y Digitales', icon: <Cpu size={15} /> },
-      { name: 'Diseño Centrado en Cliente', icon: <Target size={15} /> },
-      { name: 'Adaptación a Todo Rubro', icon: <CheckCircle2 size={15} /> },
-      { name: 'Control de Estándares', icon: <ShieldCheck size={15} /> }
+      { name: 'Diagnóstico del negocio', icon: <ClipboardList size={15} /> },
+      { name: 'Soluciones a medida', icon: <Lightbulb size={15} /> },
+      { name: 'Priorización de acciones', icon: <ListChecks size={15} /> },
+      { name: 'Digital y presencial', icon: <Globe size={15} /> },
+      { name: 'Acompañamiento cercano', icon: <Users size={15} /> },
+      { name: 'Planes de crecimiento', icon: <TrendingUp size={15} /> }
     ]
   },
   {
-    id: 'relaciones',
-    title: 'Negociación & Atención a Clientes',
-    icon: <MessageSquare size={24} />,
-    accent: '#34D399',
-    desc: 'Habilidad para generar confianza, negociar acuerdos y articular relaciones de largo plazo.',
+    id: 'mercados',
+    title: 'Mercados Financieros y Mentoría',
+    icon: <TrendingUp size={24} />,
+    accent: '#D4AF37',
+    desc: 'Explico el mercado paso a paso y acompaño el aprendizaje con comunidad y práctica guiada.',
     competences: [
-      { name: 'Consultoría con Clientes', icon: <Users size={15} /> },
-      { name: 'Presentaciones Ejecutivas', icon: <MessageSquare size={15} /> },
-      { name: 'Negociación Comercial', icon: <CheckCircle2 size={15} /> },
-      { name: 'Gestión de Expectativas', icon: <Target size={15} /> },
-      { name: 'Cierre de Acuerdos', icon: <TrendingUp size={15} /> },
-      { name: 'Atención Personalizada', icon: <ShieldCheck size={15} /> }
-    ]
+      { name: 'Análisis del mercado', icon: <LineChart size={15} /> },
+      { name: 'Comportamiento de activos', icon: <BarChart3 size={15} /> },
+      { name: 'Compra y venta paso a paso', icon: <Workflow size={15} /> },
+      { name: 'Gestión de riesgo', icon: <ShieldCheck size={15} /> },
+      { name: 'Explicación didáctica', icon: <GraduationCap size={15} /> },
+      { name: 'Comunidad de aprendizaje', icon: <Users size={15} /> }
+    ],
+    notice: 'Contenido educativo; no constituye recomendación de inversión.'
   }
 ];
 
@@ -102,7 +111,7 @@ const ProfessionalSkills = () => {
           >
             <Sparkles size={14} className="text-emerald-light" />
             <span className="text-titanium text-xs sm:text-sm font-semibold tracking-wider uppercase">
-              Competencias Integrales
+              Competencias
             </span>
           </motion.div>
           
@@ -113,18 +122,18 @@ const ProfessionalSkills = () => {
             transition={{ delay: 0.1 }}
             className="text-2xl sm:text-4xl lg:text-5xl font-black text-white font-inter mb-3 leading-tight tracking-tight"
           >
-            Capacidades para{' '}
+            Un perfil que une{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-light via-emerald-bright to-gold-champagne">
-              Cualquier Rubro
+              marketing y visión financiera
             </span>
           </motion.h2>
 
           <p className="text-slate-300 text-xs sm:text-sm md:text-base max-w-xl text-center leading-relaxed">
-            Un perfil todoterreno que une liderazgo, visión de negocio, disciplina metodológica y adaptabilidad total.
+            Estrategia, contenido, soluciones para emprendedores y educación financiera: cuatro áreas que trabajan juntas para hacerte crecer.
           </p>
         </div>
 
-        {/* Rejilla de Competencias Centradas */}
+        {/* Rejilla de Competencias */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 relative z-20">
           {competenceCategories.map((category, index) => (
             <motion.div 
@@ -182,6 +191,13 @@ const ProfessionalSkills = () => {
                       </div>
                     ))}
                   </div>
+
+                  {/* Aviso educativo (compliance) */}
+                  {category.notice && (
+                    <p className="text-[10px] text-gold-light/90 italic mt-3 leading-relaxed">
+                      {category.notice}
+                    </p>
+                  )}
 
                 </div>
               </Tilt>

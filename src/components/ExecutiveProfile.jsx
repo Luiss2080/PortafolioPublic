@@ -3,12 +3,9 @@ import { motion } from 'framer-motion';
 import { 
   Sparkles, 
   Target, 
-  ShieldCheck, 
   TrendingUp, 
   Lightbulb, 
   Users, 
-  Briefcase, 
-  Zap, 
   CheckCircle2,
   Award
 } from 'lucide-react';
@@ -18,26 +15,26 @@ const businessPillars = [
   {
     icon: <Target size={22} />,
     title: 'Orientación a Resultados',
-    desc: 'Compromiso directo con la rentabilidad, ahorro de costos y cumplimiento de metas del cliente.',
+    desc: 'Compromiso con problemas reales del negocio y soluciones que producen resultados visibles.',
     accent: '#34D399'
   },
   {
-    icon: <Zap size={22} />,
-    title: 'Versatilidad Total',
-    desc: 'Facilidad comprobada para resolver desafíos en cualquier industria, rubro o escala de negocio.',
-    accent: '#60A5FA'
-  },
-  {
-    icon: <ShieldCheck size={22} />,
-    title: 'Rigor y Seriedad',
-    desc: 'Puntualidad en los compromisos, transparencia en las entregas y altos estándares de calidad.',
-    accent: '#818CF8'
+    icon: <Lightbulb size={22} />,
+    title: 'Claridad y Paso a Paso',
+    desc: 'Explico cada concepto y cada decisión de forma simple, sin tecnicismos innecesarios.',
+    accent: '#D4AF37'
   },
   {
     icon: <Users size={22} />,
     title: 'Cercanía y Trato Directo',
-    desc: 'Comunicación fluida y humana para transformar requerimientos en soluciones tangibles.',
-    accent: '#34D399'
+    desc: 'Comunicación fluida y humana: entiendo tu contexto antes de proponer.',
+    accent: '#10B981'
+  },
+  {
+    icon: <TrendingUp size={22} />,
+    title: 'Aprendizaje Continuo',
+    desc: 'Formación constante en marketing, contenido y mercados financieros para darte lo mejor.',
+    accent: '#E7C873'
   }
 ];
 
@@ -72,21 +69,21 @@ const ExecutiveProfile = () => {
             transition={{ delay: 0.1 }}
             className="text-2xl sm:text-4xl lg:text-5xl font-black text-white font-inter mb-3 leading-tight tracking-tight"
           >
-            Capacidad para Resolver{' '}
+            Dos mundos que trabajan juntos:{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-light to-gold-light">
-              Cualquier Iniciativa
+              marketing y finanzas
             </span>
           </motion.h2>
 
           <p className="text-slate-300 text-xs sm:text-sm md:text-base max-w-xl text-center leading-relaxed">
-            Una propuesta de valor fundamentada en versatilidad, orden y certidumbre para quienes confían en mi trabajo.
+            Quién soy, cómo trabajo y por qué combino la creatividad del marketing con la disciplina de los mercados.
           </p>
         </div>
 
         {/* Contenido en 2 Bloques Editoriales */}
         <div className="grid lg:grid-cols-12 gap-8 items-stretch">
           
-          {/* Bloque Izquierdo: Manifiesto Ejecutivo Conciso (7 cols) */}
+          {/* Bloque Izquierdo: Manifiesto (7 cols) */}
           <motion.div 
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -97,45 +94,45 @@ const ExecutiveProfile = () => {
             <div className="glass-card p-6 sm:p-8 md:p-9 rounded-2xl bg-obsidian-card/85 backdrop-blur-xl border border-white/[0.08] shadow-subtle-card flex flex-col justify-between h-full">
               <div>
                 <span className="text-xs font-semibold text-emerald-light uppercase tracking-wider block mb-2">
-                  Visión Profesional
+                  Mi enfoque
                 </span>
                 <h3 className="text-xl sm:text-2xl font-bold text-white mb-4 leading-snug">
-                  Gestión integral, mentalidad práctica y adaptabilidad a cualquier rubro o tamaño de empresa.
+                  Identifico el problema, diseño la solución y la entrego de forma clara.
                 </h3>
                 
                 <div className="space-y-3 text-slate-300 text-xs sm:text-sm md:text-base leading-relaxed">
                   <p>
-                    Mi nombre es <strong className="text-white font-semibold">Luis Mario Rocha Vela</strong>. Cuento con una formación y experiencia transversales que me permiten desempeñarme con soltura en estrategia comercial, dirección de proyectos, optimización operativa y despliegue de herramientas de vanguardia.
+                    Mi nombre es <strong className="text-white font-semibold">Luis Enrique Abri Fernández</strong>. Estudio Marketing, Publicidad y Comercio y soy mentor en mercados financieros. Conecto necesidades reales de emprendedores con soluciones prácticas, ya sean digitales o presenciales.
                   </p>
                   <p>
-                    No me limito a un único sector: trabajo con empresas comerciales, industrias, firmas de servicios o clientes independientes. Mi prioridad es comprender el negocio, resolver cuellos de botella con rapidez y asegurar que cada entregable produzca valor tangible.
+                    Me importa entender el problema exacto antes de proponer: cada solución parte de un diagnóstico, se explica paso a paso y se entrega con claridad. Combino el marketing que hace crecer tu marca con la visión financiera que te ayuda a decidir con inteligencia.
                   </p>
                 </div>
               </div>
 
-              {/* Insignias de Valores con Iconos */}
+              {/* Insignias de Valores */}
               <div className="grid grid-cols-2 gap-3 mt-6 pt-5 border-t border-white/[0.08]">
                 <div className="flex items-center gap-2.5 p-2 rounded-xl bg-white/[0.02]">
                   <CheckCircle2 size={16} className="text-emerald-400 flex-shrink-0" />
-                  <span className="text-xs font-semibold text-slate-200">Resolutivo & Proactivo</span>
+                  <span className="text-xs font-semibold text-slate-200">Proactivo & Orientado a Resultados</span>
                 </div>
                 <div className="flex items-center gap-2.5 p-2 rounded-xl bg-white/[0.02]">
-                  <Award size={16} className="text-amber-400 flex-shrink-0" />
-                  <span className="text-xs font-semibold text-slate-200">Alto Estándar de Entrega</span>
+                  <Award size={16} className="text-gold-champagne flex-shrink-0" />
+                  <span className="text-xs font-semibold text-slate-200">Explicación Paso a Paso</span>
                 </div>
               </div>
 
               {/* Cita Editorial */}
               <div className="mt-6 pt-5 border-t border-white/[0.08] flex items-center gap-3">
-                <div className="w-1.5 h-10 bg-emerald-deep rounded-full"></div>
+                <div className="w-1.5 h-10 bg-gradient-to-b from-emerald-deep to-gold-champagne rounded-full"></div>
                 <p className="text-slate-200 text-xs sm:text-sm italic font-medium">
-                  "El valor de un buen profesional radica en dar tranquilidad, orden y resultados a quien confía en su capacidad."
+                  "Entender el problema exacto y entregar una solución clara: esa es la base de un trabajo bien hecho."
                 </p>
               </div>
             </div>
           </motion.div>
 
-          {/* Bloque Derecho: 4 Pilares Comerciales con Iconos (5 cols) */}
+          {/* Bloque Derecho: 4 Pilares (5 cols) */}
           <motion.div 
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}

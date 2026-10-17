@@ -52,7 +52,7 @@ const Hero = () => {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="text-slate-300 text-base md:text-lg leading-relaxed font-normal"
             >
-              Soy <strong className="text-white font-semibold">Luis Mario Rocha Vela</strong>. Mi mayor fortaleza es la <strong className="text-white font-medium">versatilidad total</strong>: desde diseñar la estrategia y liderar la gestión organizativa, hasta la implementación técnica, optimización de procesos y resolución ágil de problemas en cualquier industria. Me adapto con rapidez a las metas de cada cliente o equipo para asegurar que todo funcione a la perfección.
+              Soy <strong className="text-white font-semibold">Luis Enrique Abri Fernández</strong>. Combino el <strong className="text-white font-medium">marketing</strong> que hace crecer tu marca con la visión de los <strong className="text-white font-medium">mercados financieros</strong>: identifico el problema, diseño la solución y la entrego de forma clara, digital o presencial.
             </motion.p>
 
             {/* Llamados a la acción (CTAs) */}

@@ -2,50 +2,50 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import Tilt from 'react-parallax-tilt';
 import { 
-  Building2, 
-  Layers, 
-  Workflow, 
-  LineChart, 
+  Megaphone,
+  Clapperboard,
+  SearchCheck,
+  TrendingUp,
   ArrowRight, 
   CheckCircle2, 
-  Sparkles,
-  ShoppingBag,
-  Zap,
-  Target
+  Sparkles
 } from 'lucide-react';
+
+const whatsappUrl = 'https://wa.me/59170000000?text=Hola%20Luis%20Enrique,%20quiero%20consultar%20sobre%20tus%20servicios.';
 
 const businessServices = [
   {
     num: "01",
-    icon: <Building2 size={24} />,
-    title: "Estrategia & Consultoría Comercial",
-    desc: "Diagnóstico de modelos de negocio, apertura de canales y planificación estratégica para maximizar ventas.",
-    tags: ["Diagnóstico", "Modelos Comerciales", "Hoja de Ruta"],
+    icon: <Megaphone size={24} />,
+    title: "Estrategia de Comunicación",
+    desc: "Defino qué decir, a quién y por dónde: mensajes clave y un plan de difusión para que tu marca conecte con las personas correctas.",
+    tags: ["Mensajes clave", "Plan de difusión", "Marca"],
     accent: "#34D399"
   },
   {
     num: "02",
-    icon: <Layers size={24} />,
-    title: "Dirección & Gestión de Proyectos",
-    desc: "Liderazgo de iniciativas de principio a fin asegurando entrega a tiempo, control presupuestario y calidad.",
-    tags: ["Gestión Ágil", "Control de Hitos", "Riesgos"],
-    accent: "#60A5FA"
+    icon: <Clapperboard size={24} />,
+    title: "Gestión de Redes y Contenido",
+    desc: "Planifico y creo contenido para tus redes —imagen, video y copy— con una línea visual coherente, constancia y foco en conectar.",
+    tags: ["Contenido", "Edición", "Redes sociales"],
+    accent: "#E7C873"
   },
   {
     num: "03",
-    icon: <Workflow size={24} />,
-    title: "Sistemas & Soluciones a Medida",
-    desc: "Implementación de herramientas dinámicas, canales digitales y plataformas para potenciar marcas y ventas.",
-    tags: ["Canales Digitales", "Automatización", "Escalabilidad"],
-    accent: "#818CF8"
+    icon: <SearchCheck size={24} />,
+    title: "Asesoría Estratégica para Emprendedores",
+    desc: "Analizo tu negocio con FODA y PESTEL, segmento tu público y diseño soluciones a medida para que decidas con claridad.",
+    tags: ["FODA/PESTEL", "Segmentación", "Plan de acción"],
+    accent: "#10B981"
   },
   {
     num: "04",
-    icon: <LineChart size={24} />,
-    title: "Optimización Operativa & Procesos",
-    desc: "Sistematización de tareas repetitivas y reducción de costos para elevar la rentabilidad diaria.",
-    tags: ["Eficiencia", "Métricas KPIs", "Mejora Continua"],
-    accent: "#34D399"
+    icon: <TrendingUp size={24} />,
+    title: "Mentoría en Mercados Financieros",
+    desc: "Aprende a entender el mercado y su operativa paso a paso: análisis de activos, gestión de riesgo y comunidad de aprendizaje.",
+    tags: ["Análisis de mercado", "Operativa guiada", "Comunidad"],
+    accent: "#D4AF37",
+    notice: "Contenido educativo; no constituye recomendación de inversión."
   }
 ];
 
@@ -69,7 +69,7 @@ const BusinessSolutions = () => {
           >
             <Sparkles size={14} className="text-emerald-light" />
             <span className="text-titanium text-xs sm:text-sm font-semibold tracking-wider uppercase">
-              Soluciones para Empresas
+              Servicios & Soluciones
             </span>
           </motion.div>
           
@@ -79,14 +79,14 @@ const BusinessSolutions = () => {
             viewport={{ once: true }}
             className="text-2xl sm:text-4xl lg:text-5xl font-black text-white font-inter mb-3 leading-tight tracking-tight"
           >
-            Servicios Diseñados para{' '}
+            Servicios diseñados para{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-light to-gold-light">
-              Generar Ingresos y Orden
+              hacer crecer tu marca
             </span>
           </motion.h2>
 
           <p className="text-slate-300 text-xs sm:text-sm md:text-base max-w-xl text-center leading-relaxed">
-            Propuestas prácticas y adaptables a cualquier volumen de operación e industria.
+            Cuatro caminos claros para emprendedores: comunicación, contenido, estrategia y educación financiera paso a paso.
           </p>
         </div>
 
@@ -131,7 +131,7 @@ const BusinessSolutions = () => {
                         className="text-[10px] font-black tracking-widest uppercase font-inter opacity-60"
                         style={{ color: service.accent }}
                       >
-                        Solución {service.num}
+                        Servicio {service.num}
                       </span>
                     </div>
                     
@@ -144,7 +144,7 @@ const BusinessSolutions = () => {
                     </p>
 
                     {/* Etiquetas Centradas */}
-                    <div className="flex flex-wrap justify-center gap-1 mt-auto mb-4">
+                    <div className="flex flex-wrap justify-center gap-1 mt-auto mb-3">
                       {service.tags.map((tag, i) => (
                         <span 
                           key={i} 
@@ -156,15 +156,22 @@ const BusinessSolutions = () => {
                       ))}
                     </div>
 
+                    {/* Aviso educativo (compliance) */}
+                    {service.notice && (
+                      <p className="text-[10px] text-gold-light/90 italic leading-relaxed mb-3">
+                        {service.notice}
+                      </p>
+                    )}
+
                     {/* Botón de acción */}
                     <div className="mt-auto w-full pt-2 border-t border-white/[0.06]">
                       <a 
-                        href="https://wa.me/59168832828?text=Hola%20Luis,%20quisiera%20consultar%20sobre%20tus%20soluciones%20empresariales."
+                        href={whatsappUrl}
                         target="_blank"
                         rel="noreferrer"
                         className="w-full py-2 rounded-xl border border-white/10 text-xs font-semibold font-inter transition-all flex items-center justify-center gap-1.5 group/btn hover:bg-white/5 text-slate-200 hover:text-white hover:border-emerald-light/50"
                       >
-                        <span>Consultar Solución</span>
+                        <span>Consultar solución</span>
                         <ArrowRight size={13} className="group-hover/btn:translate-x-1 transition-transform" />
                       </a>
                     </div>

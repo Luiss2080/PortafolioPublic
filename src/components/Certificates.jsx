@@ -1,31 +1,31 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Tilt from 'react-parallax-tilt';
-import { Award, ExternalLink, ShieldCheck, CheckCircle2, Sparkles } from 'lucide-react';
+import { Award, ExternalLink, ShieldCheck } from 'lucide-react';
 
 const certificates = [
   {
     id: 1,
-    title: "Gestión Estratégica & Liderazgo de Proyectos",
-    issuer: "Institución Internacional Certificadora",
+    title: "Fundamentos de Marketing Digital",
+    issuer: "Google Actívate",
     year: "2024",
-    tags: ["Gestión Ágil", "Liderazgo Directivo", "Entrega Continua"],
+    tags: ["Marketing digital", "Estrategia", "Medición"],
     link: "#"
   },
   {
     id: 2,
-    title: "Especialización en Transformación & Arquitectura Digital",
-    issuer: "Programa de Innovación Empresarial",
-    year: "2023",
-    tags: ["Estrategia Digital", "Procesos Cloud", "Seguridad"],
+    title: "Gestión de Contenido y Redes Sociales",
+    issuer: "Meta Blueprint",
+    year: "2024",
+    tags: ["Redes sociales", "Contenido", "Comunidad"],
     link: "#"
   },
   {
     id: 3,
-    title: "Diseño de Experiencia & Metodologías Centradas en el Cliente",
-    issuer: "Certificación Corporativa Global",
-    year: "2024",
-    tags: ["Experiencia de Usuario", "Prototipado", "Validación"],
+    title: "Introducción a los Mercados Financieros",
+    issuer: "Coursera · Yale University",
+    year: "2025",
+    tags: ["Mercados", "Activos", "Educación financiera"],
     link: "#"
   }
 ];
@@ -60,7 +60,7 @@ const Certificates = () => {
           >
             <Award size={14} className="text-emerald-light" />
             <span className="text-titanium text-xs md:text-sm font-semibold tracking-wider uppercase">
-              Credenciales & Avales
+              Credenciales
             </span>
           </motion.div>
           
@@ -71,14 +71,14 @@ const Certificates = () => {
             transition={{ delay: 0.1 }}
             className="text-3xl sm:text-4xl lg:text-5xl font-black text-white font-inter mb-4 leading-tight tracking-tight"
           >
-            Certificaciones &{' '}
+            Credenciales &{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-light to-gold-light">
-              Respaldo Profesional
+              aprendizaje continuo
             </span>
           </motion.h2>
 
           <p className="text-slate-300 text-sm md:text-base max-w-2xl text-center leading-relaxed">
-            Acreditaciones que validan competencias, rigor metodológico y un compromiso permanente con la actualización profesional continua.
+            Formación que respalda cada área: marketing digital, contenido para redes y fundamentos de mercados financieros, en constante actualización.
           </p>
         </div>
 
@@ -114,7 +114,7 @@ const Certificates = () => {
                         </span>
                         <div className="flex items-center gap-1.5 mt-0.5 text-xs text-emerald-400 font-medium">
                           <ShieldCheck size={13} />
-                          <span>Certificación Verificada</span>
+                          <span>Certificación</span>
                         </div>
                       </div>
                     </div>
@@ -146,7 +146,7 @@ const Certificates = () => {
                       href={cert.link} 
                       className="w-full py-2.5 rounded-xl border border-white/10 hover:border-emerald-light/40 bg-white/[0.02] hover:bg-white/[0.06] text-slate-200 hover:text-white text-xs font-semibold flex items-center justify-center gap-2 transition-all"
                     >
-                      <span>Consultar Credencial</span>
+                      <span>Consultar credencial</span>
                       <ExternalLink size={13} />
                     </a>
                   </div>

@@ -35,8 +35,8 @@ const CommercialHero = () => {
             
             {/* Badge de Perfil */}
             <motion.div 
-              initial={{ opacity: 0, y: 15 }}
-              animate={{ opacity: 1, y: 0 }}
+              initial={{ opacity: 0, y: 15, filter: 'blur(8px)' }}
+              animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
               transition={{ duration: 0.5 }}
               className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-white/10 bg-white/[0.03] backdrop-blur-md w-fit"
             >
@@ -49,9 +49,9 @@ const CommercialHero = () => {
 
             {/* Titular de Alto Impacto */}
             <motion.h1 
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.1 }}
+              initial={{ opacity: 0, y: 20, filter: 'blur(12px)' }}
+              animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
+              transition={{ duration: 0.6, delay: 0.1 }}
               className="text-3xl sm:text-4xl lg:text-[52px] font-black text-white leading-[1.15] tracking-tight font-inter"
             >
               Hago crecer tu marca con{' '}
@@ -62,19 +62,19 @@ const CommercialHero = () => {
 
             {/* Párrafo de Propuesta Dual */}
             <motion.p 
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.2 }}
+              initial={{ opacity: 0, y: 20, filter: 'blur(10px)' }}
+              animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
+              transition={{ duration: 0.6, delay: 0.2 }}
               className="text-slate-300 text-sm sm:text-base md:text-lg leading-relaxed font-normal"
             >
-              Soy <strong className="text-white font-semibold">Luis Enrique Abri Fernández</strong>, estudiante de Marketing, Publicidad y Comercio y <strong className="text-white font-semibold">mentor en Mercados Financieros</strong>. Combino el marketing que hace crecer tu marca con la visión financiera para decidir con inteligencia. Mi forma de trabajar: Identifico el problema → Diseño la solución → La entrego de forma clara, digital o presencial.
+              Soy <strong className="text-white font-semibold">Luis Enrique Abri Fernández</strong>, estudiante de Marketing, Publicidad y Comercio y <strong className="text-white font-semibold">mentor en Mercados Financieros</strong>. Combino el marketing que hace crecer tu marca con la visión financiera para decidir con inteligencia. Mi forma de trabajar: Identifico el problema → Diseño la solución → La entrego de forma clara.
             </motion.p>
 
             {/* Micro-puntos de Valor */}
             <motion.div 
-              initial={{ opacity: 0, y: 15 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.25 }}
+              initial={{ opacity: 0, y: 15, filter: 'blur(8px)' }}
+              animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
+              transition={{ duration: 0.5, delay: 0.3 }}
               className="grid grid-cols-2 sm:grid-cols-3 gap-2.5 pt-1"
             >
               <div className="flex items-center gap-2 p-2 rounded-xl bg-white/[0.02] border border-white/[0.05]">
@@ -83,7 +83,7 @@ const CommercialHero = () => {
               </div>
               <div className="flex items-center gap-2 p-2 rounded-xl bg-white/[0.02] border border-white/[0.05]">
                 <Lightbulb size={15} className="text-gold-champagne flex-shrink-0" />
-                <span className="text-xs font-semibold text-slate-200">Paso a paso</span>
+                <span className="text-xs font-semibold text-slate-200">Diagnóstico primero</span>
               </div>
               <div className="flex items-center gap-2 p-2 rounded-xl bg-white/[0.02] border border-white/[0.05] col-span-2 sm:col-span-1">
                 <CheckCircle2 size={15} className="text-emerald-400 flex-shrink-0" />
@@ -93,16 +93,16 @@ const CommercialHero = () => {
 
             {/* Llamados a la acción (CTAs) */}
             <motion.div 
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.3 }}
+              initial={{ opacity: 0, y: 20, filter: 'blur(8px)' }}
+              animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
+              transition={{ duration: 0.5, delay: 0.35 }}
               className="flex flex-wrap items-center gap-3 pt-2"
             >
               <a 
                 href={whatsappUrl}
                 target="_blank"
                 rel="noreferrer"
-                className="px-6 py-3 bg-emerald-deep text-white font-semibold font-inter rounded-xl hover:bg-emerald-hover hover:scale-[1.02] shadow-[0_4px_25px_rgba(5,150,105,0.4)] transition-all flex items-center gap-2 group text-xs sm:text-sm"
+                className="btn-shine px-6 py-3 bg-emerald-deep text-white font-semibold font-inter rounded-xl hover:bg-emerald-hover hover:scale-[1.02] shadow-[0_4px_25px_rgba(5,150,105,0.4)] transition-all flex items-center gap-2 group text-xs sm:text-sm"
               >
                 <span>Agenda una asesoría</span>
                 <ArrowUpRight size={16} className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
@@ -119,9 +119,9 @@ const CommercialHero = () => {
 
             {/* Canales y Redes Sociales */}
             <motion.div 
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.4 }}
+              initial={{ opacity: 0, y: 20, filter: 'blur(8px)' }}
+              animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
+              transition={{ duration: 0.5, delay: 0.45 }}
               className="flex flex-wrap items-center gap-3 pt-3 border-t border-white/[0.08]"
             >
               <span className="text-titanium text-[11px] font-semibold uppercase tracking-wider">Contacto & Redes:</span>
@@ -188,9 +188,9 @@ const CommercialHero = () => {
 
             {/* Imagen de Perfil Profesional */}
             <motion.div
-              initial={{ opacity: 0, scale: 0.9 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.7, delay: 0.2 }}
+              initial={{ opacity: 0, scale: 0.94, filter: 'blur(12px)' }}
+              animate={{ opacity: 1, scale: 1, filter: 'blur(0px)' }}
+              transition={{ duration: 0.8, delay: 0.25 }}
               className="relative z-10 w-full max-w-[300px] sm:max-w-[400px] flex items-center justify-center"
             >
               <img 
@@ -212,7 +212,7 @@ const CommercialHero = () => {
                 y: [0, -8, 0],
               }}
               transition={{ 
-                opacity: { duration: 0.5, delay: 0.5 },
+                opacity: { duration: 0.5, delay: 0.6 },
                 y: { repeat: Infinity, duration: 4.5, ease: "easeInOut" }
               }}
               className="absolute -top-2 right-0 sm:right-4 z-20 glass-card p-3 sm:p-4 flex items-center gap-3 max-w-[190px] sm:max-w-[210px] shadow-glass"
@@ -234,7 +234,7 @@ const CommercialHero = () => {
                 y: [0, 8, 0],
               }}
               transition={{ 
-                opacity: { duration: 0.5, delay: 0.7 },
+                opacity: { duration: 0.5, delay: 0.8 },
                 y: { repeat: Infinity, duration: 5, ease: "easeInOut" }
               }}
               className="absolute bottom-4 left-0 sm:left-2 z-20 glass-card p-3 sm:p-4 flex items-center gap-3 max-w-[190px] sm:max-w-[210px] shadow-glass"

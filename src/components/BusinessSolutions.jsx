@@ -42,7 +42,7 @@ const businessServices = [
     num: "04",
     icon: <TrendingUp size={24} />,
     title: "Mentoría en Mercados Financieros",
-    desc: "Aprende a entender el mercado y su operativa paso a paso: análisis de activos, gestión de riesgo y comunidad de aprendizaje.",
+    desc: "Aprende a entender el mercado y su operativa paso a paso: análisis de activos, gestión de riesgo y una comunidad para practicar.",
     tags: ["Análisis de mercado", "Operativa guiada", "Comunidad"],
     accent: "#D4AF37",
     notice: "Contenido educativo; no constituye recomendación de inversión."
@@ -62,31 +62,33 @@ const BusinessSolutions = () => {
         {/* Cabecera de Sección */}
         <div className="flex flex-col items-center justify-center text-center mb-14 relative z-10">
           <motion.div 
-            initial={{ opacity: 0, y: 15 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: 15, filter: 'blur(8px)' }}
+            whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
             viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
             className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-white/10 bg-white/[0.03] backdrop-blur-md mb-3"
           >
             <Sparkles size={14} className="text-emerald-light" />
             <span className="text-titanium text-xs sm:text-sm font-semibold tracking-wider uppercase">
-              Servicios & Soluciones
+              01 · Servicios
             </span>
           </motion.div>
           
           <motion.h2 
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: 20, filter: 'blur(12px)' }}
+            whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
             viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.1 }}
             className="text-2xl sm:text-4xl lg:text-5xl font-black text-white font-inter mb-3 leading-tight tracking-tight"
           >
-            Servicios diseñados para{' '}
+            Cuatro servicios con{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-light to-gold-light">
-              hacer crecer tu marca
+              entregables concretos
             </span>
           </motion.h2>
 
           <p className="text-slate-300 text-xs sm:text-sm md:text-base max-w-xl text-center leading-relaxed">
-            Cuatro caminos claros para emprendedores: comunicación, contenido, estrategia y educación financiera paso a paso.
+            Comunicación, contenido, estrategia y educación financiera: elige el punto de partida y lo convierto en un plan de trabajo.
           </p>
         </div>
 

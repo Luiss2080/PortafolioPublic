@@ -58,7 +58,7 @@ const businessCases = [
     title: 'Comunidad de Aprendizaje Financiero',
     category: 'Mercados Financieros',
     impact: '+30 Participantes',
-    result: 'Una comunidad activa de principiantes que avanza paso a paso. Contenido educativo.',
+    result: 'Principiantes que ganan base y confianza, sesión a sesión. Contenido educativo.',
     clientType: 'Grupo de principiantes',
     icon: <TrendingUp size={24} />,
     tags: ['Educación financiera', 'Análisis de activos', 'Comunidad'],
@@ -94,20 +94,21 @@ const CommercialProjects = () => {
         {/* Encabezado */}
         <div className="flex flex-col items-center justify-center text-center mb-12 relative z-10">
           <motion.div 
-            initial={{ opacity: 0, y: 15 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: 15, filter: 'blur(8px)' }}
+            whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
             viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
             className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-white/10 bg-white/[0.03] backdrop-blur-md mb-3"
           >
             <Briefcase size={14} className="text-emerald-light" />
             <span className="text-titanium text-xs sm:text-sm font-semibold tracking-wider uppercase">
-              Casos & Resultados
+              02 · Casos
             </span>
           </motion.div>
           
           <motion.h2 
-            initial={{ opacity: 0, scale: 0.95 }}
-            whileInView={{ opacity: 1, scale: 1 }}
+            initial={{ opacity: 0, scale: 0.95, filter: 'blur(12px)' }}
+            whileInView={{ opacity: 1, scale: 1, filter: 'blur(0px)' }}
             viewport={{ once: true }}
             transition={{ type: "spring", stiffness: 100, delay: 0.1 }}
             className="text-2xl sm:text-4xl lg:text-5xl font-black text-white font-inter mb-3 leading-tight tracking-tight"
@@ -119,7 +120,7 @@ const CommercialProjects = () => {
           </motion.h2>
 
           <p className="text-slate-300 text-xs sm:text-sm md:text-base max-w-xl text-center leading-relaxed">
-            Ejemplos del trabajo con emprendedores y comunidad: qué problema había, qué solución se diseñó y qué cambió.
+            Así se trabajó: contexto real, decisiones tomadas y el cambio medido.
           </p>
         </div>
 

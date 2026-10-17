@@ -28,7 +28,7 @@ const careerMilestones = [
     company: 'Proyectos de marketing y comunicación',
     date: '2023 - Presente',
     duration: 'Actualidad',
-    desc: 'Trabajo directo con emprendedores: diagnóstico de problemas, estrategias de comunicación, contenido para redes y soluciones digitales y presenciales.',
+    desc: 'Trabajo directo con emprendedores: diagnóstico de problemas, estrategias de comunicación, contenido para redes y soluciones que se adaptan al día a día del negocio.',
     tags: ["Marketing digital", "Contenido", "Soluciones a medida"],
     icon: <Lightbulb size={22} />,
     accent: '#34D399',
@@ -60,22 +60,23 @@ const ProfessionalTrajectory = () => {
         {/* Cabecera */}
         <div className="flex flex-col items-center justify-center text-center mb-14 relative z-10">
           <motion.div 
-            initial={{ opacity: 0, y: 15 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: 15, filter: 'blur(8px)' }}
+            whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
             viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
             className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-white/10 bg-white/[0.03] backdrop-blur-md mb-3"
           >
             <Award size={14} className="text-emerald-light" />
             <span className="text-titanium text-xs sm:text-sm font-semibold tracking-wider uppercase">
-              Trayectoria
+              04 · Trayectoria
             </span>
           </motion.div>
           
           <motion.h2 
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: 20, filter: 'blur(12px)' }}
+            whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
             viewport={{ once: true }}
-            transition={{ delay: 0.1 }}
+            transition={{ duration: 0.6, delay: 0.1 }}
             className="text-2xl sm:text-4xl lg:text-5xl font-black text-white font-inter mb-3 leading-tight tracking-tight"
           >
             Aprender, aplicar y{' '}
@@ -85,7 +86,7 @@ const ProfessionalTrajectory = () => {
           </motion.h2>
 
           <p className="text-slate-300 text-xs sm:text-sm md:text-base max-w-xl text-center leading-relaxed">
-            Del aula al trabajo con emprendedores, y de ahí a la mentoría en mercados financieros: un camino que sigue creciendo.
+            Del aula al trabajo real, y de ahí a la mentoría: tres etapas de un mismo camino.
           </p>
         </div>
 

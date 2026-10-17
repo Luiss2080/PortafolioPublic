@@ -101,21 +101,21 @@ Tareas ordenadas por dependencia, acotadas (< 30 min cada una), vinculadas a sus
 
 ## Fase 1 — Design System v2 (Esmeralda & Oro)
 
-### [ ] Tarea 1.1: Tokens v2 — paleta esmeralda/dorada
+### [x] Tarea 1.1: Tokens v2 — paleta esmeralda/dorada
 - **RFs cubiertos**: RNF-1 · **Archivos**: `tailwind.config.js`, `src/index.css`
-- **Hecho cuando**: la nueva paleta compila sin errores ni clases huérfanas.
+- **Hecho cuando**: la nueva paleta compila sin errores ni clases huérfanas. (Completado y verificado)
 
-### [ ] Tarea 1.2: Reemplazo de clases en componentes
+### [x] Tarea 1.2: Reemplazo de clases en componentes
 - **RFs cubiertos**: RNF-1 · **Archivos**: `src/components/*`
-- **Hecho cuando**: cero ocurrencias de `sapphire-blue`/`cyan-glow` en `src/`.
+- **Hecho cuando**: cero ocurrencias de `sapphire-blue`/`cyan-glow` en `src/`. (Completado y verificado)
 
-### [ ] Tarea 1.3: Fondo de partículas v2
+### [x] Tarea 1.3: Fondo de partículas v2
 - **Archivos**: `src/components/ParticlesBackground.jsx` · **RFs**: RNF-2
-- **Hecho cuando**: partículas esmeralda/doradas con legibilidad y fluidez verificadas en dev.
+- **Hecho cuando**: partículas esmeralda/doradas con legibilidad y fluidez verificadas en dev. (Integrado en el Hero; API v4 corregida con `ParticlesProvider`)
 
-### [ ] Tarea 1.4: Auditoría de contraste WCAG AA
+### [x] Tarea 1.4: Auditoría de contraste WCAG AA
 - **RFs cubiertos**: RNF-3 · **Herramienta**: Chrome DevTools MCP
-- **Hecho cuando**: Hero, Servicios, Casos y Footer sin incidencias de contraste.
+- **Hecho cuando**: Hero, Servicios, Casos y Footer sin incidencias de contraste. (Lighthouse Accesibilidad 100/100; `emerald-deep` ajustado a `#047857` y hover `#057A58`)
 
 ## Fase 2 — Identidad y datos del perfil
 

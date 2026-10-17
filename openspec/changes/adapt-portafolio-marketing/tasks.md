@@ -4,8 +4,8 @@
 
 - [x] 1.1 Actualizar tokens de color y superficies en `tailwind.config.js` e `src/index.css` y verificar que `npm run build` compila sin errores
 - [x] 1.2 Reemplazar en todos los componentes las clases de la paleta anterior (zafiro/cobalto) por la v2 y verificar que la búsqueda de `sapphire-blue` y `cyan-glow` en `src/` devuelve cero resultados
-- [ ] 1.3 Ajustar `ParticlesBackground.jsx` a la paleta esmeralda/dorada y verificar en `npm run dev` la legibilidad del contenido sobre el fondo
-- [ ] 1.4 Auditar contraste WCAG AA con Chrome DevTools en Hero, Servicios, Casos y Footer y verificar que no hay incidencias de contraste
+- [x] 1.3 Ajustar `ParticlesBackground.jsx` a la paleta esmeralda/dorada y verificar en `npm run dev` la legibilidad del contenido sobre el fondo
+- [x] 1.4 Auditar contraste WCAG AA con Chrome DevTools en Hero, Servicios, Casos y Footer y verificar que no hay incidencias de contraste
 
 ## 2. Fase 2 — Identidad y datos del perfil
 

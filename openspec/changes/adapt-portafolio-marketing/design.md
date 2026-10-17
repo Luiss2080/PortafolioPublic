@@ -20,7 +20,7 @@ Ver `proposal.md` — Why. Estado actual: portafolio corporativo del titular ant
 ## Decisions
 
 ### Decisión 1: Variante cromática aprobada por el titular
-La base obsidiana se conserva; los acentos pasan a `emerald` (familia #059669/#10B981/#34D399) y `gold` (#D4AF37/#E7C873). Alternativas descartadas: coral/ámbar (más rupturista y menos ligada a finanzas) y tema claro editorial (pierde profundidad premium). Se documenta como variante permitida por el principio de adaptabilidad de la constitución.
+La base obsidiana se conserva; los acentos pasan a `emerald` (superficies sólidas `#047857` con hover `#057A58` para cumplir AA; acentos luminosos `#10B981`/`#34D399`) y `gold` (`#D4AF37`/`#E7C873`). Alternativas descartadas: coral/ámbar (más rupturista y menos ligada a finanzas) y tema claro editorial (pierde profundidad premium). Se documenta como variante permitida por el principio de adaptabilidad de la constitución.
 
 ### Decisión 2: Reemplazo directo de tokens, sin capa de compatibilidad
 Se renombran los colores en `tailwind.config.js` y se actualizan todas las clases en la misma fase. Se descarta mantener alias de la paleta anterior: la spec exige cero residuos (`sapphire-blue`, `cyan-glow`) y los alias serían deuda técnica permanente.

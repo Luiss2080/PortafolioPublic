@@ -8,6 +8,9 @@
   <img src="https://img.shields.io/badge/Tailwind-3.4-06b6d4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind 3" />
   <img src="https://img.shields.io/badge/deploy-GitHub%20Pages-222?style=for-the-badge&logo=github" alt="Deploy en GitHub Pages" />
   <img src="https://img.shields.io/badge/tests-ninguno-lightgrey?style=for-the-badge" alt="Sin tests" />
+  <img src="https://img.shields.io/badge/licencia-MIT-blue?style=flat-square" alt="Licencia MIT" />
+  <img src="https://img.shields.io/github/last-commit/Luiss2080/PortafolioPublic?style=flat-square" alt="Último commit" />
+  <img src="https://img.shields.io/badge/PRs-bienvenidos-brightgreen?style=flat-square" alt="PRs bienvenidos" />
   <p>
     <a href="#-inicio-rápido">Inicio rápido</a> ·
     <a href="#-características">Características</a> ·
@@ -116,8 +119,12 @@ Al ser un sitio estático no maneja secretos ni sesiones. Aviso de privacidad: e
 - Sin ESLint configurado, sin tests, sin formulario de contacto funcional.
 - `dist/index.html` está comprometido aunque es un artefacto de build.
 
+## 🤝 Contribuir
+
+¡Las contribuciones son bienvenidas! Leé la [guía de contribución](CONTRIBUTING.md) y el [código de conducta](CODE_OF_CONDUCT.md) antes de abrir un PR. Para bugs o ideas usá las [plantillas de issues](../../issues/new/choose); los problemas de seguridad se reportan según la [política de seguridad](SECURITY.md). ¿Dudas? Mirá [SUPPORT.md](SUPPORT.md). Los cambios por versión están en el [CHANGELOG](CHANGELOG.md).
+
 ## 📄 Licencia
 
-Sin licencia definida: todos los derechos reservados por defecto.
+Distribuido bajo la licencia **MIT**. Ver [LICENSE](LICENSE).
 
 <div align="center"><sub>Hecho por Luiss2080 · React + Vite + Tailwind</sub></div>
